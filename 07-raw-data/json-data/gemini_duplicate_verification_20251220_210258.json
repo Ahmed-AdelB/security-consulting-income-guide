@@ -1,0 +1,92 @@
+[
+  {
+    "domain": "candour.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 59,
+        "name": "Candour Energy",
+        "domain": "candour.com",
+        "category": "Expert Network",
+        "priority": 1,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 170,
+        "name": "candourenergy",
+        "domain": "candour.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 242,
+        "name": "Candour",
+        "domain": "candour.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "INACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"candour.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"All three records represent the same expert network, Candour (formerly Candour Energy). ID 59 uses the traditional name, ID 170 uses a slug/username format, and ID 242 uses the modern rebranded name. They are the same company.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"Duplicate records for the same active domain. Splitting tracking across three IDs (one of which is 'QUALIFIED' while others are 'AWAITING_RESPONSE') leads to fragmented data and incorrect status reporting.\",\n  \"primary_id\": 59,\n  \"delete_ids\": [\n    170,\n    242\n  ],\n  \"data_migration_notes\": \"CRITICAL: The Workflow Stage 'QUALIFIED' from ID 170 must be migrated to the primary ID 59 (which is currently 'AWAITING_RESPONSE'). Update the name of ID 59 to 'Candour' to reflect the current legal name, or retain 'Candour Energy' if industry recognition is higher.\",\n  \"risks\": \"The primary risk is losing the advanced 'QUALIFIED' status from ID 170 if ID 59's lower status overwrites it or if the merge logic doesn't prioritize the most advanced workflow stage.\",\n  \"action_plan\": \"1. Update ID 59's Workflow Stage to 'QUALIFIED'. 2. Update ID 59's Name to 'Candour' (reflecting the rebrand from Candour Energy). 3. Mark ID 59 as valid/verified if not already. 4. Delete/Archive IDs 170 and 242.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:01:58.910488",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "cninsights.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 61,
+        "name": "CIC Expert Network",
+        "domain": "cninsights.com",
+        "category": "Expert Network",
+        "priority": 1,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 182,
+        "name": "cicexpertnetwork",
+        "domain": "cninsights.com",
+        "category": "Consulting",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 240,
+        "name": "CN Insights",
+        "domain": "cninsights.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"cninsights.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"All three platforms represent China Insights Consultancy (CIC). 'CIC Expert Network' (ID 61) is the specific service name. 'CN Insights' (ID 240) is a variation based on the domain. 'cicexpertnetwork' (ID 182) appears to be a slug or handle for the same service.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"They are the same entity. ID 61 has the most professional and accurate name ('CIC Expert Network') and is marked as Priority 1. However, ID 182 is in a 'QUALIFIED' stage, which indicates more progress than 'AWAITING_RESPONSE'. Merging allows us to keep the best name (ID 61) while adopting the advanced status from ID 182.\",\n  \"primary_id\": 61,\n  \"delete_ids\": [\n    182,\n    240\n  ],\n  \"data_migration_notes\": \"CRITICAL: Update ID 61's Workflow Stage from 'AWAITING_RESPONSE' to 'QUALIFIED' (from ID 182). Ensure Category 'Expert Network' is retained as it is more specific than 'Consulting' for this list.\",\n  \"risks\": \"Risk of losing the 'QUALIFIED' status if the merge logic does not prioritize the most advanced workflow stage. Data loss is otherwise minimal as fields are likely similar or less complete in the duplicates.\",\n  \"action_plan\": \"1. Update Platform ID 61: Set Workflow Stage = 'QUALIFIED'.\\n2. (Optional) Update ID 61 Description or Notes to reference 'China Insights Consultancy' parent company if not already present.\\n3. Delete Platform ID 182 and ID 240.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:02:58.869944",
+    "status": "SUCCESS"
+  }
+]

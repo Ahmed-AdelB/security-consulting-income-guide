@@ -1,0 +1,133 @@
+[
+  {
+    "id": 301,
+    "name": "Black Panda",
+    "status": "PASS_WITH_WARNINGS",
+    "domain": "blackpanda.com",
+    "fit_score": 50,
+    "workflow_stage": "DISCOVERED",
+    "registration_status": "PENDING",
+    "platform_emails_count": 0,
+    "email_campaigns_count": 0,
+    "errors": [],
+    "warnings": [
+      "No EmailCampaign records found (may be expected for some platforms)"
+    ],
+    "verified_at": "2025-12-20T16:43:27.244724"
+  },
+  {
+    "id": 302,
+    "name": "Clarity.fm",
+    "status": "PASS_WITH_WARNINGS",
+    "domain": "clarity.fm",
+    "fit_score": 50,
+    "workflow_stage": "DISCOVERED",
+    "registration_status": "PENDING",
+    "platform_emails_count": 0,
+    "email_campaigns_count": 0,
+    "errors": [],
+    "warnings": [
+      "No EmailCampaign records found (may be expected for some platforms)"
+    ],
+    "verified_at": "2025-12-20T16:43:27.276532"
+  },
+  {
+    "id": 303,
+    "name": "NewtonX",
+    "status": "PASS_WITH_WARNINGS",
+    "domain": "newtonx.com",
+    "fit_score": 50,
+    "workflow_stage": "DISCOVERED",
+    "registration_status": "PENDING",
+    "platform_emails_count": 0,
+    "email_campaigns_count": 0,
+    "errors": [],
+    "warnings": [
+      "No EmailCampaign records found (may be expected for some platforms)"
+    ],
+    "verified_at": "2025-12-20T16:43:27.303163"
+  },
+  {
+    "id": 304,
+    "name": "RealCISO",
+    "status": "PASS_WITH_WARNINGS",
+    "domain": "realciso.io",
+    "fit_score": 50,
+    "workflow_stage": "DISCOVERED",
+    "registration_status": "PENDING",
+    "platform_emails_count": 0,
+    "email_campaigns_count": 0,
+    "errors": [],
+    "warnings": [
+      "No EmailCampaign records found (may be expected for some platforms)"
+    ],
+    "verified_at": "2025-12-20T16:43:27.305719"
+  },
+  {
+    "id": 305,
+    "name": "Site.Sa",
+    "status": "PASS_WITH_WARNINGS",
+    "domain": "site.sa",
+    "fit_score": 50,
+    "workflow_stage": "DISCOVERED",
+    "registration_status": "PENDING",
+    "platform_emails_count": 0,
+    "email_campaigns_count": 0,
+    "errors": [],
+    "warnings": [
+      "No EmailCampaign records found (may be expected for some platforms)"
+    ],
+    "verified_at": "2025-12-20T16:43:27.336161"
+  },
+  {
+    "id": 306,
+    "name": "Glgroup",
+    "status": "FAIL",
+    "domain": "glgroup.com",
+    "fit_score": 50,
+    "workflow_stage": "ACTIVE",
+    "registration_status": "COMPLETE",
+    "platform_emails_count": 0,
+    "email_campaigns_count": 0,
+    "errors": [
+      "No PlatformEmail records for COMPLETE registration"
+    ],
+    "warnings": [
+      "No EmailCampaign records found (may be expected for some platforms)",
+      "COMPLETE registration but no registered_email set"
+    ],
+    "verified_at": "2025-12-20T16:43:27.338180"
+  },
+  {
+    "id": 307,
+    "name": "Security-Gen",
+    "status": "PASS_WITH_WARNINGS",
+    "domain": "security-gen.com",
+    "fit_score": 50,
+    "workflow_stage": "DISCOVERED",
+    "registration_status": "PENDING",
+    "platform_emails_count": 0,
+    "email_campaigns_count": 0,
+    "errors": [],
+    "warnings": [
+      "No EmailCampaign records found (may be expected for some platforms)"
+    ],
+    "verified_at": "2025-12-20T16:43:27.372586"
+  },
+  {
+    "id": 308,
+    "name": "Emissary",
+    "status": "PASS_WITH_WARNINGS",
+    "domain": "emissary.io",
+    "fit_score": 50,
+    "workflow_stage": "DISCOVERED",
+    "registration_status": "PENDING",
+    "platform_emails_count": 0,
+    "email_campaigns_count": 0,
+    "errors": [],
+    "warnings": [
+      "No EmailCampaign records found (may be expected for some platforms)"
+    ],
+    "verified_at": "2025-12-20T16:43:27.402391"
+  }
+]

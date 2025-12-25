@@ -1,0 +1,1412 @@
+{
+  "metadata": {
+    "report_title": "Twitter/X Security Community Income Insights 2025",
+    "date_generated": "2025-12-24",
+    "total_searches_conducted": 50,
+    "data_sources": "Twitter/X posts, discussions, and announcements from 2024-2025",
+    "target_tweets_analyzed": "5000+",
+    "methodology": "Comprehensive web search of Twitter/X content covering bug bounties, security consulting, vCISO services, pentesting, and web3 security"
+  },
+
+  "executive_summary": {
+    "key_findings": [
+      "Bug bounty payouts range from $300-500 for low-severity XSS to $20M for critical iOS/Android exploits",
+      "Top bug bounty hunters earn $600K-$2M+ annually through platforms like HackerOne, Bugcrowd, and Immunefi",
+      "Web3/smart contract auditors can earn $100K-$600K in 20 months doing solo audits",
+      "Security researcher weekly salaries at specialized firms range from $3K (Junior) to $20K (Lead)",
+      "Traditional security consulting rates: $35-$85/hour for general security, $145K-$217K annual salaries for specialized roles",
+      "Largest single bug bounty programs: Usual Money ($16M), Uniswap ($15.5M), Wormhole ($10M payout)",
+      "OSCP certification holders report average salaries around $91K",
+      "Cybersecurity professionals show salary progression from $60K (entry SOC analyst) to $158K+ (senior consultant)"
+    ],
+    "trends": [
+      "Web3/DeFi bug bounties significantly higher than Web2 ($25-50K Web2 vs millions in DeFi)",
+      "Competitive audit contests (Code4rena, Sherlock) gaining popularity with $73K-$500K prize pools",
+      "Shift toward bug bounty as full-time career with multiple hunters earning $1M+ lifetime",
+      "Live hacking events and private programs offering higher payouts than public programs",
+      "AI-focused bug bounties emerging (Google AI VRP up to $30K)"
+    ]
+  },
+
+  "bug_bounty_platforms": {
+    "HackerOne": {
+      "platform_stats": {
+        "highest_payout_week": "$1,158,463 in 7 days",
+        "total_paid_out": "$81 million total to white-hat hackers",
+        "millionaire_hackers": "7+ researchers earning $1M+, first to reach $2M",
+        "researchers_paid": "660+ security researchers in 2024 programs"
+      },
+      "individual_earnings": [
+        {
+          "achievement": "First $2 million earner (Cosmin)",
+          "note": "7th hacker to reach $1M milestone"
+        },
+        {
+          "finding": "SSRF vulnerability",
+          "payout": "$20,000",
+          "researchers": "Jayesh Madnani and @Shlibness"
+        },
+        {
+          "program": "Twitter bug bounty",
+          "record_payout": "$12,040",
+          "recipient": "@filedescriptor"
+        }
+      ],
+      "program_examples": {
+        "Robinhood": "Up to $50K rewards",
+        "Twitter": {
+          "total_paid_2_years": "$322,420 USD",
+          "rce_minimum": "$15,000",
+          "top_earner_2015": "$54,000 single researcher"
+        }
+      },
+      "sources": [
+        "https://x.com/hacker0x01/status/1130851147432964096",
+        "https://x.com/The_Cyber_News/status/1974057748850680165"
+      ]
+    },
+
+    "Bugcrowd": {
+      "program_highlights": [
+        {
+          "company": "Chime",
+          "critical_payout": "$20,000-$40,000 (2x normal rate)",
+          "high_payout": "$10,000 flat (2x normal rate)",
+          "promotion": "Double payouts for P1 & P2 findings through July 31"
+        }
+      ],
+      "success_stories": [
+        {
+          "achievement": "Hunter making $100K in one month",
+          "focus": "IDOR vulnerabilities",
+          "platform": "Bugcrowd"
+        },
+        {
+          "achievement": "#1 leaderboard position",
+          "timeline": "Just 1 year after starting bug bounty",
+          "hunter": "JS0N Haddix",
+          "background": "After 8 years of grinding web pen tests"
+        }
+      ],
+      "tips": [
+        "Medium-severity bugs are the sweet spot for consistent earnings",
+        "Bug bounty hunting is a 'get rich slow' scheme, not get-rich-quick",
+        "Free tools like Burp Suite Community Edition are sufficient to get started"
+      ],
+      "sources": [
+        "https://x.com/Bugcrowd/status/1943364128359485946",
+        "https://x.com/Jhaddix/status/1982386725973536889"
+      ]
+    },
+
+    "Immunefi": {
+      "platform_overview": {
+        "description": "Leading bug bounty platform for DeFi with world's largest bounties",
+        "total_rewards_available": "$72 million (as of 2021)",
+        "total_paid_out": "$10M+ in big bounties",
+        "user_funds_saved": "$20B+",
+        "current_protection": "$180B+ of user funds across 650+ protocols"
+      },
+      "major_programs": [
+        {
+          "protocol": "Ethena Labs",
+          "max_bounty": "$3,000,000",
+          "description": "Synthetic dollar protocol built on Ethereum"
+        },
+        {
+          "protocol": "Arbitrum",
+          "max_bounty": "$1,000,000",
+          "description": "Optimistic Rollup to scale Ethereum"
+        },
+        {
+          "protocol": "StarkNet",
+          "max_bounty": "$1,000,000",
+          "description": "L2 rollup based on zk-STARK proofs"
+        },
+        {
+          "protocol": "Balancer",
+          "max_bounty": "$2,400,000",
+          "description": "Community-driven DEX protocol"
+        },
+        {
+          "protocol": "Nexus Mutual",
+          "max_bounty": "$50,000 per finding",
+          "scope": "RAMM.sol contract added to program"
+        },
+        {
+          "protocol": "Daimo Pay",
+          "max_bounty": "$20,000",
+          "description": "Intent-based system for crypto payments"
+        }
+      ],
+      "record_payout": {
+        "amount": "$10,000,000",
+        "protocol": "Wormhole",
+        "researcher": "satya0x",
+        "date": "February 24, 2024",
+        "details": "Critical vulnerability quickly patched, no user funds affected",
+        "significance": "Largest bounty payout on record at the time"
+      },
+      "funding": {
+        "series_a": "$24 million",
+        "lead_investor": "Framework Ventures",
+        "note": "Largest check ever from Framework Ventures"
+      },
+      "sources": [
+        "https://x.com/immunefi/status/1775923944941359182",
+        "https://x.com/immunefi/status/1527693383581552641",
+        "https://x.com/hiframework/status/1573003948503564289"
+      ]
+    },
+
+    "Intigriti": {
+      "program_examples": [
+        {
+          "company": "Sentiance",
+          "max_payout": "€2,500"
+        },
+        {
+          "company": "Delen Private Bank",
+          "max_payout": "€15,000"
+        },
+        {
+          "company": "iBood",
+          "max_payout": "€500"
+        }
+      ],
+      "hunter_success_stories": [
+        {
+          "achievement": "Over €50,000 in bug bounties",
+          "platform": "Intigriti"
+        },
+        {
+          "achievement": "Earned Tesla using 100% bug bounty money",
+          "hunter": "@MattiBijnens",
+          "note": "Set goal and achieved it through Intigriti"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Bug Bounty Calculator",
+          "purpose": "Ensure competitive payouts to attract top talent",
+          "availability": "Free"
+        }
+      ],
+      "sources": [
+        "https://x.com/intigriti/status/1040234728740204544",
+        "https://x.com/intigriti/status/1300378669161091072"
+      ]
+    },
+
+    "YesWeHack": {
+      "individual_payouts": [
+        {
+          "researcher": "Sicarius (@ElS1carius)",
+          "amount": "€18,350",
+          "program_type": "Single private Bug Bounty program",
+          "significance": "Biggest payout day so far for researcher",
+          "date": "April 2024"
+        },
+        {
+          "researcher": "godiego",
+          "achievement": "Won YesWeHack LHE (Live Hacking Event)",
+          "year": "2024",
+          "other_earnings": "$31,337 Google VRP bounty, 6-digit bounty on Bugcrowd"
+        }
+      ],
+      "program_examples": [
+        {
+          "company": "Ant Group",
+          "max_bounty": "USD $2,500",
+          "scope": "AlipayPlus, WorldFirst, ANEXTBank",
+          "type": "Public bug bounty program"
+        },
+        {
+          "company": "OVHcloud",
+          "promotion": "Time-limited challenge with boosted rewards",
+          "critical_boost": "+25%",
+          "high_boost": "+50%"
+        }
+      ],
+      "writeups": [
+        {
+          "title": "$10,000 Google Bug Bounty: Deserialization RCE in AppSheet",
+          "type": "Remote Code Execution vulnerability"
+        }
+      ],
+      "sources": [
+        "https://x.com/ElS1carius/status/1781397460658553269",
+        "https://x.com/_godiego__/status/1872318458479972779"
+      ]
+    },
+
+    "Synack": {
+      "red_team_overview": {
+        "description": "Elite team of world's top cybersecurity researchers",
+        "millionaire_earners": "2+ researchers earning $1M+ on platform"
+      },
+      "notable_earnings": [
+        {
+          "researcher": "Özgür",
+          "achievement": "Earned $1 million on platform",
+          "role": "Synack Red Team member and Synack Envoy"
+        },
+        {
+          "contest": "#SynackTeslaChallenge",
+          "winner": "@seanmeals",
+          "prize": "$50,000 cash"
+        }
+      ],
+      "pathway": [
+        "Certifications like CAPen and CNPen are in Synack's preferred pathway",
+        "Elite vetting process for Red Team membership"
+      ],
+      "sources": ["https://x.com/synack/status/1954906929001644388"]
+    },
+
+    "Cobalt": {
+      "platform_ranking": "Listed as #5 in Top 10 Bug Hunting Platforms",
+      "note": "Limited specific payout data available from Twitter/X searches",
+      "sources": ["https://x.com/TheSecMaster1/status/1895105913247166975"]
+    }
+  },
+
+  "major_company_programs": {
+    "Google": {
+      "vrp_2024_stats": {
+        "total_paid": "$12 million",
+        "researchers_rewarded": "660 security researchers",
+        "program": "Vulnerability Reward Program (VRP)"
+      },
+      "ai_vrp": {
+        "max_reward": "$30,000",
+        "total_earned_since_launch": "$430K+",
+        "focus": "AI products and services"
+      },
+      "cloud_vrp": {
+        "launch_date": "2024",
+        "focus": "Google Cloud products and services"
+      },
+      "oss_vrp": {
+        "paid_3_months": "$90K",
+        "focus": "Open source software vulnerabilities",
+        "special_program": "InternetCTF - up to $10K for RCE + Tsunami plugin patches"
+      },
+      "example_payouts": [
+        {
+          "researcher": "godiego",
+          "amount": "$31,337 (leet speak)",
+          "year": "2024"
+        },
+        {
+          "findings": "19 reports",
+          "total": "$35,639.20",
+          "context": "Single VRP panel meeting"
+        },
+        {
+          "writeup": "CVE-2024-0044",
+          "amount": "$8,000",
+          "type": "Reviving already patched vulnerability"
+        }
+      ],
+      "sources": [
+        "https://x.com/BleepinComputer/status/1899162626522820715",
+        "https://x.com/the_c_protocol/status/1977070192191590697",
+        "https://x.com/GoogleVRP/status/1597979139381788674"
+      ]
+    },
+
+    "Meta": {
+      "program_overview": {
+        "anniversary": "15 years",
+        "total_paid": "$25M+ in researcher awards",
+        "features": "New specialized tracks, improved tooling"
+      },
+      "record_payouts": [
+        {
+          "amount": "$250,000 total with bonuses",
+          "significance": "Record broken",
+          "year": "2025"
+        }
+      ],
+      "pwn2own_bounties": {
+        "whatsapp_rce": "$1,000,000 (0-click RCE)",
+        "quest_rce": "$150,000 (0-click RCE)",
+        "rayban_meta_rce": "$150,000 (0-click RCE)"
+      },
+      "leaderboard_achievements": [
+        {
+          "researcher": "Nguyen Quoc Khanh (@brocked200)",
+          "achievement": "P1 on Meta - Top 3 on leaderboard",
+          "year": "2025"
+        },
+        {
+          "researcher": "@samm0uda",
+          "amount": "$250,000 in total with bonuses",
+          "note": "Record broken"
+        }
+      ],
+      "sources": [
+        "https://x.com/metabugbounty",
+        "https://x.com/brocked200/status/1902537427488841918"
+      ]
+    },
+
+    "Microsoft": {
+      "bounty_programs": [
+        {
+          "program": "Dynamics 365 and Power Platform",
+          "max_award": "$26,000 USD",
+          "year": "2022"
+        },
+        {
+          "program": "M365 Bounty Program",
+          "max_award": "$26,000 USD"
+        },
+        {
+          "program": "Microsoft Edge Bug Bounty",
+          "scope_expansion": "Now includes WebView2 vulnerabilities",
+          "year": "2024"
+        },
+        {
+          "program": "Identity Bounty Program",
+          "new_scope": "Authenticator Lite and Authenticator Broker (iOS/Android)"
+        }
+      ],
+      "initiatives": [
+        {
+          "event": "Zero Day Quest Live Hacking Event",
+          "focus": "AI and cloud products",
+          "type": "Invite-only",
+          "multipliers": "+20% to +100% bounty awards",
+          "location": "Microsoft headquarters, Redmond, WA"
+        }
+      ],
+      "researcher_recognition": [
+        "Quarterly MSRC Security Researcher Leaderboard",
+        "Microsoft Researcher Recognition Program for CVD contributions"
+      ],
+      "sources": [
+        "https://x.com/msftsecresponse/status/1514651437355048966",
+        "https://x.com/msftsecresponse/status/1897299150460371293"
+      ]
+    },
+
+    "Apple": {
+      "program_details": {
+        "launch_year": "2016",
+        "max_historical_reward": "$200,000",
+        "announcement_venue": "BlackHat 2016"
+      },
+      "researcher_feedback": {
+        "sentiment": "Mixed - frustration with program",
+        "common_complaint": "Payment delays and slow response times",
+        "quote": "It's a bug bounty program where the house always wins"
+      },
+      "pain_points": [
+        {
+          "issue": "Payment delays",
+          "example": "Researcher told mid-October, contacted multiple times with no response",
+          "source": "@rosyna"
+        },
+        {
+          "issue": "Program reputation",
+          "description": "Security researchers frustrated despite 2016 launch fanfare"
+        }
+      ],
+      "evolution": "Major evolution of Apple Security Bounty announced (2025)",
+      "sources": [
+        "https://x.com/patrickwardle/status/1436026318190092297",
+        "https://x.com/rosyna/status/1997486877323247635"
+      ]
+    },
+
+    "Usual Money": {
+      "record_bounty": {
+        "amount": "$16,000,000",
+        "scope": "Single critical vulnerability in codebase",
+        "platform": "Sherlock",
+        "partner": "Nexus Mutual",
+        "significance": "Largest bug bounty in history",
+        "year": "2025"
+      },
+      "sources": ["https://x.com/sherlockdefi/status/1907418923336630324"]
+    },
+
+    "Uniswap": {
+      "program_details": {
+        "max_bounty": "$15,500,000",
+        "scope": "Critical vulnerability in v4 core contracts",
+        "tagline": "Find a critical bug, become a millionaire",
+        "significance": "Called largest bug bounty in history (later surpassed by Usual Money)"
+      },
+      "sources": ["https://x.com/Uniswap/status/1861409607505064238"]
+    }
+  },
+
+  "web3_smart_contract_auditing": {
+    "overview": {
+      "earning_potential": "$100,000+ annually even with limited coding experience",
+      "critical_bug_payouts": "$10,000 - $100,000+",
+      "top_firm_salaries": "$200,000+ annually",
+      "industry_outlook": "Moving from one-time audits to continuous security solutions"
+    },
+
+    "individual_auditor_earnings": [
+      {
+        "auditor": "pashov (@pashovkrum)",
+        "total_earned": "$600,000 USDC",
+        "timeframe": "~20 months (2023-2024)",
+        "type": "Solo smart contract security audits",
+        "profit_margin": "Nearly 100%",
+        "monthly_highlights": [
+          "August 2023: ~$100K profit in one month",
+          "April: $46,150 from 4 solo audits (3rd consecutive $40K+ month)",
+          "Completed 50+ solo audits total"
+        ]
+      },
+      {
+        "auditor": "@cmichelio",
+        "achievement": "Earned $1 million in 2021",
+        "context": "Highly skilled, hardworking, right time/place when contestants mostly beginners"
+      },
+      {
+        "experience": "First 5 contests",
+        "difficulty": "Extremely difficult - brain melting",
+        "earnings": "Lucky to earn enough for coffee for hundreds of hours of work",
+        "note": "Reality check for beginners"
+      }
+    ],
+
+    "audit_platforms": {
+      "Code4rena": {
+        "total_rewards_paid": "$20M+",
+        "high_severity_found": "1200+",
+        "business_model": "Recently acquired by Zellic - will run contests for free, 100% to wardens",
+        "recent_contests": [
+          {
+            "protocol": "Category / Monad",
+            "prize_pool": "$500,000",
+            "duration": "28 days",
+            "significance": "LARGEST unconditional prize pool in audit competition history"
+          },
+          {
+            "protocol": "Chainlink Payment Abstraction",
+            "prize_pool": "$100,000",
+            "winner": "_karanel"
+          },
+          {
+            "protocol": "Sequence v3 wallet",
+            "prize_pool": "$73,000 USDC",
+            "submissions": "600+",
+            "findings": "2 High, 4 Medium severity"
+          },
+          {
+            "protocol": "Flare Networks",
+            "prize_pool": "$190,000",
+            "duration": "35 days"
+          }
+        ],
+        "sources": ["https://x.com/code4rena/status/1934990384566018249"]
+      },
+
+      "Sherlock": {
+        "total_paid": "$19.2M+ to researchers",
+        "recent_contests": [
+          {
+            "protocol": "Tapioca DAO",
+            "total_rewards": "$133,200",
+            "top_earners": [
+              "@0xhyh: $37,500 fixed + $15,527.99 contest = $53,027.99",
+              "@cergyk1337: $15,294.64",
+              "@bin2chen: $11,967.41"
+            ]
+          },
+          {
+            "protocol": "ZeroLend",
+            "total_rewards": "$86,000",
+            "lead_watson_pay": "$34,000 fixed",
+            "top_winners": [
+              "A2-security: $6,946.14",
+              "Obsidian: $5,955.17",
+              "@3n0ch03: $4,179.52"
+            ]
+          },
+          {
+            "protocol": "Teller Finance",
+            "total_rewards": "$28,500",
+            "lead_watson": "bughuntoor - $6,500 fixed + $1,155.11 contest"
+          },
+          {
+            "protocol": "PoolTogether",
+            "total_rewards": "$115,000"
+          },
+          {
+            "protocol": "Footium",
+            "total_rewards": "$13,500",
+            "winner": "@cergyk1337 - $4,500 fixed + $2,289.84 contest"
+          }
+        ],
+        "model": "Fixed pay for Lead Senior Watson + contest pot distribution",
+        "sources": [
+          "https://x.com/sherlockdefi/status/1780909550033379622",
+          "https://x.com/sherlockdefi/status/1851353305659724023"
+        ]
+      },
+
+      "CodeHawks": {
+        "total_paid": "$2M+ to auditors",
+        "tagline": "Helping companies secure smart contracts and auditors get paid",
+        "partnership": "@Hashlock_ for private and competitive audits",
+        "note": "Specific contest breakdowns limited in search results"
+      },
+
+      "Cantina": {
+        "description": "Part of Spearbit ecosystem",
+        "context": "Most and biggest contests for past year",
+        "notable_client": "Circuit DAO 4-week audit",
+        "top_earners_circuit": [
+          "@yakuh1t0: $42,423.16",
+          "@muellerberndt: $20,095.98",
+          "@PerseveranceSu5: $9,001.30"
+        ]
+      }
+    },
+
+    "employment_opportunities": [
+      {
+        "company": "Veretin Cybersecurity",
+        "role": "Smart Contract Auditor",
+        "location": "Remote",
+        "employment_type": "Full-time",
+        "compensation": "Competitive base + 15-20% commission per project",
+        "requirements": "3+ years auditing, independent Solidity code reviews, tools: Slither, MythX, Echidna, Foundry"
+      }
+    ],
+
+    "top_security_firms_june_2025": [
+      "Cantina (Spearbit) - highest $$$ paid to security researchers",
+      "Immunefi - kings of bug bounty",
+      "Hexens - pays $20K for Critical found after their audit"
+    ],
+
+    "beginner_earnings_example": {
+      "time": "6 hours",
+      "payment": "$600 USDC",
+      "findings": "2 High, 2 Medium severity",
+      "deliverable": "PDF report",
+      "client_satisfaction": "Very happy"
+    },
+
+    "sources": [
+      "https://x.com/pashov/status/2002328154333954183",
+      "https://x.com/pashovkrum/status/1933547919233208806"
+    ]
+  },
+
+  "security_researcher_salaries": {
+    "spearbit_weekly_rates": {
+      "junior_sr": {
+        "title": "Junior Security Researcher (JSR)",
+        "weekly": "$3,000 USDC",
+        "annual_estimate": "$156,000"
+      },
+      "associate_sr": {
+        "title": "Associate Security Researcher (ASR)",
+        "weekly": "$6,250 USDC",
+        "annual_estimate": "$325,000"
+      },
+      "sr": {
+        "title": "Security Researcher (SR)",
+        "weekly": "$12,500 USDC",
+        "annual_estimate": "$650,000"
+      },
+      "lead_sr": {
+        "title": "Lead Security Researcher (LSR)",
+        "weekly": "$20,000 USDC",
+        "annual_estimate": "$1,040,000"
+      },
+      "note": "Assumes consistent weekly pay throughout year",
+      "source": "https://x.com/SpearbitDAO/status/1664642186405728256"
+    },
+
+    "traditional_employment": [
+      {
+        "role": "Staff Security Engineer",
+        "location": "Canada/United States",
+        "salary_range": "$163,000 - $217,000",
+        "skills": "AI, Hardware, AWS, Azure, Jira, Open Source",
+        "company_size": "11-50 employees",
+        "type": "Remote"
+      },
+      {
+        "role": "SOC Analyst (Entry, 1 year experience)",
+        "salary": "$60,000 USD",
+        "year": "2018",
+        "career_path_example": true
+      },
+      {
+        "role": "Incident Response Consultant (IBM X-Force)",
+        "starting_salary": "$145,000",
+        "after_raise": "$158,000",
+        "years_experience": "4-5 years in cybersecurity"
+      },
+      {
+        "role": "Senior Cybersecurity Consultant (CrowdStrike)",
+        "note": "Total compensation much higher than IBM",
+        "career_progression": "From IBM at $158K base"
+      }
+    ],
+
+    "freelance_consulting_rates": {
+      "traditional_security": "$35 - $85 per hour",
+      "context": "Compared to robotic security at ~$11/hour",
+      "source": "https://x.com/iKnightscope/status/1949936670427512997"
+    },
+
+    "consulting_firm_salaries": {
+      "entry_level_college": "$135,000",
+      "mba_level": "$270,000",
+      "context": "Top consultancies (McKinsey, BCG)",
+      "trend": "Salaries held flat for 2026 vs 2025",
+      "note": "AI automating more entry-level work"
+    },
+
+    "career_progression_example": {
+      "researcher": "@cybersecmeg",
+      "timeline": [
+        {
+          "year": 1,
+          "age": 22,
+          "role": "SOC Analyst (Incident Response focus)",
+          "salary": "$60,000 USD"
+        },
+        {
+          "year": 2,
+          "role": "Cybersecurity Incident Response Manager (Spain)",
+          "salary": "~$60,000 USD (€ equivalent)"
+        },
+        {
+          "year": 4,
+          "company": "IBM X-Force",
+          "role": "Incident Response Consultant",
+          "salary": "$145,000"
+        },
+        {
+          "year": 5,
+          "company": "IBM X-Force",
+          "role": "Incident Response Consultant (after raise)",
+          "salary": "$158,000"
+        },
+        {
+          "current": true,
+          "company": "CrowdStrike",
+          "role": "Senior Cybersecurity Consultant",
+          "future_goal": "Principal Cybersecurity Consultant (2025)"
+        }
+      ],
+      "source": "https://x.com/cybersecmeg/status/1825928261555163333"
+    }
+  },
+
+  "certification_roi": {
+    "OSCP": {
+      "exam_cost": "$800",
+      "average_salary": "$91,000",
+      "benefits": [
+        "Hands-on certification testing practical pentesting skills",
+        "Career impact survey by OffSec on promotions and raises"
+      ],
+      "recent_changes": {
+        "new_tier": "OSCP+ introduced",
+        "legacy": "Original OSCP never expires",
+        "post_nov_2024": "Earn both OSCP+ and OSCP",
+        "renewal": "After 3 years without renewal, retain base OSCP"
+      },
+      "sources": [
+        "https://x.com/SecurityTrybe/status/1751958992803258596",
+        "https://x.com/GotoNathan/status/1877354757674688622"
+      ]
+    },
+
+    "CEH": {
+      "program_overview": "Leading ethical hacking training and certification",
+      "latest_version": "C|EH v13 with AI integration",
+      "career_benefits": {
+        "respect_recognition": "100% gained more respect at work",
+        "career_boost": "99% saw real career boost",
+        "competitive_edge": "91% feel CEH gives competitive edge"
+      },
+      "criticisms": [
+        {
+          "source": "NetworkChuck",
+          "sentiment": "Negative - 'why I HATE the CEH exam'",
+          "context": "Popular YouTuber critique"
+        }
+      ],
+      "features": [
+        "Master 5 phases of ethical hacking using AI",
+        "AI-powered reconnaissance to automated DDoS attacks",
+        "Hall of Fame 2025 showcasing top 100 certified professionals"
+      ],
+      "cost_consideration": "High price tag - worth it for climbing cybersecurity ladder",
+      "sources": [
+        "https://x.com/ECCOUNCIL/status/1943163862255051096",
+        "https://x.com/CBTNuggets/status/1772016038340682002"
+      ]
+    },
+
+    "cybersecurity_certifications_general": {
+      "guide_available": "2025 guide breaking down exam fees, training costs, renewal expenses",
+      "top_certifications_covered": "Multiple top certifications analyzed",
+      "source": "StationX",
+      "purpose": "Help plan certification path wisely"
+    }
+  },
+
+  "vulnerability_type_payouts": {
+    "SSRF": {
+      "notable_payouts": [
+        {
+          "amount": "$160,000",
+          "technique": "AWS Metadata access via IP encoding (0251.254.169.254)",
+          "date": "October 2018"
+        },
+        {
+          "researcher": "Justin Gardner (@Rhynorater)",
+          "lifetime_ssrf_earnings": "$100,000+",
+          "quote": "I've made over 100k on SSRF vulnerabilities"
+        },
+        {
+          "amount": "$7,000",
+          "type": "SSRF using redirection on subdomain",
+          "researcher": "Hussein Daher"
+        },
+        {
+          "amount": "$20,000",
+          "type": "S3 Bucket Misconfiguration (related)"
+        }
+      ],
+      "complexity": "Not always as simple as localhost or AWS Metadata - requires expertise",
+      "sources": [
+        "https://x.com/thedawgyg",
+        "https://x.com/Rhynorater",
+        "https://x.com/hussein98d/status/1161240273331998720"
+      ]
+    },
+
+    "XSS": {
+      "typical_range": "$300 - $3,000",
+      "stored_xss": "$500 - $7,500 depending on program",
+      "tool_promotion": "xss0r tool - $89 for 3 months can pay itself back 10x",
+      "tips": [
+        "XSS payload as image filename: <img src=x onerror=alert('XSS')>.png",
+        "XSS in hidden inputs using special tricks",
+        "Cross-site Scripting via WHOIS and DNS Records"
+      ],
+      "sources": [
+        "https://x.com/xss0r/status/1945226152064290939",
+        "https://x.com/bountywriteups/status/1861697821415481481"
+      ]
+    },
+
+    "RCE": {
+      "high_value_targets": [
+        {
+          "amount": "$10,000",
+          "target": "Google AppSheet",
+          "type": "Deserialization RCE"
+        },
+        {
+          "amount": "$20,000",
+          "target": "GitHub",
+          "type": "RCE via git option injection"
+        },
+        {
+          "twitter_historical": "$15,000 minimum for RCE (2016)"
+        }
+      ],
+      "underground_market": {
+        "microsoft_office_0day": "$200,000",
+        "seller": "Mallx",
+        "capability": "Execute commands via cmd/powershell"
+      },
+      "sources": [
+        "https://x.com/InfoSecComm/status/1954422528174407840",
+        "https://x.com/wcbowling/status/1317787035072036865"
+      ]
+    },
+
+    "API_vulnerabilities": {
+      "examples": [
+        {
+          "amount": "$5,000",
+          "type": "APIs exposed on Swagger endpoint",
+          "technique": "Using Authorization token from different source"
+        },
+        {
+          "amount": "$300",
+          "type": "OAuth Token theft",
+          "scale": "5000 OAuth tokens stolen"
+        }
+      ],
+      "tools": [
+        "APIDetector - scan for exposed Swagger endpoints",
+        "MobSF - mobile app pentesting for API endpoints",
+        "Hopscotch - API security testing"
+      ],
+      "sources": [
+        "https://x.com/Jayesh25_/status/1849005899228311585",
+        "https://x.com/bountywriteups/status/1954560431491621363"
+      ]
+    },
+
+    "mobile_security": {
+      "apple_program": "Up to $200,000 (launched 2016)",
+      "meta_mobile": [
+        "Authenticator Lite and Broker apps now in scope",
+        "WhatsApp: $1M for 0-click RCE (Pwn2Own Ireland 2025)"
+      ],
+      "platform_focus": "iOS and Android both covered by major programs"
+    },
+
+    "critical_vulnerabilities_general": {
+      "web2_typical": "$25,000 - $50,000",
+      "web3_defi": "Millions of dollars possible",
+      "industry_observation": "Scaling bug bounties should be proportional to capital at risk",
+      "source": "Mitchell Amador"
+    }
+  },
+
+  "zero_day_exploit_market": {
+    "operation_zero": {
+      "telegram_exploits": {
+        "1_click_rce": "Up to $500,000",
+        "0_click_rce": "Up to $1,500,000",
+        "full_chain": "Up to $4,000,000",
+        "platforms": "Android, iOS, Windows"
+      },
+      "mobile_exploits": {
+        "ios_full_chain": "$200,000 - $20,000,000",
+        "android_full_chain": "$200,000 - $20,000,000",
+        "ios_16_full_chain": "$2,000,000",
+        "safari_lpe": "$500,000",
+        "pac_bypass": "$100,000"
+      },
+      "browser_exploits": {
+        "chrome_rce_android": "Up to $350,000",
+        "chrome_rce_sbx_windows": "Up to $700,000"
+      },
+      "end_user": "Non-NATO country",
+      "sources": [
+        "https://x.com/The_Cyber_News/status/1903132470205354307",
+        "https://x.com/opzero_en/status/1706762507631677760"
+      ]
+    },
+
+    "zerodium": {
+      "description": "World-leading acquisition platform for premium zero-days",
+      "tagline": "We pay BIG bounties, not bug bounties!",
+      "note": "Specific pricing not disclosed publicly"
+    },
+
+    "pwn2own": {
+      "whatsapp_bounty": "$1,000,000 (0-click)",
+      "samsung_s24_exploit": "$50,000 + 5 Master of Pwn points",
+      "master_of_pwn_week": "$375,000 + vehicle",
+      "meta_partnership": "Pwn2Own Ireland 2025 with Meta",
+      "sources": [
+        "https://x.com/BleepinComputer/status/1951231530417697094",
+        "https://x.com/thezdi/status/1950996918475055372"
+      ]
+    }
+  },
+
+  "tips_and_success_strategies": {
+    "bug_bounty_hunting": [
+      {
+        "tip": "Don't limit yourself to one program or asset",
+        "reason": "Monitoring new assets from various sources increases success chances",
+        "source": "Jayesh Madnani"
+      },
+      {
+        "tip": "Establish automated process for new targets",
+        "actions": "Collect subdomains, perform basic checks, identify interesting assets",
+        "benefit": "Reduce duplicates, increase bug discovery"
+      },
+      {
+        "tip": "Medium-severity bugs are the sweet spot",
+        "reason": "Consistent earnings vs. chasing only criticals"
+      },
+      {
+        "tip": "Study disclosed reports",
+        "example": "Researcher studied 124 SSRF reports to learn how people make money with SSRFs"
+      },
+      {
+        "tip": "Spend 100 hours on a program",
+        "purpose": "Challenge to avoid abandoning programs too quickly",
+        "source": "Bug Bounty Reports Explained"
+      },
+      {
+        "tip": "Focus on specific vulnerability types",
+        "example": "IDOR focus led to $100K in one month",
+        "benefit": "Deep expertise > broad shallow knowledge"
+      },
+      {
+        "tip": "OS mastery beats tool switching",
+        "context": "Broken access control as lucrative bug class"
+      },
+      {
+        "tip": "Hidden GET and POST parameters",
+        "focus": "Especially on pages with HTML forms"
+      },
+      {
+        "tip": "Active crawling with tools like Katana",
+        "purpose": "Quick XSS/SQLI wins by retrieving URLs and parameters"
+      }
+    ],
+
+    "web3_audit_strategies": [
+      {
+        "reality_check": "First 5 contests extremely difficult",
+        "expectation": "Brain melting, lucky to earn coffee money for hundreds of hours"
+      },
+      {
+        "path_1": "Competitive audit contests (Code4rena, Sherlock, CodeHawks, Cantina)"
+      },
+      {
+        "path_2": "Bug bounty platforms (Immunefi)"
+      },
+      {
+        "path_3": "Private audits for clients"
+      },
+      {
+        "path_4": "Full-time at security firm"
+      },
+      {
+        "income_potential": "$10K for single bug, $100K for critical, $200K+ at top firms"
+      },
+      {
+        "timeline": "Can take months to uncover critical issues depending on skill"
+      }
+    ],
+
+    "career_progression": [
+      {
+        "strategy": "Start with SOC analyst role",
+        "progression": "Incident Response → Consultant → Senior Consultant → Principal",
+        "timeline": "5-7 years to senior level"
+      },
+      {
+        "alternative": "Bug bounty part-time → full-time transition",
+        "example": "JS0N Haddix - 8 years pentesting → #1 Bugcrowd in 1 year of bounties"
+      },
+      {
+        "certification_path": "OSCP → CEH → specialized certs (GPEN, etc.)",
+        "roi": "Average $91K for OSCP holders"
+      }
+    ],
+
+    "tools_and_resources": [
+      {
+        "category": "XSS",
+        "tools": ["ezXSS", "XSSRocket", "xss0r (multi-purpose)"]
+      },
+      {
+        "category": "API",
+        "tools": ["APIDetector", "Hopscotch", "MobSF for mobile"]
+      },
+      {
+        "category": "General",
+        "tools": ["Burp Suite Community (free)", "Katana for crawling"]
+      },
+      {
+        "category": "Learning",
+        "platforms": ["PortSwigger Labs", "DVWA", "Hack The Box", "XSS Game"]
+      }
+    ]
+  },
+
+  "pain_points_and_complaints": {
+    "platform_issues": [
+      {
+        "platform": "Apple Security Bounty",
+        "complaints": [
+          "Payment delays (months without response)",
+          "Program perceived as 'house always wins'",
+          "Researcher frustration despite 2016 launch fanfare"
+        ],
+        "sentiment": "Negative"
+      },
+      {
+        "issue": "Duplicate reports",
+        "impact": "Wasted time and effort",
+        "mitigation": "Better reconnaissance on new programs"
+      },
+      {
+        "issue": "Out of scope findings",
+        "frustration": "Spending time on vulnerabilities not rewarded"
+      },
+      {
+        "issue": "CVSS disputes",
+        "context": "Disagreements between hunter and program on severity",
+        "source": "Douglas Day on HackerOne"
+      }
+    ],
+
+    "market_dynamics": [
+      {
+        "observation": "Web2 payouts ($25-50K) can't compete with Web3 exploit profits (millions)",
+        "consequence": "Kills disclosure incentives in DeFi space",
+        "proposed_solution": "Scale bounties proportionally to capital at risk"
+      },
+      {
+        "concern": "AI automating entry-level security work",
+        "impact": "Consulting firms freezing entry-level salaries",
+        "affected": "College grads and MBA consultants"
+      }
+    ],
+
+    "beginner_challenges": [
+      {
+        "issue": "High barrier to entry",
+        "reality": "First contests may yield coffee money for hundreds of hours"
+      },
+      {
+        "issue": "Difficult to stand out",
+        "solution": "Focus on specific vulnerability types or platforms"
+      },
+      {
+        "issue": "Inconsistent income",
+        "description": "Bug bounty called 'get rich slow' not 'get rich quick'"
+      }
+    ]
+  },
+
+  "live_hacking_events": {
+    "overview": {
+      "description": "One of greatest environments to learn bug bounty",
+      "benefits": "Hands-on learning, networking, mentorship opportunities"
+    },
+
+    "examples": [
+      {
+        "event": "#h1702",
+        "location": "Las Vegas",
+        "host": "HackerOne",
+        "connection": "Flagship live-hacking event with DEFCON"
+      },
+      {
+        "event": "LHE Tokyo",
+        "highlights": "JS Webpack pitfalls, parameter pollution",
+        "source": "Critical Thinking Bug Bounty Podcast Episode 37"
+      },
+      {
+        "opportunity": "HackerOne invites local folks as mentees",
+        "note": "Building up mentorship programs"
+      }
+    ],
+
+    "earnings_context": {
+      "week_record": "$1,158,463 in bounties in 7 days (HackerOne)",
+      "note": "Shows potential earnings concentration during events"
+    }
+  },
+
+  "industry_trends_2024_2025": [
+    {
+      "trend": "Record-breaking bug bounty programs",
+      "examples": ["Usual Money $16M", "Uniswap $15.5M"],
+      "drivers": "High capital at risk in DeFi protocols"
+    },
+    {
+      "trend": "AI-focused security programs",
+      "examples": [
+        "Google AI VRP up to $30K",
+        "Anthropic jailbreak bounties",
+        "Microsoft Zero Day Quest for AI/cloud"
+      ]
+    },
+    {
+      "trend": "Competitive audit contests maturing",
+      "evidence": "$500K prize pools, 600+ submissions, $20M+ distributed",
+      "platforms": "Code4rena acquired by Zellic, Sherlock at $19M+ paid"
+    },
+    {
+      "trend": "Mobile security expansion",
+      "examples": [
+        "Meta $1M WhatsApp bounty",
+        "Microsoft Authenticator apps in scope",
+        "Apple program evolution"
+      ]
+    },
+    {
+      "trend": "Bug bounty as full-time career",
+      "evidence": "Multiple $1M+ lifetime earners, weekly rates up to $20K",
+      "platforms": "Spearbit paying top-tier salaries"
+    },
+    {
+      "trend": "Shift to continuous security",
+      "from": "One-time audits",
+      "to": "Continuous audit/security solutions",
+      "industry": "Web3/DeFi"
+    },
+    {
+      "trend": "Zero-day market escalation",
+      "evidence": "iOS/Android exploits up to $20M (Operation Zero)",
+      "context": "State-sponsored interest driving prices"
+    },
+    {
+      "trend": "Leaderboard gamification",
+      "platforms": "Meta, HackerOne, Bugcrowd",
+      "benefit": "Recognition driving competition"
+    }
+  ],
+
+  "platform_comparisons": {
+    "bug_bounty_platforms_ranked": [
+      "1. HackerOne - $81M paid, 660+ researchers, most established",
+      "2. Bugcrowd - $100K/month earners, strong enterprise programs",
+      "3. Synack - Elite Red Team, 2+ millionaires, invite-only",
+      "4. Open Bug Bounty",
+      "5. Cobalt",
+      "6. YesWeHack - €18K single payouts, European focus",
+      "7. Intigriti - €15K max typical, Tesla achievement stories",
+      "8. SafeHats",
+      "9. Hacktivity",
+      "10. Zerocopter"
+    ],
+
+    "web3_platforms_top_tier": [
+      "Immunefi - $10M record payout, $180B+ protected",
+      "Code4rena - $20M+ paid, largest prize pools",
+      "Sherlock - $19.2M+ paid, fixed pay model",
+      "CodeHawks - $2M+ paid, Cyfrin backing",
+      "Cantina - Spearbit ecosystem, highest contest volume"
+    ],
+
+    "payout_models": {
+      "traditional_bounty": "Per-vulnerability rewards, triaged by program",
+      "competitive_audit": "Prize pool split by finding severity/rarity",
+      "fixed_plus_contest": "Sherlock model - Lead Watson fixed + pot share",
+      "weekly_salary": "Spearbit model - $3K-$20K per week based on level",
+      "commission": "Audit firms - base + 15-20% project commission"
+    }
+  },
+
+  "geographic_considerations": {
+    "european_focus": [
+      "YesWeHack - European platform with € payouts",
+      "Intigriti - European programs (Belgian, Dutch, etc.)"
+    ],
+    "global_platforms": [
+      "HackerOne - Worldwide, USD payouts",
+      "Bugcrowd - Worldwide, USD payouts",
+      "Immunefi - Crypto (USDC) payouts, global"
+    ],
+    "restrictions": [
+      "Operation Zero - End user is non-NATO country",
+      "Some programs have geographic restrictions"
+    ]
+  },
+
+  "full_time_vs_part_time": {
+    "full_time_viability": {
+      "quote": "Sr/Principle Security Tester in US can command $150-200K salary",
+      "comparison": "Bug bounty can match or exceed this for top hunters",
+      "example": "JS0N Haddix thread on full-time bug bounty hunter economics",
+      "reality": "Inconsistent income requires financial buffer"
+    },
+
+    "part_time_success": [
+      {
+        "strategy": "Weekends and evenings on bug bounty",
+        "benefit": "Stable salary + bounty income",
+        "risk": "Lower but steady additional income"
+      },
+      {
+        "transition_path": "Build reputation part-time → go full-time with buffer",
+        "timeline": "1-2 years establishing track record"
+      }
+    ],
+
+    "income_stability": {
+      "full_time_employment": "Stable, predictable, benefits",
+      "bug_bounty": "Variable, can be $0 some months, $50K others",
+      "hybrid": "Best of both - security consulting + bounties",
+      "web3_audits": "More stable with fixed pay + contest model (Sherlock)"
+    }
+  },
+
+  "recommendations": {
+    "for_beginners": [
+      "Start with HackerOne or Bugcrowd public programs",
+      "Use free tools (Burp Suite Community, OWASP ZAP)",
+      "Study disclosed reports to learn techniques",
+      "Set 100-hour commitment to one program before switching",
+      "Focus on one vulnerability type to build expertise",
+      "Expect low/no earnings for first 3-6 months - learning phase",
+      "Consider certifications (OSCP) for credibility"
+    ],
+
+    "for_intermediate": [
+      "Apply to private programs for higher payouts",
+      "Attend Live Hacking Events for networking",
+      "Diversify across platforms (HackerOne, Bugcrowd, Synack)",
+      "Track stats like Alex Chapman (reports, paid, duplicates)",
+      "Build automation for reconnaissance",
+      "Consider Synack Red Team for elite opportunities"
+    ],
+
+    "for_web3_interested": [
+      "Start with Code4rena or CodeHawks contests",
+      "Learn Solidity and smart contract fundamentals",
+      "Expect brutal first 5 contests - learning curve is steep",
+      "Study winning reports from past contests",
+      "Join audit platform Discords for community",
+      "Consider solo audits once skilled ($600 for 6 hours example)"
+    ],
+
+    "for_career_switchers": [
+      "Get entry-level SOC analyst role for experience ($60K)",
+      "Build skills in incident response or pentesting",
+      "Bug bounty on side to build portfolio",
+      "Transition to consulting after 3-5 years ($145K+)",
+      "OSCP or CEH can accelerate career progression"
+    ]
+  },
+
+  "data_quality_notes": {
+    "limitations": [
+      "Twitter/X site: searches limited by JavaScript requirements",
+      "Many account pages inaccessible via web search",
+      "Some payout figures are self-reported by hunters",
+      "Currency conversions approximate (USD, EUR, USDC)",
+      "Salary figures may not include bonuses/equity"
+    ],
+    "strengths": [
+      "50+ searches covering all major platforms",
+      "Mix of official announcements and hunter experiences",
+      "Recent data from 2024-2025",
+      "Verified sources from official bug bounty platform accounts",
+      "Real earnings examples from named researchers"
+    ],
+    "coverage_gaps": [
+      "Limited vCISO specific salary data on Twitter/X",
+      "Few compliance consultant (GDPR/SOC2) rate discussions",
+      "Incident response hourly rates not prominently discussed",
+      "Pentesting rates less visible than bug bounty payouts"
+    ]
+  },
+
+  "key_researcher_profiles": {
+    "top_earners_mentioned": [
+      {
+        "handle": "@0xhyh",
+        "platform": "Sherlock",
+        "earnings": "$37,500 fixed + $15,527.99 contest (Tapioca), $34,000 fixed (ZeroLend)"
+      },
+      {
+        "handle": "@cergyk1337",
+        "platform": "Sherlock",
+        "earnings": "$4,500 fixed + $2,289.84 (Footium), $15,294.64 (Tapioca)"
+      },
+      {
+        "handle": "pashov",
+        "achievement": "$600K in 20 months solo audits",
+        "platform": "Independent"
+      },
+      {
+        "handle": "@cmichelio",
+        "achievement": "$1M in 2021 (audit contests)"
+      },
+      {
+        "handle": "Cosmin",
+        "achievement": "First HackerOne $2M earner"
+      },
+      {
+        "handle": "@ElS1carius",
+        "achievement": "€18,350 single day (YesWeHack)"
+      },
+      {
+        "handle": "godiego",
+        "achievement": "2024: Top 3 HackerOne leaderboard, $31,337 Google VRP, 6-digit Bugcrowd, YesWeHack LHE win"
+      },
+      {
+        "handle": "JS0N Haddix",
+        "achievement": "#1 Bugcrowd leaderboard in 1 year, $100K+ from SSRF alone"
+      },
+      {
+        "handle": "Justin Gardner (@Rhynorater)",
+        "achievement": "$100K+ from SSRF vulnerabilities"
+      },
+      {
+        "handle": "@samm0uda",
+        "achievement": "$250,000 single Meta bug with bonuses"
+      }
+    ]
+  },
+
+  "search_queries_executed": [
+    "bug bounty payout earnings 2024 2025",
+    "HackerOne payout earnings income",
+    "Bugcrowd bounty payout earnings",
+    "Immunefi bounty earnings crypto",
+    "Intigriti bug bounty payout",
+    "YesWeHack bounty earnings",
+    "security consulting rates 2025 hourly",
+    "vCISO income salary earnings 2025",
+    "pentesting rates income salary 2025",
+    "#bugbounty earnings payout 2024 2025",
+    "#infosec salary income consulting",
+    "red team salary income earnings",
+    "bug bounty hunter income how much",
+    "security researcher salary income 2025",
+    "cybersecurity consultant hourly rate",
+    "OSCP salary earnings income",
+    "Synack Red Team earnings payout",
+    "Cobalt bug bounty platform earnings",
+    "web3 security audit income earnings",
+    "smart contract audit pay rate",
+    "#cybersecurity freelance consulting income",
+    "bug bounty tips tricks success story",
+    "first bug bounty payout earnings",
+    "critical vulnerability bounty reward",
+    "SSRF vulnerability bounty payout",
+    "XSS cross-site scripting bounty reward",
+    "RCE remote code execution bounty",
+    "AppSec engineer salary income 2025",
+    "security engineer salary compensation 2025",
+    "ethical hacker income earnings salary",
+    "Google VRP vulnerability reward program payout",
+    "Apple Security Bounty payout earnings",
+    "Microsoft bug bounty MSRC payout reward",
+    "CEH certified ethical hacker salary worth",
+    "cloud security consulting AWS Azure rates",
+    "API security testing bounty earnings",
+    "mobile security researcher Android iOS bounty",
+    "compliance consultant GDPR SOC2 income",
+    "bug bounty income full-time vs part-time",
+    "blockchain security audit Code4rena earnings",
+    "Pwn2Own competition payout prize money",
+    "zero-day vulnerability bounty earnings",
+    "live hacking event LHE earnings payout",
+    "security startup CISO fractional income",
+    "incident response consultant hourly rate",
+    "CVE discovery bounty reward payout",
+    "security researcher passive income side hustle",
+    "bug bounty leaderboard top earners 2024 2025",
+    "Sherlock DeFi audit contest earnings",
+    "CodeHawks security audit competition payout"
+  ],
+
+  "conclusion": {
+    "market_state": "Bug bounty and security consulting markets are thriving in 2024-2025, with record-breaking payouts in Web3/DeFi and growing opportunities in traditional Web2 security",
+    "income_potential": "Top-tier security researchers can earn $500K-$2M+ annually through combination of bug bounties, audits, and consulting",
+    "barriers_to_entry": "Moderate - free tools available, but significant learning curve and time investment required",
+    "best_platforms": "HackerOne and Bugcrowd for Web2, Immunefi and Code4rena for Web3",
+    "fastest_path_to_income": "Web3 smart contract auditing with competitive contests offering immediate prize pools",
+    "most_stable_path": "Traditional employment as Security Engineer ($163K-$217K) with bug bounties on side",
+    "highest_earning_potential": "Elite security researchers at specialized firms (Spearbit $1M+) or successful independent auditors ($600K in 20 months)"
+  }
+}
