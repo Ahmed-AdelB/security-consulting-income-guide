@@ -8,7 +8,7 @@
 
 ## What's Inside
 
-This repository contains **120+ detailed guides** covering:
+This repository contains **125+ detailed guides** covering:
 
 - **27 Platform Deep Dives** - Expert networks, bug bounty, vCISO, expert witness, Web3 audit
 - **29 Domain Guides** - DFIR, GRC, pentesting, cloud security, AI/ML security, and more
@@ -71,7 +71,8 @@ security-consulting-income-guide/
 │   ├── salary-benchmarks/     # Glassdoor, Indeed, PayScale, etc.
 │   ├── platform-reviews/      # Trustpilot, G2 analysis
 │   ├── community-insights/    # Reddit, HackerNews, LinkedIn, Medium
-│   └── comprehensive-guides/  # In-depth research reports
+│   ├── comprehensive-guides/  # In-depth research reports
+│   └── rate-guides/           # Expert network, vCISO, pentest, expert witness rates
 │
 └── 06-resources/              # Templates and tools
     ├── templates/
