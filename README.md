@@ -3,17 +3,17 @@
 **The most comprehensive, research-backed guide to building a $50K-$100K/month cybersecurity consulting practice.**
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/ahmedalderai)
 
 ---
 
 ## What's Inside
 
-This repository contains **150+ detailed guides** covering:
+This repository contains **120+ detailed guides** covering:
 
 - **27 Platform Deep Dives** - Expert networks, bug bounty, vCISO, expert witness, Web3 audit
-- **50+ Domain Guides** - DFIR, GRC, pentesting, cloud security, AI/ML security, and more
-- **8 Industry Verticals** - Healthcare, fintech, aerospace, automotive, energy, manufacturing
+- **29 Domain Guides** - DFIR, GRC, pentesting, cloud security, AI/ML security, and more
+- **23 Industry Verticals** - Healthcare, fintech, aerospace, automotive, energy, manufacturing
+- **22 Market Research Reports** - Salary benchmarks, community insights, rate guides
 - **Income Stream Analysis** - Expert networks, expert witness, training, courses, books
 - **Action Plans** - 30-day sprints, 90-day roadmaps, rate negotiation strategies
 
@@ -66,6 +66,12 @@ security-consulting-income-guide/
 │   ├── 30-day-sprint.md
 │   ├── first-90-days.md
 │   └── ...
+│
+├── 06-market-research/        # Salary & community research
+│   ├── salary-benchmarks/     # Glassdoor, Indeed, PayScale, etc.
+│   ├── platform-reviews/      # Trustpilot, G2 analysis
+│   ├── community-insights/    # Reddit, HackerNews, LinkedIn, Medium
+│   └── comprehensive-guides/  # In-depth research reports
 │
 └── 06-resources/              # Templates and tools
     ├── templates/
@@ -149,9 +155,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 If this guide helped you, consider:
 
 - **Star this repo** to help others find it
-- **[Sponsor on GitHub](https://github.com/sponsors/ahmedalderai)** for ongoing development
 - **Share on LinkedIn/Twitter** with your network
 - **Submit corrections** via pull requests
+- **Contribute** your own platform experiences
 
 ---
 
