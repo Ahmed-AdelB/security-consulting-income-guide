@@ -3,6 +3,8 @@
 **The most comprehensive, research-backed guide to building a $50K-$100K/month cybersecurity consulting practice.**
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red)](https://github.com/sponsors/Ahmed-AdelB)
+[![GitHub Pages](https://img.shields.io/badge/Website-Live-green)](https://ahmed-adelb.github.io/security-consulting-income-guide/)
 
 ---
 
