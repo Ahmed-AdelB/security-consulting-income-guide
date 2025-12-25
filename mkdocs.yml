@@ -50,10 +50,10 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/ahmed-adel-security
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/yourhandle
-  analytics:
-    provider: google
-    property: G-PLACEHOLDER
+      link: https://twitter.com/AhmedAdel_Bakr
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX  # Add your GA4 Measurement ID here
   meta:
     - name: keywords
       content: cybersecurity consulting, security income, vciso, bug bounty, expert networks, penetration testing, expert witness, security consulting rates
