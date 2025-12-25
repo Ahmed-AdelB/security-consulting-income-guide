@@ -1,0 +1,67 @@
+{
+  "checked_at": "2025-12-17T02:18:00.803983",
+  "positive_replies": [
+    {
+      "from": "katie roberts <kroberts@intel471.com>",
+      "subject": "Re: Senior Cybersecurity Executive - Expert Network Collaboration",
+      "domain": "intel471.com",
+      "preview": "Ahmed,\r\n\r\nHope you\u2019re doing well.\r\n\r\n\r\nThank you for sending your details through and for your interest in Intel\r\n471!\r\n\r\n\r\nThings are always progressing here, so please can I ask that you apply\r\ndire"
+    },
+    {
+      "from": "catarina stewart <catarina@glgroup.com>",
+      "subject": "Mark your calendar =?UTF-8?Q?=F0=9F=93=85?=: Accept GLG projects",
+      "domain": "glgroup.com",
+      "preview": "A roundup from\r\nHi Ahmed,\r\nLooks like we\u2019ve invited you to GLG opportunities this week! Now\u2019s a good time to review and accept those that are a good fit. \r\n \r\n&#x1F50E; Take a closer look \r\nWhen you\u2019r"
+    },
+    {
+      "from": "networkmembersupport@glgroup.com",
+      "subject": "Your GLG Payment is on its way",
+      "domain": "glgroup.com",
+      "preview": "Hi Ahmed,\r\n\r\nThe payment for your recent GLG project is on its way. You can view the\r\nstatus of your payment using the link below.\r\n\r\nProject Name: Legal SaaS Re-run (Survey #615562)\r\nProject ID: 6155"
+    },
+    {
+      "from": "arbolus support <support@arbolus.com>",
+      "subject": "Ahmed, we have received your application. Check out the next steps!",
+      "domain": "arbolus.com",
+      "preview": "Arbolus - Application received\r\n\r\nWe make\r\nhuman knowledge\r\ndigital.\r\n\r\nHi Ahmed, Thank you for applying to the \"Arbolus canopy (Helio intelligence)\" project. Your application has been forwarded to th"
+    },
+    {
+      "from": "topcoder <support@topcoder.com>",
+      "subject": "[Request received] Expert Consultant Available for Cybersecurity & AI\r\n Security Projects",
+      "domain": "topcoder.com",
+      "preview": "##- Please type your reply above this line -##\r\n\r\nThank you so much for reaching out to Topcoder Support!  Your request (#140028) has been received, and we will start looking for a solution right away"
+    },
+    {
+      "from": "topcoder <support@topcoder.com>",
+      "subject": "[Request received] Senior Cybersecurity Executive - Expert Network\r\n Collaboration",
+      "domain": "topcoder.com",
+      "preview": "##- Please type your reply above this line -##\r\n\r\nThank you so much for reaching out to Topcoder Support!  Your request (#140029) has been received, and we will start looking for a solution right away"
+    }
+  ],
+  "out_of_office": [],
+  "spam_folder": [
+    {
+      "from": "\"postmaster\" <postmaster@glgroup.com>",
+      "subject": "[Postmaster] Email Delivery Failure",
+      "domain": "glgroup.com",
+      "folder": "SPAM"
+    },
+    {
+      "from": "\"postmaster\" <postmaster@glgroup.com>",
+      "subject": "[Postmaster] Email Delivery Failure",
+      "domain": "glgroup.com",
+      "folder": "SPAM"
+    },
+    {
+      "from": "\"postmaster\" <postmaster@glgroup.com>",
+      "subject": "[Postmaster] Email Delivery Failure",
+      "domain": "glgroup.com",
+      "folder": "SPAM"
+    }
+  ],
+  "summary": {
+    "positive": 6,
+    "ooo": 0,
+    "spam": 3
+  }
+}

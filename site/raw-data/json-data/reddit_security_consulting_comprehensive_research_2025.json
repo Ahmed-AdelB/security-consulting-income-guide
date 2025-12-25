@@ -1,0 +1,1346 @@
+{
+  "research_metadata": {
+    "research_date": "2025-12-24",
+    "target_communities": ["r/netsec", "r/AskNetsec", "r/cybersecurity"],
+    "total_searches_conducted": 30,
+    "note": "Due to search engine limitations, direct Reddit post links were not accessible via site: operators. Data compiled from industry sources, salary aggregators, professional networks, and community discussions referenced in articles.",
+    "data_sources": [
+      "Glassdoor",
+      "PayScale",
+      "Salary.com",
+      "ZipRecruiter",
+      "Indeed",
+      "Levels.fyi",
+      "CyberSN",
+      "Quora",
+      "HackerOne",
+      "Bugcrowd",
+      "Expert Network Forums",
+      "Industry Blogs",
+      "Professional Consulting Sites"
+    ]
+  },
+
+  "security_consulting_general": {
+    "category": "General Security Consulting",
+    "salary_ranges": {
+      "annual": {
+        "entry_level": {
+          "min": 68314,
+          "max": 85000,
+          "average": 74310,
+          "source": "PayScale, Salary.com"
+        },
+        "mid_level": {
+          "min": 85000,
+          "max": 140000,
+          "average": 106443,
+          "source": "Indeed, PayScale"
+        },
+        "senior_level": {
+          "min": 120000,
+          "max": 200000,
+          "average": 149000,
+          "source": "PayScale"
+        }
+      },
+      "hourly_rates": {
+        "employee": {
+          "min": 48,
+          "max": 76,
+          "average": 63,
+          "source": "ZipRecruiter"
+        },
+        "consultant_billing": {
+          "min": 200,
+          "max": 500,
+          "average": 350,
+          "source": "Industry surveys"
+        },
+        "freelance": {
+          "min": 72,
+          "max": 200,
+          "average": 145,
+          "source": "Crowdsourced data (contractrates.fyi)"
+        }
+      }
+    },
+    "key_insights": [
+      "Freelance cybersecurity consultants average $144.90/hour based on 1000+ submitted rates",
+      "Average day rate for consultants: $869",
+      "Annual income for full-time freelance: $238,392 (billing 35 hours/week for 11 months)",
+      "Top security consultants at elite firms bill $625/hour",
+      "Cybersecurity talent shortage drives competitive compensation",
+      "Entry to six figures possible within 2-3 years with certifications"
+    ],
+    "reddit_community_insights": [
+      "r/netsec, r/cybersecurity, and r/AskNetsec host monthly hiring threads",
+      "Community recommends having at least one steady client before going freelance",
+      "Six figures achievable in cybersecurity without formal degree",
+      "Reddit user 'pharos147' mentioned examining computer security/network stuff"
+    ]
+  },
+
+  "bug_bounty_hunting": {
+    "category": "Bug Bounty / Vulnerability Research",
+    "income_by_experience": {
+      "beginner": {
+        "monthly_range": {
+          "min": 500,
+          "max": 2000,
+          "typical": 1000
+        },
+        "annual_estimate": "Few thousand dollars per year",
+        "time_investment": "5-10 hours/week",
+        "notes": "Slow start, focus on lower-severity bugs"
+      },
+      "intermediate": {
+        "monthly_range": {
+          "min": 1000,
+          "max": 5000,
+          "typical": 2500
+        },
+        "annual_estimate": "$12,000 - $60,000",
+        "time_investment": "20-30 hours/week",
+        "notes": "Finding medium to high-severity vulnerabilities"
+      },
+      "expert": {
+        "monthly_range": {
+          "min": 10000,
+          "max": 50000,
+          "typical": 20000
+        },
+        "annual_estimate": "$100,000 - $300,000+",
+        "time_investment": "40+ hours/week",
+        "notes": "Full-time, critical vulnerabilities, reverse engineering"
+      }
+    },
+    "platform_statistics": {
+      "hackerone": {
+        "bulk_of_members_annual": "< $20,000",
+        "percentage_earning_10_percent_or_less": 27,
+        "full_time_hackers_percentage": 18,
+        "millionaires": 7,
+        "half_millionaires": 13,
+        "average_critical_bounty": 3384,
+        "total_paid_2019": "~$40 million"
+      },
+      "bugcrowd": {
+        "notes": "Second largest platform",
+        "typical_bounty_range": "$100 - $10,000+ per bug"
+      },
+      "meta_2024": {
+        "total_paid": 2300000,
+        "reports_received": 10000,
+        "valid_reports": 600,
+        "researchers_paid": 200,
+        "countries_represented": 45
+      }
+    },
+    "real_world_experiences": {
+      "nahamsec_100_hour_challenge": {
+        "platform": "HackerOne",
+        "hours_invested": 100,
+        "bugs_found": 2,
+        "types": ["SSRF", "Bypass"],
+        "total_earned": 7200,
+        "conclusion": "Good start, not life-changing, shows potential"
+      },
+      "no_coding_experience": {
+        "monthly_earnings": "2000-3000",
+        "duration": "Over 2 years",
+        "notes": "Consistent earnings without coding skills"
+      },
+      "first_year_experience": {
+        "description": "Quit cybersecurity job for full-time bug bounty",
+        "reality": "Much different than expected",
+        "sustainability_threshold": "$2,500/month + 4 months expenses saved"
+      },
+      "individual_588k_total": {
+        "total_lifetime": 588000,
+        "duration": "3 years full-time",
+        "average_annual": 196000,
+        "source": "Medium article by Anton Subbotin (skavans)"
+      }
+    },
+    "key_platforms": [
+      "HackerOne",
+      "Bugcrowd",
+      "Synack",
+      "YesWeHack",
+      "Intigriti",
+      "Triage"
+    ],
+    "income_variability_factors": [
+      "Highly unpredictable month-to-month",
+      "Competition level on programs",
+      "Duplicate submissions common",
+      "Program-specific payout ranges",
+      "Geographic arbitrage (USD goes further in some countries)",
+      "In India, $1,000-$2,000/month = comfortable living",
+      "In US high-cost areas, much more challenging"
+    ],
+    "warnings": [
+      "HackerOne: 27% earn 10% or less of income from bug bounties",
+      "Can make thousands one month, barely scrape by the next",
+      "Not financially secure - pay-for-performance model",
+      "Requires 3-6 months financial runway before going full-time",
+      "Average Bug Bounty position: $43,637/year (ZipRecruiter)"
+    ]
+  },
+
+  "penetration_testing": {
+    "category": "Penetration Testing / Offensive Security",
+    "employee_salaries": {
+      "entry_level": {
+        "annual": {
+          "min": 50500,
+          "max": 85000,
+          "average": 67750
+        }
+      },
+      "mid_level": {
+        "annual": {
+          "min": 85000,
+          "max": 120000,
+          "average": 124269
+        },
+        "base": {
+          "min": 96000,
+          "max": 174000
+        }
+      },
+      "senior_level": {
+        "annual": {
+          "min": 115571,
+          "max": 160000,
+          "average": 142274
+        }
+      }
+    },
+    "average_salaries_by_source": {
+      "glassdoor": 153206,
+      "indeed": 124144,
+      "ziprecruiter": 119895,
+      "salary_com": 88608
+    },
+    "hourly_rates": {
+      "employee": {
+        "average": 58,
+        "range": "43 - 95"
+      },
+      "consulting_firms": {
+        "min": 100,
+        "max": 300,
+        "average": 275,
+        "notes": "Reputable providers typically $250-$300/hour"
+      },
+      "freelance": {
+        "global_average": 91,
+        "daily_rate_global": 546,
+        "uk_average": 180,
+        "greece_average": 20,
+        "upwork_median": 80,
+        "upwork_entry": "60-80",
+        "upwork_intermediate": "80-120",
+        "upwork_expert": "120-150+",
+        "freelancer_com_range": "50-200"
+      }
+    },
+    "project_pricing": {
+      "general_range": {
+        "min": 5000,
+        "max": 30000
+      },
+      "web_app_small": {
+        "cost": 4000,
+        "duration_days": 3
+      },
+      "web_app_complex": {
+        "cost": 20000,
+        "duration_days": "10-15"
+      },
+      "black_box_test": {
+        "min": 4000,
+        "max": 15000
+      },
+      "retainers_annual": {
+        "min": 50000,
+        "max": 200000
+      }
+    },
+    "oscp_certification_impact": {
+      "average_salary": 119895,
+      "salary_range": {
+        "25th_percentile": 96000,
+        "75th_percentile": 141000,
+        "top_earners": 158500
+      },
+      "salary_increase_potential": "up to 25%",
+      "description": "Gold standard for penetration testing certification",
+      "advanced_roles_salary": "190K+ (OSEP, OSCE3 holders)"
+    },
+    "top_paying_industries": [
+      {
+        "industry": "Information Technology",
+        "median_salary": 134028
+      },
+      {
+        "industry": "Financial Services",
+        "median_salary": 118818
+      },
+      {
+        "industry": "Human Resources & Staffing",
+        "median_salary": 113108
+      },
+      {
+        "industry": "Management & Consulting",
+        "median_salary": 107440
+      },
+      {
+        "industry": "Government & Public Administration",
+        "median_salary": 101667
+      }
+    ],
+    "job_growth": {
+      "bls_projection_2023_2033": "33% increase",
+      "new_openings_annually": 17300
+    },
+    "reddit_community_insights": [
+      "r/AskNetsec discussion on pentest burnout mentioned 100% utilization rates",
+      "Contractors can charge $150/hour for short-term work",
+      "Community emphasizes hands-on skills over degrees"
+    ]
+  },
+
+  "vciso_virtual_ciso": {
+    "category": "Virtual CISO / Fractional CISO",
+    "pricing_models": {
+      "hourly_rates": {
+        "min": 150,
+        "max": 500,
+        "average": 259,
+        "typical_bracket": "185 - 334",
+        "alternate_estimate": "200 - 250"
+      },
+      "monthly_retainers": {
+        "small_business": {
+          "min": 2000,
+          "max": 4500,
+          "typical": 3000
+        },
+        "general_range": {
+          "min": 5000,
+          "max": 20000
+        },
+        "large_organizations": "8,000+",
+        "overall_range": {
+          "min": 1600,
+          "max": 20000
+        }
+      },
+      "annual_retainers": {
+        "min": 19200,
+        "max": 240000,
+        "typical_range": {
+          "min": 30000,
+          "max": 120000
+        }
+      },
+      "project_based": {
+        "average_bracket": {
+          "min": 8200,
+          "max": 34000
+        },
+        "basic_assessments": 10000,
+        "complex_projects": "up to 50,000+"
+      }
+    },
+    "comparison_to_fulltime_ciso": {
+      "fulltime_ciso_average_2024": 338594,
+      "fulltime_ciso_typical": "200,000+",
+      "vciso_cost_advantage": "Fraction of full-time cost",
+      "notes": "vCISO offers expertise without benefits, overhead, full-time commitment"
+    },
+    "pricing_factors": [
+      "Data volume and sensitivity",
+      "Industry regulation level (healthcare, finance pay more)",
+      "vCISO experience level",
+      "Previous CISO experience at large companies commands premium",
+      "Geographic location",
+      "Travel expenses",
+      "Time zone differences"
+    ],
+    "key_insights": [
+      "Average quoted hourly: $259",
+      "Highest quoted hourly: $500",
+      "Second highest: $395",
+      "Mentor tier example: $30,000/year",
+      "Services scalable based on needs"
+    ]
+  },
+
+  "red_team_blue_team": {
+    "category": "Red Team / Blue Team Operations",
+    "red_team_salaries": {
+      "security_engineer": {
+        "average": 197689,
+        "range": {
+          "25th_percentile": 154210,
+          "75th_percentile": 256965
+        }
+      },
+      "general_range": {
+        "min": 90000,
+        "max": 150000,
+        "notes": "Top penetration testers earn even more"
+      },
+      "hourly": {
+        "average": 25.73,
+        "range": {
+          "min": 10.58,
+          "max": 72.84
+        }
+      },
+      "consulting_company": {
+        "hourly_range": "37 - 47",
+        "annual_average": 86598,
+        "annual_range": {
+          "min": 76174,
+          "max": 98147
+        }
+      }
+    },
+    "blue_team_salaries": {
+      "general_range": {
+        "min": 80000,
+        "max": 140000
+      },
+      "cyber_network_defense_engineer": {
+        "min": 102850,
+        "max": 139150
+      }
+    },
+    "red_vs_blue_comparison": {
+      "general_trend": "Red Teams tend to earn slightly more",
+      "specialized_blue_roles": "SOC Managers can match or exceed Red Team",
+      "certification_impact": "Could be difference between $90K and $200K",
+      "european_netherlands_ranges": {
+        "red_team": {
+          "entry": "45,000 - 65,000 EUR",
+          "mid": "65,000 - 85,000 EUR",
+          "senior": "85,000 - 110,000+ EUR"
+        },
+        "blue_team": {
+          "entry": "40,000 - 60,000 EUR",
+          "mid": "60,000 - 80,000 EUR",
+          "senior": "80,000 - 100,000+ EUR"
+        }
+      }
+    },
+    "career_progression": [
+      "Entry to executive roles possible",
+      "Salary range: $90,000 - $150,000+",
+      "Cross-team experience enables Purple Team, Security Consulting, or CISO roles"
+    ]
+  },
+
+  "expert_networks": {
+    "category": "Expert Network Consulting (GLG, Guidepoint, AlphaSights)",
+    "platforms": [
+      {
+        "name": "Gerson Lehrman Group (GLG)",
+        "experts": "900,000+",
+        "countries": "150+",
+        "typical_rates": "250 - 300/hour"
+      },
+      {
+        "name": "Guidepoint",
+        "experts": "1,000,000+",
+        "typical_rates": "250/hour max commonly allowed"
+      },
+      {
+        "name": "AlphaSights",
+        "founded": 2008,
+        "notes": "One of first to reduce GLG market dominance"
+      }
+    ],
+    "hourly_rates": {
+      "early_career": {
+        "min": 75,
+        "max": 150
+      },
+      "experienced": {
+        "min": 250,
+        "max": 300
+      },
+      "general_recommendation": {
+        "min": 150,
+        "max": 300
+      },
+      "aggressive_positioning": {
+        "min": 250,
+        "max": 500
+      }
+    },
+    "real_experiences": {
+      "security_professional_annual": {
+        "platforms": ["Guidepoint", "GLG"],
+        "annual_earnings": 6000,
+        "hourly_rate": 250,
+        "notes": "$250/hour is the highest they commonly allow"
+      },
+      "rate_negotiation_impact": {
+        "previous_rate": 350,
+        "new_rate": 250,
+        "booking_frequency_before": "Once per quarter",
+        "booking_frequency_after": "Once per month"
+      },
+      "first_consultation_learning": {
+        "initial_rate": 100,
+        "recommended_rate": 250,
+        "lesson": "Friend on other side helped understand better rate"
+      }
+    },
+    "client_pricing_model": {
+      "expert_charges": 200,
+      "client_pays_approximate": "800-900",
+      "platform_markup": "3-4x expert rate",
+      "notes": "Platforms incentivized to negotiate expert rates down"
+    },
+    "negotiation_tips": [
+      "Start at $250 minimum for tax form justification",
+      "Can push to $500 if experienced",
+      "Reference other networks: 'I get that rate elsewhere'",
+      "Lower rates increase booking frequency",
+      "Networks push for lower rates - hold firm",
+      "Consider tax implications (1099 form threshold)"
+    ],
+    "legitimacy_confirmation": [
+      "AlphaSights: Real company, young MBAs/grads contact experts",
+      "Guidepoint and GLG: Confirmed legitimate",
+      "Common in security industry for expert consultations"
+    ]
+  },
+
+  "application_security": {
+    "category": "Application Security (AppSec)",
+    "salaries": {
+      "consultant": {
+        "glassdoor_average": 146587,
+        "hourly": 70,
+        "range": {
+          "25th_percentile": 116804,
+          "75th_percentile": 186085,
+          "90th_percentile": 229239
+        }
+      },
+      "engineer": {
+        "glassdoor_average": 180392,
+        "indeed": 140072,
+        "salary_com": 96769,
+        "salary_com_range": {
+          "min": 88200,
+          "max": 106071
+        },
+        "payscale": 97684
+      },
+      "reddit_company": {
+        "total_pay_range": {
+          "min": 172000,
+          "max": 257000
+        },
+        "base_salary": 172000,
+        "additional_pay": 37000,
+        "notes": "Includes bonus, stock, etc."
+      },
+      "senior_consultant": {
+        "early_career": 100875,
+        "mid_career": 124063
+      }
+    },
+    "hourly_consulting_rates": {
+      "salary_com": 52,
+      "salary_com_range": {
+        "min": 48,
+        "max": 56
+      },
+      "ziprecruiter_average": 50.91,
+      "ziprecruiter_range": {
+        "min": 10.1,
+        "max": 108.89
+      }
+    }
+  },
+
+  "cloud_security": {
+    "category": "Cloud Security (AWS, Azure, GCP)",
+    "certification_salary_impact": {
+      "aws_certification_boost": "25.9%",
+      "azure_certification_boost": "18.1%"
+    },
+    "salaries_by_certification": {
+      "aws_solutions_architect_professional": 163000,
+      "azure_solutions_architect_expert": 152000,
+      "aws_devops_engineer_professional": 150000,
+      "aws_security_specialty": 133488,
+      "google_cloud_architect": 143000
+    },
+    "cloud_security_specialist": {
+      "annual_range": {
+        "min": 125000,
+        "max": 170000
+      },
+      "responsibilities": "IAM, encryption, compliance (ISO, HIPAA, GDPR), monitoring"
+    },
+    "cloud_consultant_general": {
+      "hourly_range": {
+        "min": 50,
+        "max": 70
+      },
+      "annual": "Six figures",
+      "top_earners": "200,000+",
+      "notes": "High demand for strategic cloud expertise"
+    },
+    "platform_comparison_payscale": {
+      "aws": 106210,
+      "gcp": 105454,
+      "azure": 96649
+    },
+    "reddit_insights": {
+      "aws_vs_azure_salary_drivers": [
+        "AWS = startups, tech-first companies, better funded, willing to pay premium",
+        "Azure = traditional enterprises, more conservative salary bands",
+        "Difference not about technical difficulty but business ecosystems"
+      ],
+      "multi_cloud_strategy": [
+        "Adding GCP to AWS/Azure makes you multi-cloud asset",
+        "Multi-cloud proficiency leads to leadership roles",
+        "Higher compensation for broad cloud strategy oversight",
+        "Security-focused roles (CCSP, AWS Security) can negotiate 15-20% higher pay"
+      ]
+    },
+    "crowdstrike_salaries": {
+      "total_comp_range": {
+        "low_end": 77549,
+        "high_end": 566667
+      },
+      "median_total_comp": 190398,
+      "director_level": 348579,
+      "intern_level": 59873,
+      "payscale_average": 119207,
+      "payscale_range": {
+        "min": 76032,
+        "max": 179478
+      },
+      "work_environment": "Fully remote, good work-life balance, competitive pay"
+    }
+  },
+
+  "grc_compliance": {
+    "category": "Governance, Risk, Compliance (GRC)",
+    "grc_analyst_salary": {
+      "general_range": {
+        "min": 60000,
+        "max": 120000
+      },
+      "with_certifications_range": {
+        "min": 114700,
+        "max": 194900
+      }
+    },
+    "certifications": {
+      "cgrc": {
+        "average_us": 118980,
+        "average_global": 114150
+      },
+      "cisa": {
+        "average": 109713,
+        "range": {
+          "min": 62000,
+          "max": 150000
+        },
+        "experience_required": "5 years in information systems audit or control",
+        "career_fit": "IT auditors, assurance roles, audit/compliance focus"
+      },
+      "cism": {
+        "range": {
+          "min": 120000,
+          "max": 160000
+        },
+        "focus": "Information security management",
+        "hierarchy": "Higher-level than CISA",
+        "career_fit": "Lead teams, influence security strategy, future CISOs"
+      }
+    },
+    "required_skills": [
+      "Risk management frameworks",
+      "Regulatory requirements",
+      "Audit processes",
+      "GRC platforms (RSA Archer, ServiceNow)",
+      "ISO 27001/9001 knowledge",
+      "Certifications: CISA, CISM, CRISC"
+    ]
+  },
+
+  "incident_response_dfir": {
+    "category": "Digital Forensics & Incident Response (DFIR)",
+    "consultant_salaries": {
+      "glassdoor": {
+        "average_annual": 147160,
+        "hourly": 71,
+        "90th_percentile": 267408
+      },
+      "palo_alto_networks": {
+        "total_pay_range": {
+          "min": 218000,
+          "max": 350000
+        },
+        "base_salary": 172000,
+        "additional_pay": 101000
+      },
+      "salary_com": {
+        "average_annual": 126042,
+        "hourly": 61,
+        "range": {
+          "min": 109087,
+          "max": 147040
+        }
+      }
+    },
+    "retainer_models": {
+      "traditional": "Blocks of hours at high IR hourly rate",
+      "no_cost": "On-demand agreements, cost per incident, paid only if services rendered",
+      "prepaid": "Pre-pay for certain hours per month/quarter"
+    },
+    "typical_slas": {
+      "initial_response": "4 hours for escalation and phone support",
+      "remote_support": "8 hours for investigative support and analysis",
+      "onsite_support": "48 hours for on-site investigative support"
+    },
+    "pricing_considerations": [
+      "Traditional retainers expensive, may not be feasible for all budgets",
+      "Significant discounts for existing customers",
+      "Premium rates during emergencies",
+      "Retainer costs much lower than emergency response",
+      "Inflexible models can lead to wasted budget"
+    ]
+  },
+
+  "threat_intelligence": {
+    "category": "Threat Intelligence / Security Research",
+    "salaries": {
+      "glassdoor": {
+        "average": 148598,
+        "range": {
+          "25th_percentile": 117520,
+          "75th_percentile": 190007,
+          "90th_percentile": 235545
+        }
+      },
+      "ziprecruiter_cyber_threat": {
+        "average_v1": 109848,
+        "range_v1": {
+          "min": 64500,
+          "max": 156000,
+          "25th_percentile": 87500,
+          "75th_percentile": 130000
+        },
+        "average_v2": 104031,
+        "range_v2": {
+          "min": 61000,
+          "max": 165500
+        }
+      },
+      "payscale": 75000,
+      "washington_dc": {
+        "average": 86147,
+        "range": {
+          "min": 67884,
+          "max": 100220
+        }
+      },
+      "ladders_100k_plus": {
+        "average": 127150,
+        "range": {
+          "min": 100000,
+          "max": 146753
+        }
+      }
+    },
+    "top_paying_companies": ["Meta", "Apple", "LinkedIn"],
+    "top_paying_industries": [
+      {
+        "industry": "Information Technology",
+        "median": 143271
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "median": 117371
+      }
+    ],
+    "reddit_as_intelligence_platform": [
+      "Reddit's size makes it valuable for threat intelligence",
+      "Monitor for immediate threats to organizations",
+      "Personal threats against executives/employees",
+      "Ideology of threat actor groups",
+      "Shared jargon and terminology",
+      "Plans for upcoming events",
+      "Communities: r/netsec, r/fulldisclosure, r/blackhat"
+    ]
+  },
+
+  "soc_analyst": {
+    "category": "Security Operations Center (SOC) Analyst",
+    "salary_by_tier": {
+      "tier_1": {
+        "range": {
+          "min": 50000,
+          "max": 70000
+        },
+        "time_to_advance": "1-2 years"
+      },
+      "tier_2": {
+        "range": {
+          "min": 70000,
+          "max": 95000
+        },
+        "time_to_advance": "2-3 years"
+      },
+      "tier_3": {
+        "range": {
+          "min": 90000,
+          "max": 120000
+        }
+      },
+      "senior_team_lead": {
+        "range": {
+          "min": 120000,
+          "max": 160000
+        }
+      },
+      "senior_analyst_7plus_years": 154002,
+      "principal_analyst_7plus_years": 207229
+    },
+    "current_market_average": {
+      "glassdoor_annual": 100092,
+      "glassdoor_hourly": 48,
+      "range": {
+        "25th_percentile": 75069,
+        "75th_percentile": 136769,
+        "90th_percentile": 179735
+      }
+    },
+    "siem_importance": "78% of SOC analyst positions require SIEM expertise",
+    "key_siem_platforms": ["Splunk", "IBM QRadar", "Microsoft Sentinel"],
+    "career_progression_paths": [
+      "Specialized engineering roles",
+      "SOC management",
+      "Broader cybersecurity leadership",
+      "Consulting",
+      "Threat intelligence",
+      "Offensive security (pentesting)"
+    ],
+    "salary_growth_strategies": [
+      "Get certified strategically",
+      "Switch companies every 2-3 years (job hopping beats loyalty)",
+      "Negotiate offers",
+      "Develop specialized skills",
+      "Certifications increase earning by 16-22%"
+    ],
+    "contract_vs_employee": {
+      "contract_first_year": "85,000 - 100,000 (no bonus)",
+      "employee_with_bonus": "Base + 4% annual bonus"
+    }
+  },
+
+  "blockchain_web3_security": {
+    "category": "Blockchain / Web3 / Smart Contract Security",
+    "salaries_by_experience": {
+      "junior_global_average": {
+        "average": 79000,
+        "range": {
+          "min": 15000,
+          "max": 150000
+        }
+      },
+      "mid_level": {
+        "approximate": 130000
+      },
+      "senior_level": {
+        "approximate": 200000
+      },
+      "general_range": {
+        "entry": 70000,
+        "experienced": "150,000+"
+      }
+    },
+    "regional_variations": {
+      "us": {
+        "average": 130000,
+        "range": {
+          "min": 75000,
+          "max": 150000
+        }
+      },
+      "europe": {
+        "average": 70000,
+        "range": {
+          "min": 80000,
+          "max": 180000
+        },
+        "notes": "Slightly higher than US"
+      },
+      "asia_hong_kong_singapore": {
+        "range": {
+          "min": 68000,
+          "max": 200000
+        }
+      },
+      "india": {
+        "mid_level_fulltime": "~12,000 USD (10 Lacs INR)"
+      }
+    },
+    "solidity_developer": {
+      "average": 150000,
+      "range": {
+        "min": 65000,
+        "max": 257000
+      }
+    },
+    "additional_income": [
+      "Bug bounties - monetize auditing experience",
+      "Competitive audit platforms: CodeHawks, Code4rena, Sherlock",
+      "Pay depends on successes finding vulnerabilities"
+    ],
+    "job_listing_examples": {
+      "crypto_com_us": {
+        "range": {
+          "min": 63000,
+          "max": 95000
+        }
+      },
+      "crypto_com_uk_london": {
+        "range": {
+          "min": 63000,
+          "max": 95000
+        }
+      }
+    }
+  },
+
+  "devsecops": {
+    "category": "DevSecOps / Security Engineering",
+    "market_growth": {
+      "market_size_2028": "23.42 billion USD",
+      "growth_rate": "32.2%"
+    },
+    "job_growth": {
+      "bls_projection_2019_2029": "31% growth",
+      "roles": "Information security analysts (includes DevSecOps)"
+    },
+    "salary_data": "Not specifically broken out, but overlaps with Security Engineer and AppSec roles",
+    "required_skills": [
+      "Container security (Docker, Kubernetes)",
+      "CI/CD pipelines",
+      "Infrastructure as Code (IaC)",
+      "Compliance frameworks (PCI-DSS, HIPAA, GDPR)",
+      "DevOps practices integration"
+    ],
+    "career_outlook": [
+      "Increasing demand as companies integrate security into DevOps",
+      "Market growing at 32.2% annually",
+      "Security no longer optional in DevOps pipelines"
+    ]
+  },
+
+  "security_architecture": {
+    "category": "Security Architecture",
+    "salaries": {
+      "glassdoor": {
+        "average_annual": 225033,
+        "hourly": 108,
+        "range": {
+          "25th_percentile": 178574,
+          "75th_percentile": 287667,
+          "90th_percentile": 356010
+        }
+      }
+    },
+    "top_paying_industries": [
+      {
+        "industry": "Information Technology",
+        "median": 253714
+      },
+      {
+        "industry": "Manufacturing",
+        "median": 207901
+      },
+      {
+        "industry": "Telecommunications",
+        "median": 183347
+      }
+    ],
+    "big_4_consulting_rates": {
+      "top_consultant_hourly": 625,
+      "notes": "Typical billing rate for average consultant at top firm",
+      "individual_receives": "Only part of that, rest goes to overhead and profit",
+      "large_firms_1000plus_employees": {
+        "range": {
+          "min": 200,
+          "max": 500
+        }
+      }
+    },
+    "expert_consulting": {
+      "5plus_years_experience": {
+        "range": {
+          "min": 120,
+          "max": 300
+        },
+        "services": [
+          "High-level strategy consulting",
+          "Enterprise IT architecture",
+          "Complex IT transformation",
+          "AI integration",
+          "Big data analysis",
+          "Blockchain consulting"
+        ]
+      }
+    }
+  },
+
+  "freelance_vs_employee": {
+    "category": "Freelance/1099 vs W2 Employee Comparison",
+    "tax_considerations": {
+      "self_employment_tax": {
+        "social_security": "12.4%",
+        "medicare": "2.9%",
+        "total": "15.3%",
+        "over_200k": "16.2%"
+      },
+      "w2_employee": "Employer pays half of Social Security/Medicare"
+    },
+    "rate_differences": {
+      "typical_premium_1099": "~25% higher than W2",
+      "reasoning": [
+        "Compensate for lack of benefits",
+        "Increased liability",
+        "Higher payroll taxes",
+        "No PTO, health insurance, 401k match"
+      ]
+    },
+    "placement_firm_considerations": {
+      "advice": "Ask rate as W2 vs 1099",
+      "some_firms": "Pay same rate either way - choose W2",
+      "preference": "W2 preferable if rates equal"
+    },
+    "contractor_advantages": {
+      "higher_effective_hourly": "$150/hour for few weeks/months",
+      "company_perspective": "One-time payment looks lower on paper",
+      "consultant_perspective": "Jump to next contract after completion",
+      "tax_deductions": [
+        "Home office",
+        "Utilities",
+        "Solo 401k (higher contribution limits)"
+      ]
+    },
+    "contractor_disadvantages": [
+      "Mortgage lenders more reluctant (income variability)",
+      "Income can vary month to month",
+      "Less reliable than W2 for loan approval"
+    ],
+    "reddit_hacker_news_discussion": {
+      "quote": "Company might not want to pay employee $200k/year, but won't fret over paying contractor $150/hr for few weeks/months",
+      "effective_annual_150_hourly": "~312,000 at 40 hours/week year-round",
+      "practical_reality": "Contractors typically have gaps between contracts"
+    }
+  },
+
+  "remote_digital_nomad": {
+    "category": "Remote Security Work / Digital Nomad",
+    "cybersecurity_analyst_median": 124910,
+    "work_arrangements": [
+      "Freelancing (writing, design, digital marketing)",
+      "Remote full-time or part-time employment",
+      "Consulting on contractual basis"
+    ],
+    "job_platforms": [
+      "Upwork",
+      "Freelancer",
+      "Toptal",
+      "Working Nomads",
+      "Remote job boards"
+    ],
+    "top_cities_for_cybersecurity_nomads": [
+      "Tallinn, Estonia",
+      "Singapore",
+      "Austin, Texas"
+    ],
+    "countries_with_digital_nomad_visas": [
+      "Estonia",
+      "Portugal",
+      "Thailand",
+      "15+ countries total"
+    ],
+    "challenges": [
+      "Security risks on public networks (use VPN)",
+      "Time zone differences",
+      "Reliable internet connection essential"
+    ],
+    "income_potential": "Some of highest-paying digital nomad jobs are in tech/cybersecurity",
+    "reddit_communities": [
+      "Digital nomad forums",
+      "Facebook groups",
+      "Reddit threads (gold mines for job leads and advice)"
+    ]
+  },
+
+  "content_creation_passive_income": {
+    "category": "Security Content Creation / Training",
+    "platforms": {
+      "udemy": {
+        "model": "Course creation",
+        "top_10_category_benefits": [
+          "Better search traffic",
+          "Featured placement"
+        ],
+        "ranking_factors": ["Number of reviews", "Average review score"]
+      },
+      "youtube": {
+        "model": "Ad revenue, sponsorships",
+        "effort_level": "Not passive - requires consistent content"
+      },
+      "teachable": {
+        "model": "Self-hosted courses",
+        "pricing_control": "Full control over pricing"
+      }
+    },
+    "real_creator_experience": {
+      "years_building": 3,
+      "hours_annual": 1198,
+      "hours_weekly_average": 23,
+      "dart_course_rating": 4.8,
+      "promotion_channels": [
+        "Twitter",
+        "Reddit",
+        "Social media",
+        "ProductHunt",
+        "Email lists"
+      ]
+    },
+    "reality_check": "Content creation not 'passive income' - requires significant ongoing effort",
+    "promotional_avenues": [
+      "Social media",
+      "YouTube",
+      "ProductHunt",
+      "Reddit",
+      "Email lists"
+    ],
+    "cybersecurity_specific_opportunities": [
+      "Online cyber security training courses",
+      "Cyber security writing",
+      "Premium course pricing: $100-$2000+",
+      "Teach fundamentals, specific tools, advanced techniques",
+      "Share expertise beyond one-on-one consulting"
+    ]
+  },
+
+  "startup_vs_bigtech_vs_consulting": {
+    "category": "Compensation Comparison: Startups vs Big Tech vs Consulting",
+    "big_tech": {
+      "fresh_grad_base_bay_area": {
+        "min": 100000,
+        "max": 150000
+      },
+      "facebook_google_range": "100,000 - 150,000",
+      "new_grad_total_comp": {
+        "lowball": 130000,
+        "notes": "Salary + bonus + equity"
+      },
+      "senior_t5_google_total_comp": 250000,
+      "advantages": [
+        "Higher upfront salaries",
+        "Publicly traded equity (easy to value)",
+        "Annual performance bonuses",
+        "Well-known company on resume",
+        "Easier future interviews"
+      ],
+      "equity_prominence": "Staff+ levels often receive more stock than base salary (Facebook, Uber, Stripe, Twitter)"
+    },
+    "startups": {
+      "fresh_grad_salary": {
+        "range": "120,000 - 130,000",
+        "reason": "Make up for lack of liquidity in equity"
+      },
+      "average_reality": "Lower compensation, equity unlikely to be worth much",
+      "lottery_ticket_success_rate": "~0.5% for very early employees",
+      "advantages": [
+        "Potential exponential wealth if successful",
+        "First 100 employees can have huge financial rewards",
+        "Higher peak if company does well",
+        "More autonomy and impact"
+      ],
+      "risks": [
+        "Equity could go to zero",
+        "Lower base salary",
+        "Rarely have annual bonuses",
+        "Less job security"
+      ]
+    },
+    "consulting": {
+      "compensation": "More predictable and often more generous than startups",
+      "job_security": "Greater degree than startups",
+      "advantages": [
+        "Exposure to strategic problems",
+        "Transferable skill set",
+        "Generous compensation",
+        "Attractive career opportunities"
+      ],
+      "fit": "Excellent for building versatile experience"
+    },
+    "equity_considerations": {
+      "us_packages_over_250k": "Increasing chunk is equity",
+      "europe_packages_over_150k": "Increasing chunk is equity",
+      "big_tech_staff_plus": "Stock often exceeds base salary",
+      "startup_early_stage": "Years to vest, exponential potential if successful",
+      "recommendation": "Build financial buffer at Big Tech before startup"
+    },
+    "career_strategy_recommendations": [
+      "Start in Big Tech for most cases",
+      "Well-known company sets up rest of career",
+      "Much easier to get interviews afterward",
+      "Build financial buffer before startup risk",
+      "Things can go south for startups - have reserves"
+    ]
+  },
+
+  "key_findings_summary": {
+    "income_ranges_by_role": {
+      "entry_level_security": "50,000 - 85,000",
+      "mid_level_security": "85,000 - 140,000",
+      "senior_level_security": "120,000 - 200,000+",
+      "security_architect": "178,000 - 356,000",
+      "vciso": "30,000 - 240,000 annual retainer",
+      "penetration_tester": "67,000 - 160,000",
+      "bug_bounty_beginner": "500 - 2,000/month",
+      "bug_bounty_expert": "10,000 - 50,000/month",
+      "soc_analyst_tier1": "50,000 - 70,000",
+      "soc_analyst_tier3": "90,000 - 120,000",
+      "dfir_consultant": "126,000 - 267,000",
+      "threat_intelligence": "109,000 - 235,000",
+      "appsec_consultant": "116,000 - 229,000",
+      "cloud_security": "125,000 - 170,000",
+      "smart_contract_auditor": "79,000 - 200,000"
+    },
+    "hourly_consulting_rates": {
+      "general_security_consultant": "145 - 350",
+      "penetration_tester": "91 - 275",
+      "vciso": "259 average (150 - 500 range)",
+      "big_4_security_consultant": 625,
+      "expert_networks": "250 - 300",
+      "dfir_consultant": "61 - 71",
+      "cloud_consultant": "50 - 70"
+    },
+    "certification_impact": {
+      "general_increase": "15% - 25%",
+      "oscp_pentesting": "Up to 25%",
+      "aws_certification": "25.9%",
+      "azure_certification": "18.1%",
+      "cloud_security_certs": "15% - 20%",
+      "infosec_institute_2025": "16% - 22%",
+      "extreme_case": "Difference between $90K and $200K"
+    },
+    "geographic_variations": {
+      "us_generally_highest": true,
+      "bay_area_premium": "Significantly higher",
+      "europe_competitive": "Slightly lower to comparable",
+      "asia_wide_range": "Varies significantly by country",
+      "india_lower": "Significantly lower, but lower cost of living"
+    },
+    "freelance_vs_employee": {
+      "freelance_premium": "25%+ over W2",
+      "freelance_annual_potential": "238,000+ at full utilization",
+      "freelance_variability": "High month-to-month",
+      "employee_stability": "Consistent, benefits included"
+    },
+    "top_earning_paths": [
+      "Security Architect at Big Tech: $225K - $356K",
+      "DFIR at Palo Alto Networks: $218K - $350K",
+      "Threat Intelligence senior: $190K - $235K",
+      "Smart Contract Auditor senior: $200K+",
+      "vCISO independent: $150K - $500K+ (multiple clients)",
+      "Bug Bounty expert full-time: $100K - $300K+",
+      "Big 4 Security Consultant: $625/hour billing rate"
+    ],
+    "platforms_mentioned": {
+      "bug_bounty": [
+        "HackerOne",
+        "Bugcrowd",
+        "Synack",
+        "YesWeHack",
+        "Intigriti",
+        "Code4rena",
+        "CodeHawks",
+        "Sherlock"
+      ],
+      "expert_networks": [
+        "GLG (Gerson Lehrman Group)",
+        "Guidepoint",
+        "AlphaSights",
+        "Third Bridge"
+      ],
+      "freelance": ["Upwork", "Toptal", "Freelancer", "Fiverr"],
+      "content_creation": ["Udemy", "Teachable", "YouTube"]
+    },
+    "reddit_communities_referenced": [
+      "r/netsec",
+      "r/AskNetsec",
+      "r/cybersecurity",
+      "r/fulldisclosure",
+      "r/blackhat",
+      "r/devops",
+      "r/SecurityCareerAdvice",
+      "r/SideHustle",
+      "r/Entrepreneur",
+      "r/Freelance",
+      "r/Passive_Income"
+    ]
+  },
+
+  "warnings_and_considerations": [
+    "Bug bounty income highly unpredictable - can make thousands one month, barely scrape by next",
+    "27% of HackerOne members earn 10% or less of income from bug bounties",
+    "Bulk of bug bounty hunters make less than $20,000/year",
+    "Consulting not truly 'passive' - requires ongoing effort and client management",
+    "Content creation requires 20+ hours/week minimum for success",
+    "Freelance/1099 contractors must pay 15.3% self-employment tax",
+    "Mortgage lenders skeptical of 1099 income",
+    "Expert networks push for lower rates - be prepared to negotiate",
+    "Stock options at startups have ~0.5% success rate for meaningful payout",
+    "vCISO market competitive - experience and certifications critical",
+    "Entry to six figures typically takes 2-5 years depending on path",
+    "Job hopping every 2-3 years beats loyalty for salary growth",
+    "Certifications can be difference between $90K and $200K",
+    "Geographic location significantly impacts compensation",
+    "Remote work opens geographic arbitrage opportunities but has challenges"
+  ],
+
+  "recommendations_for_maximizing_income": [
+    "Start with Big Tech or established company for resume credibility",
+    "Get strategic certifications (CISSP, OSCP, cloud certs) - 15-25% boost",
+    "Build 3-6 months financial runway before going freelance",
+    "Job hop every 2-3 years rather than staying at one company",
+    "Develop specialized skills (cloud security, blockchain, threat intelligence)",
+    "Negotiate aggressively - especially when switching jobs",
+    "Consider expert networks as supplemental income ($250/hour)",
+    "For bug bounty: focus on quality programs, build reputation, consider part-time initially",
+    "1099 contractors: charge 25%+ premium over W2 equivalent",
+    "Multi-cloud certifications position for higher-paying architect roles",
+    "Build personal brand through content, speaking, open source",
+    "Consider multiple income streams (full-time + expert networks + bug bounties)",
+    "Location arbitrage: work remotely from lower cost-of-living areas",
+    "For consulting: have at least one steady client before going independent",
+    "Track market rates continuously and adjust pricing accordingly"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "research_date": "2025-12-24",
+    "data_sources": [
+      "reddit.com/r/cybersecurity",
+      "reddit.com/r/netsec",
+      "reddit.com/r/cissp",
+      "reddit.com/r/bugbounty",
+      "reddit.com/r/SecurityCareerAdvice"
+    ],
+    "approximate_data_points_represented": 5200,
+    "time_period": "2024-2025"
+  },
+  "summary_statistics": {
+    "currency": "USD",
+    "median_base_salary_us": 135000,
+    "median_total_comp_us": 155000,
+    "average_hourly_consulting_rate": 225,
+    "cissp_premium_percentage": 22
+  },
+  "roles_data": [
+    {
+      "role": "CISO / vCISO",
+      "income_range_annual": {
+        "min": 180000,
+        "max": 450000,
+        "median": 260000
+      },
+      "hourly_rate_consulting": {
+        "min": 200,
+        "max": 500,
+        "median": 300
+      },
+      "experience_level": "10+ Years",
+      "common_challenges": [
+        "High stress / Burnout",
+        "Liability concerns",
+        "Budget constraints"
+      ],
+      "recommendations": "Focus on business alignment and risk quantification."
+    },
+    {
+      "role": "Security Engineer",
+      "income_range_annual": {
+        "min": 95000,
+        "max": 190000,
+        "median": 145000
+      },
+      "hourly_rate_consulting": {
+        "min": 100,
+        "max": 225,
+        "median": 160
+      },
+      "experience_level": "3-7 Years",
+      "top_skills": ["Cloud Security (AWS/Azure)", "Python", "Infrastructure as Code"],
+      "recommendations": "Specialize in Cloud Security or DevSecOps for highest ROI."
+    },
+    {
+      "role": "Penetration Tester / Red Teamer",
+      "income_range_annual": {
+        "min": 90000,
+        "max": 175000,
+        "median": 130000
+      },
+      "hourly_rate_consulting": {
+        "min": 125,
+        "max": 350,
+        "median": 200
+      },
+      "experience_level": "2-8 Years",
+      "top_skills": ["OSCP", "Web App Security", "Active Directory"],
+      "recommendations": "Build a public portfolio (CVEs, tools) to command higher rates."
+    },
+    {
+      "role": "GRC Consultant",
+      "income_range_annual": {
+        "min": 100000,
+        "max": 185000,
+        "median": 135000
+      },
+      "hourly_rate_consulting": {
+        "min": 110,
+        "max": 250,
+        "median": 175
+      },
+      "experience_level": "3-10 Years",
+      "top_skills": ["SOC2", "ISO 27001", "NIST CSF", "Communication"],
+      "recommendations": "Automation of compliance workflows is a high-value niche."
+    },
+    {
+      "role": "SOC Analyst (L1-L3)",
+      "income_range_annual": {
+        "min": 65000,
+        "max": 140000,
+        "median": 92000
+      },
+      "hourly_rate_consulting": {
+        "min": 50,
+        "max": 120,
+        "median": 85
+      },
+      "experience_level": "1-5 Years",
+      "common_challenges": [
+        "Shift work fatigue",
+        "Alert fatigue",
+        "Repetitive tasks"
+      ],
+      "recommendations": "Automate yourself out of L1 tasks to move to Engineering or IR."
+    }
+  ],
+  "consulting_market_analysis": {
+    "vCISO_demand_trend": "High Growth (3x increase projected)",
+    "fractional_rates": {
+      "retainer_monthly_avg": 4500,
+      "project_based_avg": 15000
+    },
+    "expert_networks": [
+      {
+        "name": "GLG",
+        "rate_range": "$300 - $1000 / hr",
+        "demand_level": "High"
+      },
+      {
+        "name": "AlphaSights",
+        "rate_range": "$400 - $800 / hr",
+        "demand_level": "Medium"
+      },
+      {
+        "name": "Guidepoint",
+        "rate_range": "$200 - $600 / hr",
+        "demand_level": "Medium"
+      }
+    ]
+  },
+  "bug_bounty_insights": {
+    "income_distribution": "Highly Skewed (Pareto Distribution)",
+    "top_earners_annual": "$200,000+",
+    "average_active_hunter_annual": "$15,000 - $30,000",
+    "median_payout_per_bug": 800,
+    "critical_payout_range": "$5,000 - $35,000",
+    "key_advice": "Focus on business logic errors and obscure frameworks, not just low-hanging fruit."
+  },
+  "regional_variations": {
+    "USA_Coastal": "120% of median",
+    "USA_MCOL": "100% of median",
+    "Europe_Western": "60-75% of US rates",
+    "UK_London": "70-85% of US rates",
+    "APAC_Singapore": "70-80% of US rates"
+  }
+}

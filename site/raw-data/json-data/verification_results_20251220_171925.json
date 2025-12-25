@@ -1,0 +1,452 @@
+[
+  {
+    "platform_id": 151,
+    "platform_name": "Ping Identity",
+    "domain": "pingidentity.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR",
+    "verified_at": "2025-12-20T16:28:21.179508"
+  },
+  {
+    "platform_id": 152,
+    "platform_name": "Proofpoint",
+    "domain": "proofpoint.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:30:05.854456"
+  },
+  {
+    "platform_id": 153,
+    "platform_name": "Qualys",
+    "domain": "qualys.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:31:47.224307"
+  },
+  {
+    "platform_id": 154,
+    "platform_name": "Recorded Future",
+    "domain": "recordedfuture.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:33:36.405986"
+  },
+  {
+    "platform_id": 155,
+    "platform_name": "RiskIQ",
+    "domain": "microsoft.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:35:29.827137"
+  },
+  {
+    "platform_id": 156,
+    "platform_name": "SailPoint",
+    "domain": "sailpoint.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR: Command '['gemini', '-y', 'Run the verification script at  for platform \"SailPoint\" and return the JSON result']' timed out after 120 seconds",
+    "verified_at": "2025-12-20T16:38:23.324640"
+  },
+  {
+    "platform_id": 157,
+    "platform_name": "Securonix",
+    "domain": "securonix.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR: Command '['gemini', '-y', 'Run the verification script at  for platform \"Securonix\" and return the JSON result']' timed out after 120 seconds",
+    "verified_at": "2025-12-20T16:41:35.559078"
+  },
+  {
+    "platform_id": 158,
+    "platform_name": "Sift",
+    "domain": "sift.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR: Command '['gemini', '-y', 'Run the verification script at  for platform \"Sift\" and return the JSON result']' timed out after 120 seconds",
+    "verified_at": "2025-12-20T16:44:54.228509"
+  },
+  {
+    "platform_id": 159,
+    "platform_name": "SonicWall",
+    "domain": "sonicwall.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR: Command '['gemini', '-y', 'Run the verification script at  for platform \"SonicWall\" and return the JSON result']' timed out after 120 seconds",
+    "verified_at": "2025-12-20T16:48:06.559349"
+  },
+  {
+    "platform_id": 160,
+    "platform_name": "Splunk",
+    "domain": "splunk.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:50:59.103958"
+  },
+  {
+    "platform_id": 161,
+    "platform_name": "Sumo Logic",
+    "domain": "sumologic.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:53:02.506246"
+  },
+  {
+    "platform_id": 162,
+    "platform_name": "Symantec",
+    "domain": "broadcom.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:54:06.630101"
+  },
+  {
+    "platform_id": 163,
+    "platform_name": "Trend Micro",
+    "domain": "trendmicro.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:54:53.823086"
+  },
+  {
+    "platform_id": 164,
+    "platform_name": "Varonis",
+    "domain": "varonis.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:55:41.252429"
+  },
+  {
+    "platform_id": 165,
+    "platform_name": "Veracode",
+    "domain": "veracode.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR",
+    "verified_at": "2025-12-20T16:56:25.245821"
+  },
+  {
+    "platform_id": 166,
+    "platform_name": "VMware",
+    "domain": "vmware.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR",
+    "verified_at": "2025-12-20T16:57:18.099435"
+  },
+  {
+    "platform_id": 167,
+    "platform_name": "WatchGuard",
+    "domain": "watchguard.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:57:53.656953"
+  },
+  {
+    "platform_id": 168,
+    "platform_name": "WhiteHat Security",
+    "domain": "synopsys.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:58:43.048570"
+  },
+  {
+    "platform_id": 169,
+    "platform_name": "avalonred",
+    "domain": "avalonred.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:59:15.529869"
+  },
+  {
+    "platform_id": 170,
+    "platform_name": "candourenergy",
+    "domain": "candour.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T16:59:54.913695"
+  },
+  {
+    "platform_id": 171,
+    "platform_name": "Duco Experts",
+    "domain": "ducoexperts.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:00:46.816008"
+  },
+  {
+    "platform_id": 172,
+    "platform_name": "Expert Answers",
+    "domain": "maven.co",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:01:26.315298"
+  },
+  {
+    "platform_id": 173,
+    "platform_name": "forum",
+    "domain": "byforum.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:02:12.720359"
+  },
+  {
+    "platform_id": 174,
+    "platform_name": "grapedata",
+    "domain": "grape-data.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:02:51.568685"
+  },
+  {
+    "platform_id": 175,
+    "platform_name": "Dynata (formerly Research Now SSI)",
+    "domain": "dynata.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:03:53.968249"
+  },
+  {
+    "platform_id": 176,
+    "platform_name": "Acuity Knowledge Partners",
+    "domain": "acuitykp.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:04:56.855017"
+  },
+  {
+    "platform_id": 177,
+    "platform_name": "alacritagroup",
+    "domain": "alacrita.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:05:38.960145"
+  },
+  {
+    "platform_id": 178,
+    "platform_name": "asiaceonetwork",
+    "domain": "asiaceonet.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:06:17.292452"
+  },
+  {
+    "platform_id": 179,
+    "platform_name": "axiom",
+    "domain": "axiomlaw.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR",
+    "verified_at": "2025-12-20T17:06:46.732596"
+  },
+  {
+    "platform_id": 180,
+    "platform_name": "bainability",
+    "domain": "glg.it",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:07:31.107908"
+  },
+  {
+    "platform_id": 181,
+    "platform_name": "businessconnectchina",
+    "domain": "bcc.global",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:08:07.735706"
+  },
+  {
+    "platform_id": 182,
+    "platform_name": "cicexpertnetwork",
+    "domain": "cninsights.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:08:42.130871"
+  },
+  {
+    "platform_id": 183,
+    "platform_name": "Cognolink",
+    "domain": "thirdbridge.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:09:18.774026"
+  },
+  {
+    "platform_id": 184,
+    "platform_name": "Duco",
+    "domain": "du.co",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:10:01.849630"
+  },
+  {
+    "platform_id": 185,
+    "platform_name": "expertanswers",
+    "domain": "expertanswers.co.uk",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:10:33.866934"
+  },
+  {
+    "platform_id": 186,
+    "platform_name": "highbeamglobal",
+    "domain": "hbgknowledge.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:11:13.530139"
+  },
+  {
+    "platform_id": 187,
+    "platform_name": "SSI Strategy",
+    "domain": "ssistrategy.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR",
+    "verified_at": "2025-12-20T17:11:38.770463"
+  },
+  {
+    "platform_id": 188,
+    "platform_name": "focalfact",
+    "domain": "focalfact.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:12:10.314753"
+  },
+  {
+    "platform_id": 189,
+    "platform_name": "forasna",
+    "domain": "forasna.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:12:49.907977"
+  },
+  {
+    "platform_id": 190,
+    "platform_name": "forensisgroup",
+    "domain": "forensisgroup.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:13:24.268710"
+  },
+  {
+    "platform_id": 191,
+    "platform_name": "ForensisGroup",
+    "domain": "forensisgroup.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:13:57.488288"
+  },
+  {
+    "platform_id": 192,
+    "platform_name": "fractionalciso",
+    "domain": "fractionalciso.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:14:40.306536"
+  },
+  {
+    "platform_id": 193,
+    "platform_name": "gigx",
+    "domain": "gigx.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:15:20.327903"
+  },
+  {
+    "platform_id": 194,
+    "platform_name": "hiddenlayer",
+    "domain": "hiddenlayer.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:16:01.208095"
+  },
+  {
+    "platform_id": 195,
+    "platform_name": "hirefy",
+    "domain": "hirefy.me",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:16:38.080943"
+  },
+  {
+    "platform_id": 196,
+    "platform_name": "holisticai",
+    "domain": "holisticai.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:17:14.010353"
+  },
+  {
+    "platform_id": 197,
+    "platform_name": "iansresearch",
+    "domain": "iansresearch.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:17:54.836604"
+  },
+  {
+    "platform_id": 198,
+    "platform_name": "IBM",
+    "domain": "ibm.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:18:23.296520"
+  },
+  {
+    "platform_id": 199,
+    "platform_name": "ibm",
+    "domain": "ibm.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "ERROR",
+    "verified_at": "2025-12-20T17:18:54.829526"
+  },
+  {
+    "platform_id": 200,
+    "platform_name": "industrialdefender",
+    "domain": "industrialdefender.com",
+    "registration_status": "PENDING",
+    "codex_result": "PASS",
+    "gemini_result": "PASS",
+    "verified_at": "2025-12-20T17:19:25.254630"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "timestamp": "20251220_212442",
+  "total_emails": 5,
+  "account_used": "ahmed ()",
+  "verifications": [
+    {
+      "email": "anamika.rawat@mavensworld.com",
+      "error": "Gemini command failed: YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-23-22-462Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h10m58s.]\nAn unexpected critical error occurred:[object Object]\n"
+    },
+    {
+      "email": "cperna@fortinet.com",
+      "error": "Gemini command failed: YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-23-39-636Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h10m41s.]\nAn unexpected critical error occurred:[object Object]\n"
+    },
+    {
+      "email": "hello@ducoexperts.com",
+      "error": "Gemini command failed: YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-24-00-503Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h10m20s.]\nAn unexpected critical error occurred:[object Object]\n"
+    },
+    {
+      "email": "lucas@rivialsecurity.com",
+      "error": "Gemini command failed: YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-24-21-375Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h9m59s.]\nAn unexpected critical error occurred:[object Object]\n"
+    },
+    {
+      "email": "randy@rivialsecurity.com",
+      "error": "Gemini command failed: YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-24-42-307Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h9m38s.]\nAn unexpected critical error occurred:[object Object]\n"
+    }
+  ]
+}

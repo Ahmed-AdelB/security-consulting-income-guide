@@ -1,0 +1,14 @@
+{                                                                               
+  "platform": "VMware",                                                         
+  "platform_id": 166,                                                           
+  "status": "PASS",                                                             
+  "domain": "vmware.com",                                                       
+  "fit_score": 60,                                                              
+  "workflow_stage": "AWAITING_RESPONSE",                                        
+  "registration_status": "PENDING",                                             
+  "platform_emails_count": 4,                                                   
+  "email_campaigns_count": 4,                                                   
+  "errors": [],                                                                 
+  "warnings": [],                                                               
+  "verified_at": "2025-12-20T16:57:11.510241"                                   
+}

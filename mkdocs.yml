@@ -1,0 +1,108 @@
+site_name: Security Consulting Income Guide
+site_url: https://ahmed-adelb.github.io/security-consulting-income-guide/
+site_description: The most comprehensive guide to building a $50K-$100K/month cybersecurity consulting practice
+site_author: Security Consulting Guide
+
+repo_url: https://github.com/Ahmed-AdelB/security-consulting-income-guide
+repo_name: Ahmed-AdelB/security-consulting-income-guide
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ahmed-AdelB
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+
+nav:
+  - Home: index.md
+  - Platforms:
+      - Overview: platforms/index.md
+      - Expert Networks: platforms/expert-networks/
+      - Bug Bounty: platforms/bug-bounty/
+      - vCISO: platforms/vciso/
+      - Expert Witness: platforms/expert-witness/
+      - Web3 Audit: platforms/web3-audit/
+  - Security Domains: domains/
+  - Industries: industries/
+  - Income Streams: income-streams/
+  - Getting Started: getting-started/
+  - Market Research:
+      - Overview: market-research/index.md
+      - Salary Benchmarks: market-research/salary-benchmarks/
+      - Platform Reviews: market-research/platform-reviews/
+      - Community Insights: market-research/community-insights/
+      - Rate Guides: market-research/rate-guides/
+  - Raw Data: raw-data/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2025 Security Consulting Income Guide
