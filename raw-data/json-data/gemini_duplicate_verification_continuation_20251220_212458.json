@@ -1,0 +1,206 @@
+[
+  {
+    "domain": "holisticai.com",
+    "platform_count": 2,
+    "platforms": [
+      {
+        "id": 196,
+        "name": "holisticai",
+        "domain": "holisticai.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 258,
+        "name": "Holistic AI",
+        "domain": "holisticai.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": null,
+    "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-23-19-260Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h11m1s.]\nAn unexpected critical error occurred:[object Object]\n",
+    "timestamp": "2025-12-20T21:23:19.400615",
+    "status": "ERROR"
+  },
+  {
+    "domain": "itbutler.sa",
+    "platform_count": 2,
+    "platforms": [
+      {
+        "id": 202,
+        "name": "itbutler",
+        "domain": "itbutler.sa",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 259,
+        "name": "IT Butler",
+        "domain": "itbutler.sa",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": null,
+    "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-23-38-386Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h10m42s.]\nAn unexpected critical error occurred:[object Object]\n",
+    "timestamp": "2025-12-20T21:23:38.518186",
+    "status": "ERROR"
+  },
+  {
+    "domain": "jumpsec.com",
+    "platform_count": 2,
+    "platforms": [
+      {
+        "id": 203,
+        "name": "jumpsec",
+        "domain": "jumpsec.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 261,
+        "name": "Jumpsec",
+        "domain": "jumpsec.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": null,
+    "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-24-00-695Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h10m20s.]\nAn unexpected critical error occurred:[object Object]\n",
+    "timestamp": "2025-12-20T21:24:00.857078",
+    "status": "ERROR"
+  },
+  {
+    "domain": "jurispro.com",
+    "platform_count": 2,
+    "platforms": [
+      {
+        "id": 86,
+        "name": "jurispro",
+        "domain": "JurisPro.com",
+        "category": "Expert Network",
+        "priority": 4,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 292,
+        "name": "JurisPro",
+        "domain": "jurispro.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "COMPLETE",
+        "workflow_stage": "ACTIVE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": null,
+    "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-24-23-915Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h9m57s.]\nAn unexpected critical error occurred:[object Object]\n",
+    "timestamp": "2025-12-20T21:24:24.080566",
+    "status": "ERROR"
+  },
+  {
+    "domain": "mandiant.com",
+    "platform_count": 2,
+    "platforms": [
+      {
+        "id": 135,
+        "name": "FireEye",
+        "domain": "mandiant.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 204,
+        "name": "Mandiant",
+        "domain": "mandiant.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": null,
+    "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-24-44-971Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h9m36s.]\nAn unexpected critical error occurred:[object Object]\n",
+    "timestamp": "2025-12-20T21:24:45.039420",
+    "status": "ERROR"
+  },
+  {
+    "domain": "maven.co",
+    "platform_count": 2,
+    "platforms": [
+      {
+        "id": 172,
+        "name": "Expert Answers",
+        "domain": "maven.co",
+        "category": "Consulting",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 297,
+        "name": "Maven",
+        "domain": "maven.co",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "COMPLETE",
+        "workflow_stage": "ACTIVE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": null,
+    "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-24-58-624Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h9m22s.]\nAn unexpected critical error occurred:[object Object]\n",
+    "timestamp": "2025-12-20T21:24:58.681362",
+    "status": "ERROR"
+  }
+]

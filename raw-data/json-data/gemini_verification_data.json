@@ -1,0 +1,2748 @@
+{
+  "summary": {
+    "total_platforms": 332,
+    "complete_platforms": 16,
+    "active_platforms": 16
+  },
+  "issue_1_complete_with_zero_emails": [
+    {
+      "id": 1,
+      "name": "Topcoder",
+      "domain": "topcoder.com",
+      "email_count": 4,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 2,
+      "name": "Toptal",
+      "domain": "toptal.com",
+      "email_count": 3,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 283,
+      "name": "Third Bridge",
+      "domain": "thirdbridge.com",
+      "email_count": 1,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 289,
+      "name": "AlphaSights",
+      "domain": "alphasights.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 290,
+      "name": "GLG",
+      "domain": "glgroup.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 291,
+      "name": "Expert Institute",
+      "domain": "expertinstitute.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 292,
+      "name": "JurisPro",
+      "domain": "jurispro.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 293,
+      "name": "Intel 471",
+      "domain": "intel471.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 296,
+      "name": "Arbolus",
+      "domain": "arbolus.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 297,
+      "name": "Maven",
+      "domain": "maven.co",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 299,
+      "name": "SideChannel",
+      "domain": "sidechannel.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 300,
+      "name": "OffSec",
+      "domain": "offsec.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 306,
+      "name": "Glgroup",
+      "domain": "glgroup.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 361,
+      "name": "Dialectica",
+      "domain": "dialecticanet.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 362,
+      "name": "Prolific",
+      "domain": "prolific.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    },
+    {
+      "id": 363,
+      "name": "Remotebase",
+      "domain": "remotebase.com",
+      "email_count": 0,
+      "workflow_stage": "ACTIVE",
+      "registration_status": "COMPLETE"
+    }
+  ],
+  "issue_2_duplicate_names": [
+    {
+      "normalized_name": "bainability",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 180,
+          "name": "bainability",
+          "domain": "glg.it",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 237,
+          "name": "Bainability",
+          "domain": "bainability.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "certik",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 11,
+          "name": "CertiK",
+          "domain": "certik.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 11
+        },
+        {
+          "id": 244,
+          "name": "Certik",
+          "domain": "certik.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "cyberknight",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 75,
+          "name": "cyberknight",
+          "domain": "cyberknight.tech",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 247,
+          "name": "CyberKnight",
+          "domain": "cyberknight.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "focalfact",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 188,
+          "name": "focalfact",
+          "domain": "focalfact.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 250,
+          "name": "Focalfact",
+          "domain": "focalfact.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "forasna",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 189,
+          "name": "forasna",
+          "domain": "forasna.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 251,
+          "name": "Forasna",
+          "domain": "forasna.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "forensisgroup",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 190,
+          "name": "forensisgroup",
+          "domain": "forensisgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 4
+        },
+        {
+          "id": 191,
+          "name": "ForensisGroup",
+          "domain": "forensisgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        }
+      ]
+    },
+    {
+      "normalized_name": "fortifydata",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 28,
+          "name": "FortifyData",
+          "domain": "fortifydata.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 5
+        },
+        {
+          "id": 346,
+          "name": "Fortifydata",
+          "domain": "fortifydata.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "frsecure",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 78,
+          "name": "frsecure",
+          "domain": "frsecure.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 249,
+          "name": "FRSecure",
+          "domain": "frsecure.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "gigx",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 193,
+          "name": "gigx",
+          "domain": "gigx.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 254,
+          "name": "GigX",
+          "domain": "gigx.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "hiddenlayer",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 194,
+          "name": "hiddenlayer",
+          "domain": "hiddenlayer.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 256,
+          "name": "HiddenLayer",
+          "domain": "hiddenlayer.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "hirefy",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 195,
+          "name": "hirefy",
+          "domain": "hirefy.me",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 257,
+          "name": "Hirefy",
+          "domain": "hirefy.io",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "ibm",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 198,
+          "name": "IBM",
+          "domain": "ibm.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 199,
+          "name": "ibm",
+          "domain": "ibm.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 2
+        }
+      ]
+    },
+    {
+      "normalized_name": "industrialdefender",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 200,
+          "name": "industrialdefender",
+          "domain": "industrialdefender.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 348,
+          "name": "Industrialdefender",
+          "domain": "industrialdefender.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "jumpsec",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 203,
+          "name": "jumpsec",
+          "domain": "jumpsec.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 4
+        },
+        {
+          "id": 261,
+          "name": "Jumpsec",
+          "domain": "jumpsec.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "jurispro",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 86,
+          "name": "jurispro",
+          "domain": "JurisPro.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 292,
+          "name": "JurisPro",
+          "domain": "jurispro.com",
+          "registration_status": "COMPLETE",
+          "workflow_stage": "ACTIVE",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "mavensglobal",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 91,
+          "name": "mavensglobal",
+          "domain": "mavensglobal.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 5
+        },
+        {
+          "id": 349,
+          "name": "Mavensglobal",
+          "domain": "mavensglobal.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "mavensworld",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 205,
+          "name": "mavensworld",
+          "domain": "mavensworld.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 350,
+          "name": "Mavensworld",
+          "domain": "mavensworld.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "netenrich",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 36,
+          "name": "Netenrich",
+          "domain": "netenrich.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 6
+        },
+        {
+          "id": 267,
+          "name": "NetEnrich",
+          "domain": "netenrich.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "newtonx",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 210,
+          "name": "newtonx",
+          "domain": "newtonx.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 303,
+          "name": "NewtonX",
+          "domain": "newtonx.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "oliv",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 212,
+          "name": "oliv",
+          "domain": "oliv.ai",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 269,
+          "name": "Oliv",
+          "domain": "oliv.ae",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "onfrontiers",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 213,
+          "name": "onfrontiers",
+          "domain": "onfrontiers.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 7
+        },
+        {
+          "id": 270,
+          "name": "OnFrontiers",
+          "domain": "onfrontiers.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "purplesec",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 214,
+          "name": "purplesec",
+          "domain": "purplesec.us",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 271,
+          "name": "PurpleSec",
+          "domain": "purplesec.us",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "realciso",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 215,
+          "name": "realciso",
+          "domain": "realciso.io",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 304,
+          "name": "RealCISO",
+          "domain": "realciso.io",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "riskigy",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 216,
+          "name": "riskigy",
+          "domain": "riskigy.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 273,
+          "name": "Riskigy",
+          "domain": "riskigy.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "securitygen",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 105,
+          "name": "securitygen",
+          "domain": "secgen.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 2
+        },
+        {
+          "id": 232,
+          "name": "SecurityGen",
+          "domain": "security-gen.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "normalized_name": "spreckley",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 109,
+          "name": "spreckley",
+          "domain": "spreckley.co.uk",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 352,
+          "name": "Spreckley",
+          "domain": "spreckley.co.uk",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "techcxo",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 224,
+          "name": "techcxo",
+          "domain": "techcxo.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 356,
+          "name": "TechCXO",
+          "domain": "techcxo.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "tegus",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 53,
+          "name": "Tegus",
+          "domain": "tegus.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 7
+        },
+        {
+          "id": 226,
+          "name": "tegus",
+          "domain": "tegus.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        }
+      ]
+    },
+    {
+      "normalized_name": "tenable",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 41,
+          "name": "Tenable",
+          "domain": "tenable.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 227,
+          "name": "tenable",
+          "domain": "tenable.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        }
+      ]
+    },
+    {
+      "normalized_name": "travasecurity",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 230,
+          "name": "travasecurity",
+          "domain": "travasecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 353,
+          "name": "Travasecurity",
+          "domain": "travasecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "trustedsec",
+      "variant_count": 3,
+      "variants": [
+        {
+          "id": 44,
+          "name": "trustedsec",
+          "domain": "trustedsec.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 285,
+          "name": "TrustedSec",
+          "domain": "trustedsec.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        },
+        {
+          "id": 354,
+          "name": "Trustedsec",
+          "domain": "trustedsec.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "vcisocatalyst",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 46,
+          "name": "vcisocatalyst",
+          "domain": "vcisocatalyst.org",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 2
+        },
+        {
+          "id": 355,
+          "name": "Vcisocatalyst",
+          "domain": "vcisocatalyst.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "normalized_name": "wuzzuf",
+      "variant_count": 2,
+      "variants": [
+        {
+          "id": 50,
+          "name": "wuzzuf",
+          "domain": "wuzzuf.net",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 286,
+          "name": "Wuzzuf",
+          "domain": "wuzzuf.net",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    }
+  ],
+  "issue_3_duplicate_domains": [
+    {
+      "domain": "akamai.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 30,
+          "name": "Guardicore",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 7
+        },
+        {
+          "id": 236,
+          "name": "Akamai",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "armis.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 67,
+          "name": "armis",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 96,
+          "name": "otorio",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        }
+      ]
+    },
+    {
+      "domain": "asiaceonet.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 64,
+          "name": "Asia CEO Network",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 178,
+          "name": "asiaceonetwork",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        }
+      ]
+    },
+    {
+      "domain": "broadcom.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 162,
+          "name": "Symantec",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 8
+        },
+        {
+          "id": 238,
+          "name": "Broadcom",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "byforum.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 173,
+          "name": "forum",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 239,
+          "name": "By Forum",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "candour.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 59,
+          "name": "Candour Energy",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 170,
+          "name": "candourenergy",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 242,
+          "name": "Candour",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "certik.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 11,
+          "name": "CertiK",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 11
+        },
+        {
+          "id": 244,
+          "name": "Certik",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "cninsights.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 61,
+          "name": "CIC Expert Network",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 7
+        },
+        {
+          "id": 182,
+          "name": "cicexpertnetwork",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 240,
+          "name": "CN Insights",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "code4rena.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 124,
+          "name": "Code4rena",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 357,
+          "name": "Code4rena/Zellic",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "dynata.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 58,
+          "name": "SSI",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        },
+        {
+          "id": 175,
+          "name": "Dynata (formerly Research Now SSI)",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        }
+      ]
+    },
+    {
+      "domain": "focalfact.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 188,
+          "name": "focalfact",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 250,
+          "name": "Focalfact",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "forasna.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 189,
+          "name": "forasna",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 251,
+          "name": "Forasna",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "forensisgroup.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 190,
+          "name": "forensisgroup",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 4
+        },
+        {
+          "id": 191,
+          "name": "ForensisGroup",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 252,
+          "name": "Forensic Group",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "fortifydata.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 28,
+          "name": "FortifyData",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 5
+        },
+        {
+          "id": 346,
+          "name": "Fortifydata",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "fortinet.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 137,
+          "name": "Fortinet",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 142,
+          "name": "Lacework",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        }
+      ]
+    },
+    {
+      "domain": "fractionalciso.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 192,
+          "name": "fractionalciso",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 253,
+          "name": "Fractional CISO",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "frsecure.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 78,
+          "name": "frsecure",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 249,
+          "name": "FRSecure",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "gigx.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 193,
+          "name": "gigx",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 254,
+          "name": "GigX",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "glgroup.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 69,
+          "name": "chenpr",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 8
+        },
+        {
+          "id": 290,
+          "name": "GLG",
+          "registration_status": "COMPLETE",
+          "workflow_stage": "ACTIVE",
+          "email_count": 0
+        },
+        {
+          "id": 306,
+          "name": "Glgroup",
+          "registration_status": "COMPLETE",
+          "workflow_stage": "ACTIVE",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "helpag.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 82,
+          "name": "helpag",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 235,
+          "name": "Help AG",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "hiddenlayer.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 194,
+          "name": "hiddenlayer",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 256,
+          "name": "HiddenLayer",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "holisticai.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 196,
+          "name": "holisticai",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 4
+        },
+        {
+          "id": 258,
+          "name": "Holistic AI",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "ibm.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 198,
+          "name": "IBM",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 199,
+          "name": "ibm",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 2
+        },
+        {
+          "id": 359,
+          "name": "IBM Security",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "industrialdefender.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 200,
+          "name": "industrialdefender",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 260,
+          "name": "Industrial Defender",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        },
+        {
+          "id": 348,
+          "name": "Industrialdefender",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "itbutler.sa",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 202,
+          "name": "itbutler",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 259,
+          "name": "IT Butler",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 2
+        }
+      ]
+    },
+    {
+      "domain": "jumpsec.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 203,
+          "name": "jumpsec",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 4
+        },
+        {
+          "id": 261,
+          "name": "Jumpsec",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "mandiant.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 135,
+          "name": "FireEye",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 9
+        },
+        {
+          "id": 204,
+          "name": "Mandiant",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        }
+      ]
+    },
+    {
+      "domain": "maven.co",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 172,
+          "name": "Expert Answers",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 297,
+          "name": "Maven",
+          "registration_status": "COMPLETE",
+          "workflow_stage": "ACTIVE",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "mavensglobal.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 91,
+          "name": "mavensglobal",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 5
+        },
+        {
+          "id": 349,
+          "name": "Mavensglobal",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "mavensworld.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 205,
+          "name": "mavensworld",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 264,
+          "name": "Mavens World",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 1
+        },
+        {
+          "id": 350,
+          "name": "Mavensworld",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "mend.io",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 206,
+          "name": "Mend.io",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 265,
+          "name": "Mend",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "mimecast.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 133,
+          "name": "Elevate Security",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 6
+        },
+        {
+          "id": 145,
+          "name": "Mimecast",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        }
+      ]
+    },
+    {
+      "domain": "missionsecure.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 207,
+          "name": "missionsecure",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 9
+        },
+        {
+          "id": 266,
+          "name": "Mission Secure",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "mx.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 208,
+          "name": "MX Technologies, Inc.",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 263,
+          "name": "MX Technologies",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "nccgroup.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 19,
+          "name": "NCC Group",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 209,
+          "name": "nccgroup",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        }
+      ]
+    },
+    {
+      "domain": "netenrich.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 36,
+          "name": "Netenrich",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 6
+        },
+        {
+          "id": 267,
+          "name": "NetEnrich",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "newtonx.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 210,
+          "name": "newtonx",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 303,
+          "name": "NewtonX",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "onfrontiers.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 213,
+          "name": "onfrontiers",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 7
+        },
+        {
+          "id": 270,
+          "name": "OnFrontiers",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "perimeter81.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 149,
+          "name": "Perimeter 81",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 360,
+          "name": "Perimeter 81/Check Point",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "purplesec.us",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 214,
+          "name": "purplesec",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 271,
+          "name": "PurpleSec",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "realciso.io",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 215,
+          "name": "realciso",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 272,
+          "name": "Real CISO",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        },
+        {
+          "id": 304,
+          "name": "RealCISO",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "redhuntlabs.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 99,
+          "name": "redhuntlabs",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 344,
+          "name": "RedHunt Labs",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "redironpr.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 100,
+          "name": "redironpr",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 233,
+          "name": "Red Iron PR",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "riskigy.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 92,
+          "name": "michaelmarrano",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 216,
+          "name": "riskigy",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 273,
+          "name": "Riskigy",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "rivialsecurity.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 217,
+          "name": "rivialdata",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 7
+        },
+        {
+          "id": 218,
+          "name": "Rivial Data Security",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 275,
+          "name": "Rivial Security",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "scytale.ai",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 103,
+          "name": "scytale",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 234,
+          "name": "Scytale.ai",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "secgen.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 104,
+          "name": "secgen",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 105,
+          "name": "securitygen",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 2
+        }
+      ]
+    },
+    {
+      "domain": "security-gen.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 232,
+          "name": "SecurityGen",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 1
+        },
+        {
+          "id": 307,
+          "name": "Security-Gen",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "securityjourney.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 139,
+          "name": "HackEDU",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 6
+        },
+        {
+          "id": 351,
+          "name": "Securityjourney",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "sherlocktalent.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 106,
+          "name": "sherlock",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 107,
+          "name": "SherlockTalent",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 277,
+          "name": "Sherlock Talent",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "spreckley.co.uk",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 109,
+          "name": "spreckley",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 352,
+          "name": "Spreckley",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "strategyconnect.co",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 222,
+          "name": "strategyconnect",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 279,
+          "name": "Strategy Connect",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "strikegraph.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 223,
+          "name": "strikegraph",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 280,
+          "name": "Strike Graph",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "techcxo.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 224,
+          "name": "techcxo",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 356,
+          "name": "TechCXO",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "tegus.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 53,
+          "name": "Tegus",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 7
+        },
+        {
+          "id": 226,
+          "name": "tegus",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        }
+      ]
+    },
+    {
+      "domain": "tenable.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 41,
+          "name": "Tenable",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 227,
+          "name": "tenable",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        }
+      ]
+    },
+    {
+      "domain": "thecybernest.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 282,
+          "name": "The Cyber Nest",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        },
+        {
+          "id": 298,
+          "name": "The CyberNest",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "thirdbridge.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 183,
+          "name": "Cognolink",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        },
+        {
+          "id": 283,
+          "name": "Third Bridge",
+          "registration_status": "COMPLETE",
+          "workflow_stage": "ACTIVE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "thoropass.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 83,
+          "name": "heylaika",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 7
+        },
+        {
+          "id": 111,
+          "name": "thoropass",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        }
+      ]
+    },
+    {
+      "domain": "travasecurity.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 43,
+          "name": "Trava Security",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 6
+        },
+        {
+          "id": 230,
+          "name": "travasecurity",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 5
+        },
+        {
+          "id": 353,
+          "name": "Travasecurity",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "trustedsec.com",
+      "platform_count": 3,
+      "platforms": [
+        {
+          "id": 44,
+          "name": "trustedsec",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 285,
+          "name": "TrustedSec",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        },
+        {
+          "id": 354,
+          "name": "Trustedsec",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "trustnetinc.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 112,
+          "name": "trustnetinc",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 284,
+          "name": "TrustNet",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    },
+    {
+      "domain": "trustwave.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 4,
+          "name": "Trustwave",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 10
+        },
+        {
+          "id": 343,
+          "name": "LevelBlue/Trustwave",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "veracode.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 21,
+          "name": "Phylum",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 8
+        },
+        {
+          "id": 165,
+          "name": "Veracode",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED",
+          "email_count": 3
+        }
+      ]
+    },
+    {
+      "domain": "vikingcloud.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 48,
+          "name": "vikingcloud",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 2
+        },
+        {
+          "id": 49,
+          "name": "Viking Cloud",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        }
+      ]
+    },
+    {
+      "domain": "vmware.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 166,
+          "name": "VMware",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 4
+        },
+        {
+          "id": 358,
+          "name": "VMware/Broadcom",
+          "registration_status": "PENDING",
+          "workflow_stage": "DISCOVERED",
+          "email_count": 0
+        }
+      ]
+    },
+    {
+      "domain": "wuzzuf.net",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 50,
+          "name": "wuzzuf",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 3
+        },
+        {
+          "id": 286,
+          "name": "Wuzzuf",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE",
+          "email_count": 1
+        }
+      ]
+    }
+  ],
+  "issue_4_shared_emails": [
+    {
+      "email": "abbey.mattingly@travasecurity.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 43,
+          "name": "Trava Security",
+          "domain": "travasecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 230,
+          "name": "travasecurity",
+          "domain": "travasecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "abigail.abrams@tegus.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 53,
+          "name": "Tegus",
+          "domain": "tegus.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 226,
+          "name": "tegus",
+          "domain": "tegus.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "adrianna.silver@tegus.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 53,
+          "name": "Tegus",
+          "domain": "tegus.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 226,
+          "name": "tegus",
+          "domain": "tegus.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "alex@sherlocktalent.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 106,
+          "name": "sherlock",
+          "domain": "sherlocktalent.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 107,
+          "name": "SherlockTalent",
+          "domain": "sherlocktalent.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        }
+      ]
+    },
+    {
+      "email": "amit.nath@secgen.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 104,
+          "name": "secgen",
+          "domain": "secgen.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 105,
+          "name": "securitygen",
+          "domain": "secgen.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        }
+      ]
+    },
+    {
+      "email": "anamika.rawat@mavensworld.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 91,
+          "name": "mavensglobal",
+          "domain": "mavensglobal.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 205,
+          "name": "mavensworld",
+          "domain": "mavensworld.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "belle.kyriacou@nccgroup.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 19,
+          "name": "NCC Group",
+          "domain": "nccgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 209,
+          "name": "nccgroup",
+          "domain": "nccgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "cperna@fortinet.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 137,
+          "name": "Fortinet",
+          "domain": "fortinet.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        },
+        {
+          "id": 142,
+          "name": "Lacework",
+          "domain": "fortinet.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "ely@forensisgroup.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 190,
+          "name": "forensisgroup",
+          "domain": "forensisgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        },
+        {
+          "id": 191,
+          "name": "ForensisGroup",
+          "domain": "forensisgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "emily@forensisgroup.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 190,
+          "name": "forensisgroup",
+          "domain": "forensisgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        },
+        {
+          "id": 191,
+          "name": "ForensisGroup",
+          "domain": "forensisgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "hello@ducoexperts.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 171,
+          "name": "Duco Experts",
+          "domain": "ducoexperts.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        },
+        {
+          "id": 184,
+          "name": "Duco",
+          "domain": "du.co",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "lisa.fleissner@asiaceonet.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 64,
+          "name": "Asia CEO Network",
+          "domain": "asiaceonet.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 178,
+          "name": "asiaceonetwork",
+          "domain": "asiaceonet.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "lisa.grassick@vikingcloud.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 48,
+          "name": "vikingcloud",
+          "domain": "vikingcloud.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 49,
+          "name": "Viking Cloud",
+          "domain": "vikingcloud.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        }
+      ]
+    },
+    {
+      "email": "lucas@rivialsecurity.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 217,
+          "name": "rivialdata",
+          "domain": "rivialsecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        },
+        {
+          "id": 218,
+          "name": "Rivial Data Security",
+          "domain": "rivialsecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "mail@candour.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 59,
+          "name": "Candour Energy",
+          "domain": "candour.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 170,
+          "name": "candourenergy",
+          "domain": "candour.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "mercy@forensisgroup.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 190,
+          "name": "forensisgroup",
+          "domain": "forensisgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        },
+        {
+          "id": 191,
+          "name": "ForensisGroup",
+          "domain": "forensisgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "randy@rivialsecurity.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 217,
+          "name": "rivialdata",
+          "domain": "rivialsecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        },
+        {
+          "id": 218,
+          "name": "Rivial Data Security",
+          "domain": "rivialsecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "rob.beeler@travasecurity.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 43,
+          "name": "Trava Security",
+          "domain": "travasecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 230,
+          "name": "travasecurity",
+          "domain": "travasecurity.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "security@certik.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 11,
+          "name": "CertiK",
+          "domain": "certik.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 244,
+          "name": "Certik",
+          "domain": "certik.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        }
+      ]
+    },
+    {
+      "email": "shelby.white@tegus.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 53,
+          "name": "Tegus",
+          "domain": "tegus.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 226,
+          "name": "tegus",
+          "domain": "tegus.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "sophia.cuthill@nccgroup.com",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 19,
+          "name": "NCC Group",
+          "domain": "nccgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 209,
+          "name": "nccgroup",
+          "domain": "nccgroup.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    },
+    {
+      "email": "zoe@bcc.global",
+      "platform_count": 2,
+      "platforms": [
+        {
+          "id": 57,
+          "name": "Business Connect China",
+          "domain": "businessconnectchina.com",
+          "registration_status": "PENDING",
+          "workflow_stage": "AWAITING_RESPONSE"
+        },
+        {
+          "id": 181,
+          "name": "businessconnectchina",
+          "domain": "bcc.global",
+          "registration_status": "PENDING",
+          "workflow_stage": "QUALIFIED"
+        }
+      ]
+    }
+  ]
+}

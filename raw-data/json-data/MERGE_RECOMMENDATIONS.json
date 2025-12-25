@@ -1,0 +1,795 @@
+[
+  {
+    "platform_name": "bainability",
+    "target_id": 180,
+    "target_name": "bainability",
+    "target_emails": 3,
+    "source_ids": [
+      237
+    ],
+    "source_data": [
+      {
+        "id": 237,
+        "name": "Bainability",
+        "domain": "bainability.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "team@bainability.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "certik",
+    "target_id": 11,
+    "target_name": "CertiK",
+    "target_emails": 11,
+    "source_ids": [
+      244
+    ],
+    "source_data": [
+      {
+        "id": 244,
+        "name": "Certik",
+        "domain": "certik.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "security@certik.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "cyberknight",
+    "target_id": 75,
+    "target_name": "cyberknight",
+    "target_emails": 3,
+    "source_ids": [
+      247
+    ],
+    "source_data": [
+      {
+        "id": 247,
+        "name": "CyberKnight",
+        "domain": "cyberknight.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "hello@cyberknight.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "focalfact",
+    "target_id": 188,
+    "target_name": "focalfact",
+    "target_emails": 5,
+    "source_ids": [
+      250
+    ],
+    "source_data": [
+      {
+        "id": 250,
+        "name": "Focalfact",
+        "domain": "focalfact.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "contact@focalfact.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "forasna",
+    "target_id": 189,
+    "target_name": "forasna",
+    "target_emails": 5,
+    "source_ids": [
+      251
+    ],
+    "source_data": [
+      {
+        "id": 251,
+        "name": "Forasna",
+        "domain": "forasna.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "contact@forasna.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "forensisgroup",
+    "target_id": 190,
+    "target_name": "forensisgroup",
+    "target_emails": 4,
+    "source_ids": [
+      191
+    ],
+    "source_data": [
+      {
+        "id": 191,
+        "name": "ForensisGroup",
+        "domain": "forensisgroup.com",
+        "status": "PENDING",
+        "workflow": "QUALIFIED",
+        "email_count": 3,
+        "emails": [
+          "mercy@forensisgroup.com",
+          "emily@forensisgroup.com",
+          "ely@forensisgroup.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 3,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "fortifydata",
+    "target_id": 28,
+    "target_name": "FortifyData",
+    "target_emails": 5,
+    "source_ids": [
+      346
+    ],
+    "source_data": [
+      {
+        "id": 346,
+        "name": "Fortifydata",
+        "domain": "fortifydata.com",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "frsecure",
+    "target_id": 78,
+    "target_name": "frsecure",
+    "target_emails": 4,
+    "source_ids": [
+      249
+    ],
+    "source_data": [
+      {
+        "id": 249,
+        "name": "FRSecure",
+        "domain": "frsecure.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "info@frsecure.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "gigx",
+    "target_id": 193,
+    "target_name": "gigx",
+    "target_emails": 3,
+    "source_ids": [
+      254
+    ],
+    "source_data": [
+      {
+        "id": 254,
+        "name": "GigX",
+        "domain": "gigx.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "hello@gigx.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "hiddenlayer",
+    "target_id": 194,
+    "target_name": "hiddenlayer",
+    "target_emails": 3,
+    "source_ids": [
+      256
+    ],
+    "source_data": [
+      {
+        "id": 256,
+        "name": "HiddenLayer",
+        "domain": "hiddenlayer.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "info@hiddenlayer.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "hirefy",
+    "target_id": 195,
+    "target_name": "hirefy",
+    "target_emails": 5,
+    "source_ids": [
+      257
+    ],
+    "source_data": [
+      {
+        "id": 257,
+        "name": "Hirefy",
+        "domain": "hirefy.io",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "info@hirefy.io"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "ibm",
+    "target_id": 198,
+    "target_name": "IBM",
+    "target_emails": 4,
+    "source_ids": [
+      199
+    ],
+    "source_data": [
+      {
+        "id": 199,
+        "name": "ibm",
+        "domain": "ibm.com",
+        "status": "PENDING",
+        "workflow": "QUALIFIED",
+        "email_count": 2,
+        "emails": [
+          "chrissy.rybarczyk@ibm.com",
+          "madeline.muldoon@ibm.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 2,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "industrialdefender",
+    "target_id": 200,
+    "target_name": "industrialdefender",
+    "target_emails": 3,
+    "source_ids": [
+      348
+    ],
+    "source_data": [
+      {
+        "id": 348,
+        "name": "Industrialdefender",
+        "domain": "industrialdefender.com",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "jumpsec",
+    "target_id": 203,
+    "target_name": "jumpsec",
+    "target_emails": 4,
+    "source_ids": [
+      261
+    ],
+    "source_data": [
+      {
+        "id": 261,
+        "name": "Jumpsec",
+        "domain": "jumpsec.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "info@jumpsec.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "jurispro",
+    "target_id": 292,
+    "target_name": "JurisPro",
+    "target_emails": 0,
+    "source_ids": [
+      86
+    ],
+    "source_data": [
+      {
+        "id": 86,
+        "name": "jurispro",
+        "domain": "JurisPro.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 3,
+        "emails": [
+          "JimRobinson@JurisPro.com",
+          "Sara@JurisPro.com",
+          "info@jurispro.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 3,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "mavensglobal",
+    "target_id": 91,
+    "target_name": "mavensglobal",
+    "target_emails": 5,
+    "source_ids": [
+      349
+    ],
+    "source_data": [
+      {
+        "id": 349,
+        "name": "Mavensglobal",
+        "domain": "mavensglobal.com",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "mavensworld",
+    "target_id": 205,
+    "target_name": "mavensworld",
+    "target_emails": 5,
+    "source_ids": [
+      350
+    ],
+    "source_data": [
+      {
+        "id": 350,
+        "name": "Mavensworld",
+        "domain": "mavensworld.com",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "netenrich",
+    "target_id": 36,
+    "target_name": "Netenrich",
+    "target_emails": 6,
+    "source_ids": [
+      267
+    ],
+    "source_data": [
+      {
+        "id": 267,
+        "name": "NetEnrich",
+        "domain": "netenrich.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "info@netenrich.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "newtonx",
+    "target_id": 210,
+    "target_name": "newtonx",
+    "target_emails": 3,
+    "source_ids": [
+      303
+    ],
+    "source_data": [
+      {
+        "id": 303,
+        "name": "NewtonX",
+        "domain": "newtonx.com",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "oliv",
+    "target_id": 212,
+    "target_name": "oliv",
+    "target_emails": 5,
+    "source_ids": [
+      269
+    ],
+    "source_data": [
+      {
+        "id": 269,
+        "name": "Oliv",
+        "domain": "oliv.ae",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "hello@oliv.ae"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "onfrontiers",
+    "target_id": 213,
+    "target_name": "onfrontiers",
+    "target_emails": 7,
+    "source_ids": [
+      270
+    ],
+    "source_data": [
+      {
+        "id": 270,
+        "name": "OnFrontiers",
+        "domain": "onfrontiers.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "hello@onfrontiers.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "purplesec",
+    "target_id": 214,
+    "target_name": "purplesec",
+    "target_emails": 3,
+    "source_ids": [
+      271
+    ],
+    "source_data": [
+      {
+        "id": 271,
+        "name": "PurpleSec",
+        "domain": "purplesec.us",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "hello@purplesec.us"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "realciso",
+    "target_id": 215,
+    "target_name": "realciso",
+    "target_emails": 3,
+    "source_ids": [
+      304
+    ],
+    "source_data": [
+      {
+        "id": 304,
+        "name": "RealCISO",
+        "domain": "realciso.io",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "riskigy",
+    "target_id": 216,
+    "target_name": "riskigy",
+    "target_emails": 3,
+    "source_ids": [
+      273
+    ],
+    "source_data": [
+      {
+        "id": 273,
+        "name": "Riskigy",
+        "domain": "riskigy.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "hello@riskigy.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "securitygen",
+    "target_id": 105,
+    "target_name": "securitygen",
+    "target_emails": 2,
+    "source_ids": [
+      232
+    ],
+    "source_data": [
+      {
+        "id": 232,
+        "name": "SecurityGen",
+        "domain": "security-gen.com",
+        "status": "PENDING",
+        "workflow": "QUALIFIED",
+        "email_count": 1,
+        "emails": [
+          "dmitry.kurbatov@security-gen.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "spreckley",
+    "target_id": 109,
+    "target_name": "spreckley",
+    "target_emails": 4,
+    "source_ids": [
+      352
+    ],
+    "source_data": [
+      {
+        "id": 352,
+        "name": "Spreckley",
+        "domain": "spreckley.co.uk",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "techcxo",
+    "target_id": 224,
+    "target_name": "techcxo",
+    "target_emails": 3,
+    "source_ids": [
+      356
+    ],
+    "source_data": [
+      {
+        "id": 356,
+        "name": "TechCXO",
+        "domain": "techcxo.com",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "tegus",
+    "target_id": 53,
+    "target_name": "Tegus",
+    "target_emails": 7,
+    "source_ids": [
+      226
+    ],
+    "source_data": [
+      {
+        "id": 226,
+        "name": "tegus",
+        "domain": "tegus.com",
+        "status": "PENDING",
+        "workflow": "QUALIFIED",
+        "email_count": 5,
+        "emails": [
+          "abigail.abrams@tegus.com",
+          "shelby.white@tegus.com",
+          "sussanna.lau@tegus.com",
+          "hannah.stein@tegus.com",
+          "adrianna.silver@tegus.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 5,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "tenable",
+    "target_id": 227,
+    "target_name": "tenable",
+    "target_emails": 5,
+    "source_ids": [
+      41
+    ],
+    "source_data": [
+      {
+        "id": 41,
+        "name": "Tenable",
+        "domain": "tenable.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 3,
+        "emails": [
+          "tdolce@tenable.com",
+          "jrotberg@tenable.com",
+          "jolson@tenable.com"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 3,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "travasecurity",
+    "target_id": 230,
+    "target_name": "travasecurity",
+    "target_emails": 5,
+    "source_ids": [
+      353
+    ],
+    "source_data": [
+      {
+        "id": 353,
+        "name": "Travasecurity",
+        "domain": "travasecurity.com",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "trustedsec",
+    "target_id": 44,
+    "target_name": "trustedsec",
+    "target_emails": 3,
+    "source_ids": [
+      285,
+      354
+    ],
+    "source_data": [
+      {
+        "id": 285,
+        "name": "TrustedSec",
+        "domain": "trustedsec.com",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "info@trustedsec.com"
+        ]
+      },
+      {
+        "id": 354,
+        "name": "Trustedsec",
+        "domain": "trustedsec.com",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "vcisocatalyst",
+    "target_id": 46,
+    "target_name": "vcisocatalyst",
+    "target_emails": 2,
+    "source_ids": [
+      355
+    ],
+    "source_data": [
+      {
+        "id": 355,
+        "name": "Vcisocatalyst",
+        "domain": "vcisocatalyst.com",
+        "status": "PENDING",
+        "workflow": "DISCOVERED",
+        "email_count": 0,
+        "emails": []
+      }
+    ],
+    "total_emails_to_migrate": 0,
+    "action": "MERGE"
+  },
+  {
+    "platform_name": "wuzzuf",
+    "target_id": 50,
+    "target_name": "wuzzuf",
+    "target_emails": 3,
+    "source_ids": [
+      286
+    ],
+    "source_data": [
+      {
+        "id": 286,
+        "name": "Wuzzuf",
+        "domain": "wuzzuf.net",
+        "status": "PENDING",
+        "workflow": "AWAITING_RESPONSE",
+        "email_count": 1,
+        "emails": [
+          "info@wuzzuf.net"
+        ]
+      }
+    ],
+    "total_emails_to_migrate": 1,
+    "action": "MERGE"
+  }
+]

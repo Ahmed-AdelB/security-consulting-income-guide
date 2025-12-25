@@ -1,0 +1,4485 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The most comprehensive guide to building a $50K-$100K/month cybersecurity consulting practice">
+      
+      
+        <meta name="author" content="Security Consulting Guide">
+      
+      
+        <link rel="canonical" href="https://ahmed-adelb.github.io/security-consulting-income-guide/platforms/web3-audit/sherlock/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>CODEX: Sherlock Web3 Security Contests Deep Dive - Security Consulting Income Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#codex-sherlock-web3-security-contests-deep-dive" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Security Consulting Income Guide" class="md-header__button md-logo" aria-label="Security Consulting Income Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Security Consulting Income Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CODEX: Sherlock Web3 Security Contests Deep Dive
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Ahmed-AdelB/security-consulting-income-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Ahmed-AdelB/security-consulting-income-guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+  Platforms
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../domains/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Security Domains
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../industries/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Industries
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../income-streams/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Income Streams
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../getting-started/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../market-research/" class="md-tabs__link">
+          
+  
+  
+  Market Research
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../raw-data/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Raw Data
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Security Consulting Income Guide" class="md-nav__button md-logo" aria-label="Security Consulting Income Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Security Consulting Income Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Ahmed-AdelB/security-consulting-income-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Ahmed-AdelB/security-consulting-income-guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platforms
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Platforms
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expert-networks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Expert Networks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bug-bounty/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bug Bounty
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vciso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    vCISO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expert-witness/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Expert Witness
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web3 Audit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Security Domains
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../industries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Industries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../income-streams/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Income Streams
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Market Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Market Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../market-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../market-research/salary-benchmarks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Salary Benchmarks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../market-research/platform-reviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform Reviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../market-research/community-insights/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community Insights
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../market-research/rate-guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rate Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../raw-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raw Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-comprehensive-guide-to-audit-contests-judging-and-10kweek-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Comprehensive Guide to Audit Contests, Judging, and $10K/Week Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-platform-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Platform Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Platform Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-what-sherlock-is" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 What Sherlock Is
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-mission-and-positioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Mission and Positioning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-key-differentiators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Key Differentiators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-typical-sponsor-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Typical Sponsor Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-typical-codebases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Typical Codebases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-core-roles-and-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6 Core Roles and Terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-contest-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7 Contest Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-contest-artifacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.8 Contest Artifacts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-strengths" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.9 Strengths
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-tradeoffs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.10 Tradeoffs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-contest-structure-and-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Contest Structure and Lifecycle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Contest Structure and Lifecycle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-contest-sizing-and-duration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Contest Sizing and Duration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-phase-1-announcement-and-scope-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Phase 1: Announcement and Scope Review
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-phase-2-early-orientation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Phase 2: Early Orientation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-phase-3-active-audit-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Phase 3: Active Audit Window
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-phase-4-submission-cutoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Phase 4: Submission Cutoff
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-phase-5-initial-triage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Phase 5: Initial Triage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-phase-6-deep-judging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7 Phase 6: Deep Judging
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#38-phase-7-sponsor-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.8 Phase 7: Sponsor Review
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#39-phase-8-escalations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.9 Phase 8: Escalations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#310-phase-9-final-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.10 Phase 9: Final Report
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#311-submission-visibility-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11 Submission Visibility Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312-what-counts-as-a-valid-finding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12 What Counts as a Valid Finding
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#313-common-invalid-reasons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.13 Common Invalid Reasons
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#314-deduplication-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.14 Deduplication Logic
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#315-severity-rubric-snapshot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.15 Severity Rubric Snapshot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#316-example-14-day-timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.16 Example 14-Day Timeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-prize-pools-and-payout-mechanics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Prize Pools and Payout Mechanics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Prize Pools and Payout Mechanics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-prize-pool-composition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Prize Pool Composition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-share-based-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Share-Based Allocation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-severity-weights-illustrative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Severity Weights (Illustrative)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-duplicate-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Duplicate Handling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-solo-vs-team-submissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Solo vs Team Submissions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-example-payout-math" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 Example Payout Math
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-incentive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 Incentive Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#48-sponsor-disputes-and-adjustments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.8 Sponsor Disputes and Adjustments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#49-impact-of-escalations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.9 Impact of Escalations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#410-common-payout-mistakes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.10 Common Payout Mistakes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-earning-potential-and-weekly-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Earning Potential and Weekly Outcomes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Earning Potential and Weekly Outcomes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-the-income-ladder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 The Income Ladder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-senior-weekly-range-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Senior Weekly Range Target
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-volume-assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Volume Assumptions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-realistic-weekly-scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Realistic Weekly Scenarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-variance-and-volatility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 Variance and Volatility
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-risk-mitigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Risk Mitigation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#57-portfolio-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7 Portfolio Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#58-the-10kweek-plan-for-seniors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.8 The $10K/Week Plan for Seniors
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-judging-process-deep-dive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Judging Process Deep Dive
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Judging Process Deep Dive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-judge-responsibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Judge Responsibilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-typical-judging-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Typical Judging Workflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-severity-determination-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Severity Determination Criteria
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-how-judges-interpret-pocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 How Judges Interpret PoCs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65-communication-with-sponsors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5 Communication with Sponsors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66-escalation-process-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6 Escalation Process Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#67-winning-escalations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.7 Winning Escalations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-lead-senior-judge-lsj-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Lead Senior Judge (LSJ) Role
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Lead Senior Judge (LSJ) Role">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-lsj-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 LSJ Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-lsj-responsibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 LSJ Responsibilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-why-the-lsj-matters-to-watsons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 Why the LSJ Matters to Watsons
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74-required-skills-for-lsj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.4 Required Skills for LSJ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#75-lsj-compensation-and-incentives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5 LSJ Compensation and Incentives
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#76-path-to-becoming-an-lsj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6 Path to Becoming an LSJ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#77-how-watsons-should-engage-with-the-lsj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.7 How Watsons Should Engage with the LSJ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#78-lsj-expectations-in-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.8 LSJ Expectations in Reports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#79-lsj-red-flags" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.9 LSJ Red Flags
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-success-strategies-for-watsons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Success Strategies for Watsons
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Success Strategies for Watsons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-preparation-before-the-contest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 Preparation Before the Contest
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-threat-modeling-first" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 Threat Modeling First
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-layered-review-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 Layered Review Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#84-invariant-driven-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4 Invariant-Driven Thinking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#85-common-high-value-areas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5 Common High-Value Areas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#86-poc-first-mindset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.6 PoC-First Mindset
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#87-report-writing-excellence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.7 Report Writing Excellence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#88-preventing-duplicates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.8 Preventing Duplicates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#89-managing-time-and-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.9 Managing Time and Focus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#810-team-strategies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.10 Team Strategies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#811-escalation-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.11 Escalation Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#812-reputation-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.12 Reputation Building
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#813-mental-health-and-sustainability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.13 Mental Health and Sustainability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#814-economic-attack-modeling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.14 Economic Attack Modeling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#815-competition-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.15 Competition Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-watson-workflow-and-tooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Watson Workflow and Tooling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Watson Workflow and Tooling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91-environment-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 Environment Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92-workspace-organization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 Workspace Organization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#93-review-passes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3 Review Passes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#94-static-analysis-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.4 Static Analysis Workflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#95-dynamic-analysis-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.5 Dynamic Analysis Workflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#96-manual-review-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.6 Manual Review Techniques
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#97-tooling-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.7 Tooling Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#98-evidence-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.8 Evidence Collection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#99-report-drafting-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.9 Report Drafting Workflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#910-quality-assurance-for-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.10 Quality Assurance for Reports
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-communication-and-qa-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Communication and Q&amp;A Playbook
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Communication and Q&amp;A Playbook">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#101-why-qa-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.1 Why Q&amp;A Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#102-when-to-ask-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.2 When to Ask Questions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#103-how-to-ask-effective-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.3 How to Ask Effective Questions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#104-qa-do-and-do-not" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.4 Q&amp;A Do and Do Not
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#105-logging-qa-answers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.5 Logging Q&amp;A Answers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-comparison-sherlock-vs-code4rena-vs-spearbit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Comparison: Sherlock vs Code4rena vs Spearbit
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Comparison: Sherlock vs Code4rena vs Spearbit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-quick-comparison-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.1 Quick Comparison Table
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-sherlock-vs-code4rena" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.2 Sherlock vs Code4rena
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113-sherlock-vs-spearbit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.3 Sherlock vs Spearbit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#114-choosing-the-right-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.4 Choosing the Right Platform
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#115-hybrid-strategy-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.5 Hybrid Strategy Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-payout-timelines-and-logistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Payout Timelines and Logistics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Payout Timelines and Logistics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-typical-timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.1 Typical Timeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-typical-payout-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.2 Typical Payout Window
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-common-delay-drivers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.3 Common Delay Drivers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#124-payment-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.4 Payment Methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#125-operational-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.5 Operational Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#126-tax-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.6 Tax Considerations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-real-auditor-earnings-modeled-public-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Real Auditor Earnings (Modeled + Public Patterns)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Real Auditor Earnings (Modeled + Public Patterns)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-why-this-section-uses-ranges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.1 Why This Section Uses Ranges
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-contest-pot-ranges-common-observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.2 Contest Pot Ranges (Common Observations)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133-modeled-payout-scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3 Modeled Payout Scenarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134-monthly-earnings-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4 Monthly Earnings Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#135-the-senior-1k-10kweek-reality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5 The Senior $1K-$10K/Week Reality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#136-factors-that-increase-earnings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.6 Factors That Increase Earnings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#137-factors-that-suppress-earnings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.7 Factors That Suppress Earnings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#138-where-to-validate-earnings-yourself" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.8 Where to Validate Earnings Yourself
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-common-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Common Pitfalls
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. Common Pitfalls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141-technical-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.1 Technical Pitfalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142-process-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.2 Process Pitfalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143-reporting-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.3 Reporting Pitfalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#144-communication-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.4 Communication Pitfalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-sample-weekly-operating-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Sample Weekly Operating System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. Sample Weekly Operating System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151-monday-contest-kickoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.1 Monday (Contest Kickoff)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152-tuesday-deep-dive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.2 Tuesday (Deep Dive)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153-wednesday-exploit-exploration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.3 Wednesday (Exploit Exploration)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#154-thursday-poc-and-reporting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.4 Thursday (PoC and Reporting)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#155-friday-finalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.5 Friday (Finalization)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#156-off-contest-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15.6 Off-Contest Week
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-report-template-sherlock-optimized" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Report Template (Sherlock-Optimized)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. Report Template (Sherlock-Optimized)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161-title" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.1 Title
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.2 Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#163-root-cause" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.3 Root Cause
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#164-proof-of-concept" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.4 Proof of Concept
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#165-exploit-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.5 Exploit Steps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#166-impact-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.6 Impact Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#167-mitigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.7 Mitigation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#168-severity-justification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.8 Severity Justification
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#169-assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.9 Assumptions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1610-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16.10 References
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-checklists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Checklists
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. Checklists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#171-pre-contest-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.1 Pre-Contest Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172-day-1-audit-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.2 Day 1 Audit Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173-day-2-audit-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.3 Day 2 Audit Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#174-day-3-audit-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.4 Day 3 Audit Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#175-day-4-audit-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.5 Day 4 Audit Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#176-pre-submission-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.6 Pre-Submission Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#177-escalation-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.7 Escalation Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#178-post-contest-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.8 Post-Contest Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. Glossary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-resource-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Resource Map
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-final-action-plan-for-new-watsons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. Final Action Plan for New Watsons
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-advanced-growth-path-to-10kweek" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21. Advanced Growth Path to $10K/Week
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="21. Advanced Growth Path to $10K/Week">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-skill-deepening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21.1 Skill Deepening
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-process-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21.2 Process Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213-reputation-compounding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21.3 Reputation Compounding
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#214-income-stack-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21.4 Income Stack Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#215-specialization-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21.5 Specialization Examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-reality-check-and-ethics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        22. Reality Check and Ethics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-quick-reference-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        23. Quick Reference Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-appendix-vulnerability-pattern-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24. Appendix: Vulnerability Pattern Library
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="24. Appendix: Vulnerability Pattern Library">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241-access-control-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24.1 Access Control Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242-token-accounting-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24.2 Token Accounting Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#243-state-machine-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24.3 State Machine Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#244-external-call-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24.4 External Call Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#245-oracle-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24.5 Oracle Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#246-governance-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24.6 Governance Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#247-upgradeability-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24.7 Upgradeability Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#248-economic-design-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24.8 Economic Design Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#249-cross-chain-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24.9 Cross-Chain Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-appendix-example-finding-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        25. Appendix: Example Finding Outline
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26-appendix-escalation-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        26. Appendix: Escalation Template
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#27-appendix-qa-question-bank" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        27. Appendix: Q&amp;A Question Bank
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#28-appendix-metrics-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        28. Appendix: Metrics Tracker
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#29-appendix-90-day-ramp-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        29. Appendix: 90-Day Ramp Plan
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="29. Appendix: 90-Day Ramp Plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#weeks-1-2-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weeks 1-2: Fundamentals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weeks-3-4-first-contest-exposure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weeks 3-4: First Contest Exposure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weeks-5-6-medium-depth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weeks 5-6: Medium Depth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weeks-7-8-process-refinement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weeks 7-8: Process Refinement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weeks-9-10-specialized-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weeks 9-10: Specialized Focus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weeks-11-12-senior-readiness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weeks 11-12: Senior Readiness
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#30-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30. FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#31-closing-note" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        31. Closing Note
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="codex-sherlock-web3-security-contests-deep-dive">CODEX: Sherlock Web3 Security Contests Deep Dive<a class="headerlink" href="#codex-sherlock-web3-security-contests-deep-dive" title="Permanent link">&para;</a></h1>
+<h2 id="the-comprehensive-guide-to-audit-contests-judging-and-10kweek-outcomes">The Comprehensive Guide to Audit Contests, Judging, and $10K/Week Outcomes<a class="headerlink" href="#the-comprehensive-guide-to-audit-contests-judging-and-10kweek-outcomes" title="Permanent link">&para;</a></h2>
+<p><strong>Version:</strong> 1.0
+<strong>Focus:</strong> Sherlock contests, smart contract auditing, income engineering
+<strong>Target Audience:</strong> Web3 security researchers, smart contract developers, auditors
+<strong>Income Potential:</strong> $2,000 - $40,000+/month (performance-based)
+<strong>Goal Range:</strong> $1K - $10K/week for senior auditors
+<strong>Positioning:</strong> High-trust, judge-led contest platform with curated sponsors</p>
+<hr />
+<h2 id="1-executive-summary">1. Executive Summary<a class="headerlink" href="#1-executive-summary" title="Permanent link">&para;</a></h2>
+<p>Sherlock is a Web3 security contest platform that runs time-boxed audits.
+Researchers, called Watsons, review smart contract code for vulnerabilities.
+Sponsors fund a prize pool that is split among valid findings.
+The platform emphasizes consistent judging and clear reporting standards.
+Sherlock contests reward unique, high-impact vulnerabilities.
+Income is variable, but senior Watsons can target $1K-$10K per week.
+This guide explains the platform mechanics, judging process, and earning math.
+It also provides strategies to move from beginner to senior performance.</p>
+<hr />
+<h2 id="2-platform-overview">2. Platform Overview<a class="headerlink" href="#2-platform-overview" title="Permanent link">&para;</a></h2>
+<h3 id="21-what-sherlock-is">2.1 What Sherlock Is<a class="headerlink" href="#21-what-sherlock-is" title="Permanent link">&para;</a></h3>
+<p>Sherlock runs competitive security reviews for Web3 protocols.
+Contests are time-boxed and scoped to specific codebases.
+Most contests are public and open to all qualified auditors.
+Sherlock publishes final reports for community learning.</p>
+<h3 id="22-mission-and-positioning">2.2 Mission and Positioning<a class="headerlink" href="#22-mission-and-positioning" title="Permanent link">&para;</a></h3>
+<p>Provide reliable security coverage to Web3 teams.
+Create a consistent, judge-led audit experience.
+Reward independent auditors for validated findings.
+Improve ecosystem safety with transparent reports.</p>
+<h3 id="23-key-differentiators">2.3 Key Differentiators<a class="headerlink" href="#23-key-differentiators" title="Permanent link">&para;</a></h3>
+<p>Lead Senior Judge model for consistent severity decisions.
+Curated contest intake with clearer scope and specs.
+Smaller, focused contest participation relative to larger platforms.
+High emphasis on PoCs and impact clarity.</p>
+<h3 id="24-typical-sponsor-types">2.4 Typical Sponsor Types<a class="headerlink" href="#24-typical-sponsor-types" title="Permanent link">&para;</a></h3>
+<p>DeFi protocols launching new pools or upgrades.
+Bridges and cross-chain infrastructure.
+DAOs deploying treasury systems and governance modules.
+Wallets, staking protocols, and restaking networks.</p>
+<h3 id="25-typical-codebases">2.5 Typical Codebases<a class="headerlink" href="#25-typical-codebases" title="Permanent link">&para;</a></h3>
+<p>Solidity contracts on EVM chains.
+Vyper contracts for select protocols.
+Rust or Move contracts for non-EVM chains.
+Off-chain automation scripts and keeper bots.</p>
+<h3 id="26-core-roles-and-terms">2.6 Core Roles and Terms<a class="headerlink" href="#26-core-roles-and-terms" title="Permanent link">&para;</a></h3>
+<p>Sponsor: the protocol team funding the contest.
+Watson: the auditor submitting findings.
+Judge: auditor validating reports and severity.
+Lead Senior Judge: primary decision maker for final results.
+Sherlock Team: staff managing contest logistics and payouts.
+Escalation Panel: group reviewing appeals and disputes.</p>
+<h3 id="27-contest-types">2.7 Contest Types<a class="headerlink" href="#27-contest-types" title="Permanent link">&para;</a></h3>
+<p>Public contests with open participation.
+Invite-only contests with curated auditor lists.
+Focused contests on single modules or upgrades.
+Occasional follow-up contests for patched code.</p>
+<h3 id="28-contest-artifacts">2.8 Contest Artifacts<a class="headerlink" href="#28-contest-artifacts" title="Permanent link">&para;</a></h3>
+<p>In-scope contract lists.
+Out-of-scope clarifications.
+Documentation and protocol specs.
+Threat model assumptions and privileged roles.</p>
+<h3 id="29-strengths">2.9 Strengths<a class="headerlink" href="#29-strengths" title="Permanent link">&para;</a></h3>
+<p>Consistent judging and dedupe criteria.
+Clear rules around severity and scope.
+Structured contest updates and Q&amp;A.
+Quality final reports for reputation building.</p>
+<h3 id="210-tradeoffs">2.10 Tradeoffs<a class="headerlink" href="#210-tradeoffs" title="Permanent link">&para;</a></h3>
+<p>Competitive environment with many duplicates.
+Income variability tied to contest volume.
+Requires strong writing and PoC quality.
+Escalations can add time before payouts.</p>
+<hr />
+<h2 id="3-contest-structure-and-lifecycle">3. Contest Structure and Lifecycle<a class="headerlink" href="#3-contest-structure-and-lifecycle" title="Permanent link">&para;</a></h2>
+<h3 id="31-contest-sizing-and-duration">3.1 Contest Sizing and Duration<a class="headerlink" href="#31-contest-sizing-and-duration" title="Permanent link">&para;</a></h3>
+<p>Small contests: 7 to 10 days.
+Medium contests: 10 to 14 days.
+Large contests: 14 to 21 days.
+Durations depend on scope size and complexity.</p>
+<h3 id="32-phase-1-announcement-and-scope-review">3.2 Phase 1: Announcement and Scope Review<a class="headerlink" href="#32-phase-1-announcement-and-scope-review" title="Permanent link">&para;</a></h3>
+<p>Contest page goes live with dates and rules.
+Repository and documentation become available.
+In-scope contracts are listed explicitly.
+Out-of-scope areas are clearly stated.
+Watsons set up local environments and tooling.</p>
+<h3 id="33-phase-2-early-orientation">3.3 Phase 2: Early Orientation<a class="headerlink" href="#33-phase-2-early-orientation" title="Permanent link">&para;</a></h3>
+<p>Review architecture diagrams and dependencies.
+Identify critical assets and trust boundaries.
+Note upgradeability or admin control features.
+Draft a threat model with attacker assumptions.</p>
+<h3 id="34-phase-3-active-audit-window">3.4 Phase 3: Active Audit Window<a class="headerlink" href="#34-phase-3-active-audit-window" title="Permanent link">&para;</a></h3>
+<p>Watsons review code and run tests.
+Q&amp;A remains open for clarifications.
+Sherlock may publish answers or updates.
+Contest time pressure drives focused analysis.</p>
+<h3 id="35-phase-4-submission-cutoff">3.5 Phase 4: Submission Cutoff<a class="headerlink" href="#35-phase-4-submission-cutoff" title="Permanent link">&para;</a></h3>
+<p>All reports must be submitted before deadline.
+Late submissions are rejected without review.
+Reports are kept private until judging concludes.</p>
+<h3 id="36-phase-5-initial-triage">3.6 Phase 5: Initial Triage<a class="headerlink" href="#36-phase-5-initial-triage" title="Permanent link">&para;</a></h3>
+<p>Judges filter out-of-scope or invalid submissions.
+Obvious duplicates are grouped.
+High-priority issues are reviewed first.</p>
+<h3 id="37-phase-6-deep-judging">3.7 Phase 6: Deep Judging<a class="headerlink" href="#37-phase-6-deep-judging" title="Permanent link">&para;</a></h3>
+<p>Judges validate exploitability and impact.
+Reports are grouped by root cause.
+Severity is assigned per rubric.
+Lead Senior Judge resolves conflicts.</p>
+<h3 id="38-phase-7-sponsor-review">3.8 Phase 7: Sponsor Review<a class="headerlink" href="#38-phase-7-sponsor-review" title="Permanent link">&para;</a></h3>
+<p>Sponsors validate intended behavior.
+Sponsors can dispute severity or validity.
+Judges incorporate sponsor feedback.</p>
+<h3 id="39-phase-8-escalations">3.9 Phase 8: Escalations<a class="headerlink" href="#39-phase-8-escalations" title="Permanent link">&para;</a></h3>
+<p>Watsons submit appeals for misjudged findings.
+Escalation panel reviews evidence.
+Final decisions are recorded.</p>
+<h3 id="310-phase-9-final-report">3.10 Phase 9: Final Report<a class="headerlink" href="#310-phase-9-final-report" title="Permanent link">&para;</a></h3>
+<p>Sherlock publishes a final report.
+Payouts are calculated and distributed.
+Watsons are credited for accepted findings.</p>
+<h3 id="311-submission-visibility-model">3.11 Submission Visibility Model<a class="headerlink" href="#311-submission-visibility-model" title="Permanent link">&para;</a></h3>
+<p>Reports are private during the contest.
+Privacy reduces copycat submissions.
+Final reports become educational references.</p>
+<h3 id="312-what-counts-as-a-valid-finding">3.12 What Counts as a Valid Finding<a class="headerlink" href="#312-what-counts-as-a-valid-finding" title="Permanent link">&para;</a></h3>
+<p>Demonstrable exploit or clear security impact.
+In-scope code paths with realistic assumptions.
+Reproducible logic with clear transaction steps.
+Impact aligned with contest rules.</p>
+<h3 id="313-common-invalid-reasons">3.13 Common Invalid Reasons<a class="headerlink" href="#313-common-invalid-reasons" title="Permanent link">&para;</a></h3>
+<p>Out-of-scope components or dependencies.
+Assumptions contradicting sponsor specs.
+No realistic attacker or unrealistic permissions.
+Missing PoC or incomplete impact statement.
+Purely informational or stylistic comments.</p>
+<h3 id="314-deduplication-logic">3.14 Deduplication Logic<a class="headerlink" href="#314-deduplication-logic" title="Permanent link">&para;</a></h3>
+<p>Same root cause and impact are deduped.
+Different root causes with distinct impact are separate.
+Report clarity helps acceptance but does not alter shares.
+Dedupes split the reward evenly.</p>
+<h3 id="315-severity-rubric-snapshot">3.15 Severity Rubric Snapshot<a class="headerlink" href="#315-severity-rubric-snapshot" title="Permanent link">&para;</a></h3>
+<p>High: direct loss of funds or critical control.
+Medium: significant risk or protocol disruption.
+Low: limited impact or unlikely edge case.
+QA or Gas: quality improvements or efficiency gains.
+Always use the contest-specific rubric.</p>
+<h3 id="316-example-14-day-timeline">3.16 Example 14-Day Timeline<a class="headerlink" href="#316-example-14-day-timeline" title="Permanent link">&para;</a></h3>
+<p>Day 0: announcement and repository access.
+Day 1: environment setup and docs review.
+Day 2: architecture mapping and asset flow.
+Day 3: access control and role review.
+Day 4: initialization and upgradeability review.
+Day 5: accounting math and invariants.
+Day 6: external calls and reentrancy checks.
+Day 7: oracle and price dependency review.
+Day 8: permissionless actions and griefing.
+Day 9: edge cases and state transitions.
+Day 10: fuzzing and invariant testing.
+Day 11: PoC drafting and validation.
+Day 12: report writing and severity mapping.
+Day 13: final proofreading and submission.
+Day 14: deadline and submission lock.</p>
+<hr />
+<h2 id="4-prize-pools-and-payout-mechanics">4. Prize Pools and Payout Mechanics<a class="headerlink" href="#4-prize-pools-and-payout-mechanics" title="Permanent link">&para;</a></h2>
+<h3 id="41-prize-pool-composition">4.1 Prize Pool Composition<a class="headerlink" href="#41-prize-pool-composition" title="Permanent link">&para;</a></h3>
+<p>Sponsors deposit a fixed prize pool.
+Pools range from tens of thousands to six figures.
+Payout currency is usually a stablecoin.
+The pool is split across severity tiers.</p>
+<h3 id="42-share-based-allocation">4.2 Share-Based Allocation<a class="headerlink" href="#42-share-based-allocation" title="Permanent link">&para;</a></h3>
+<p>Findings are assigned shares, not fixed bounties.
+Each severity tier has a weight.
+Deduped findings share the tier allocation.
+Unique findings capture larger portions.</p>
+<h3 id="43-severity-weights-illustrative">4.3 Severity Weights (Illustrative)<a class="headerlink" href="#43-severity-weights-illustrative" title="Permanent link">&para;</a></h3>
+<p>High severity receives the largest pool share.
+Medium severity receives a meaningful share.
+Low and QA may receive smaller shares or no payout.
+Exact weights are defined per contest.</p>
+<h3 id="44-duplicate-handling">4.4 Duplicate Handling<a class="headerlink" href="#44-duplicate-handling" title="Permanent link">&para;</a></h3>
+<p>Duplicates are grouped by root cause.
+Each report in a group receives equal share.
+Being first does not guarantee more payout.
+Clarity and correctness prevent invalidation.</p>
+<h3 id="45-solo-vs-team-submissions">4.5 Solo vs Team Submissions<a class="headerlink" href="#45-solo-vs-team-submissions" title="Permanent link">&para;</a></h3>
+<p>Teams submit under a single Watson handle.
+Teams split rewards internally.
+Teams can increase coverage but require coordination.</p>
+<h3 id="46-example-payout-math">4.6 Example Payout Math<a class="headerlink" href="#46-example-payout-math" title="Permanent link">&para;</a></h3>
+<p>Pool: $100,000.
+High allocation: 70 percent ($70,000).
+Medium allocation: 30 percent ($30,000).
+Two High issues, two reports each.
+Each High issue receives $35,000.
+Each report receives $17,500.</p>
+<h3 id="47-incentive-summary">4.7 Incentive Summary<a class="headerlink" href="#47-incentive-summary" title="Permanent link">&para;</a></h3>
+<p>Unique Highs are the highest earners.
+Multiple Mediums can outpace a single High.
+Low and QA are best for learning and recognition.</p>
+<h3 id="48-sponsor-disputes-and-adjustments">4.8 Sponsor Disputes and Adjustments<a class="headerlink" href="#48-sponsor-disputes-and-adjustments" title="Permanent link">&para;</a></h3>
+<p>Sponsors can argue about expected behavior.
+Judges may downgrade or invalidate.
+Documentation clarity affects final outcomes.</p>
+<h3 id="49-impact-of-escalations">4.9 Impact of Escalations<a class="headerlink" href="#49-impact-of-escalations" title="Permanent link">&para;</a></h3>
+<p>Successful escalations restore severity.
+Unsuccessful escalations do not reduce payout.
+Escalations can delay final distribution.</p>
+<h3 id="410-common-payout-mistakes">4.10 Common Payout Mistakes<a class="headerlink" href="#410-common-payout-mistakes" title="Permanent link">&para;</a></h3>
+<p>Overstating severity without impact evidence.
+Submitting speculative or unproven attacks.
+Missing critical assumptions in the report.
+Failing to align with contest scope.</p>
+<hr />
+<h2 id="5-earning-potential-and-weekly-outcomes">5. Earning Potential and Weekly Outcomes<a class="headerlink" href="#5-earning-potential-and-weekly-outcomes" title="Permanent link">&para;</a></h2>
+<h3 id="51-the-income-ladder">5.1 The Income Ladder<a class="headerlink" href="#51-the-income-ladder" title="Permanent link">&para;</a></h3>
+<p>Beginner Watsons: $0 to $2,000 per month.
+Developing Watsons: $2,000 to $6,000 per month.
+Senior Watsons: $4,000 to $40,000 per month.
+Top performers: $50,000+ in strong months.</p>
+<h3 id="52-senior-weekly-range-target">5.2 Senior Weekly Range Target<a class="headerlink" href="#52-senior-weekly-range-target" title="Permanent link">&para;</a></h3>
+<p>Senior Watsons can target $1K to $10K per week.
+The upper end requires unique Highs or multiple Mediums.
+The lower end is achievable with consistent Mediums.
+Weekly outcomes depend on contest volume and pot size.</p>
+<h3 id="53-volume-assumptions">5.3 Volume Assumptions<a class="headerlink" href="#53-volume-assumptions" title="Permanent link">&para;</a></h3>
+<p>One contest per week is aggressive.
+Many Watsons focus on one or two per month.
+Large codebases reduce contest throughput.</p>
+<h3 id="54-realistic-weekly-scenarios">5.4 Realistic Weekly Scenarios<a class="headerlink" href="#54-realistic-weekly-scenarios" title="Permanent link">&para;</a></h3>
+<p>Scenario A: Medium in a $50k pool with five duplicates.
+Expected payout range: $1K to $3K.
+Scenario B: Unique Medium in a $60k pool.
+Expected payout range: $4K to $8K.
+Scenario C: Unique High in a $100k pool.
+Expected payout range: $15K to $35K.</p>
+<h3 id="55-variance-and-volatility">5.5 Variance and Volatility<a class="headerlink" href="#55-variance-and-volatility" title="Permanent link">&para;</a></h3>
+<p>Monthly income can swing dramatically.
+One strong finding can cover multiple months.
+Plan for gaps and contest dry spells.</p>
+<h3 id="56-risk-mitigation">5.6 Risk Mitigation<a class="headerlink" href="#56-risk-mitigation" title="Permanent link">&para;</a></h3>
+<p>Keep a cash buffer of 3 to 6 months.
+Track contest calendar and overlap.
+Use off-contest weeks for skill upgrades.</p>
+<h3 id="57-portfolio-strategy">5.7 Portfolio Strategy<a class="headerlink" href="#57-portfolio-strategy" title="Permanent link">&para;</a></h3>
+<p>Mix small and medium contests for steady flow.
+Reserve time for large, high-profile codebases.
+Avoid chasing too many contests simultaneously.</p>
+<h3 id="58-the-10kweek-plan-for-seniors">5.8 The $10K/Week Plan for Seniors<a class="headerlink" href="#58-the-10kweek-plan-for-seniors" title="Permanent link">&para;</a></h3>
+<p>Target one unique High per month.
+Supplement with two to three Mediums per month.
+Maintain a pipeline of two contests in progress.
+Build specialization to reduce competition overlap.</p>
+<hr />
+<h2 id="6-judging-process-deep-dive">6. Judging Process Deep Dive<a class="headerlink" href="#6-judging-process-deep-dive" title="Permanent link">&para;</a></h2>
+<h3 id="61-judge-responsibilities">6.1 Judge Responsibilities<a class="headerlink" href="#61-judge-responsibilities" title="Permanent link">&para;</a></h3>
+<p>Validate correctness of vulnerability claims.
+Assess severity using the contest rubric.
+Deduplicate similar reports and root causes.
+Communicate with sponsors for intent confirmation.
+Write clear notes for final report summaries.</p>
+<h3 id="62-typical-judging-workflow">6.2 Typical Judging Workflow<a class="headerlink" href="#62-typical-judging-workflow" title="Permanent link">&para;</a></h3>
+<p>Initial triage and invalid filtering.
+Grouping by root cause and impact.
+Deep review for exploitability and severity.
+Discussion with Lead Senior Judge for edge cases.
+Draft final report and payout calculations.</p>
+<h3 id="63-severity-determination-criteria">6.3 Severity Determination Criteria<a class="headerlink" href="#63-severity-determination-criteria" title="Permanent link">&para;</a></h3>
+<p>Direct theft or irreversible loss drives High severity.
+Protocol disruption or partial loss is Medium.
+Low-likelihood or low-impact issues trend Low.
+Economic abuse without theft can be Medium.</p>
+<h3 id="64-how-judges-interpret-pocs">6.4 How Judges Interpret PoCs<a class="headerlink" href="#64-how-judges-interpret-pocs" title="Permanent link">&para;</a></h3>
+<p>Working tests increase acceptance odds.
+Clear transaction sequences are required.
+Ambiguous PoCs reduce confidence.
+Concise reproduction steps matter.</p>
+<h3 id="65-communication-with-sponsors">6.5 Communication with Sponsors<a class="headerlink" href="#65-communication-with-sponsors" title="Permanent link">&para;</a></h3>
+<p>Judges confirm expected behavior and threat model.
+Sponsors clarify admin assumptions and constraints.
+Sponsor feedback can change severity.</p>
+<h3 id="66-escalation-process-overview">6.6 Escalation Process Overview<a class="headerlink" href="#66-escalation-process-overview" title="Permanent link">&para;</a></h3>
+<p>Watsons submit a written appeal with evidence.
+Escalation panel evaluates the arguments.
+Panel may confirm or modify the decision.
+Escalations are final once resolved.</p>
+<h3 id="67-winning-escalations">6.7 Winning Escalations<a class="headerlink" href="#67-winning-escalations" title="Permanent link">&para;</a></h3>
+<p>Reference exact logic and line numbers.
+Show a minimal exploit path.
+Align the argument with rubric language.
+Keep the appeal short and technical.</p>
+<hr />
+<h2 id="7-lead-senior-judge-lsj-role">7. Lead Senior Judge (LSJ) Role<a class="headerlink" href="#7-lead-senior-judge-lsj-role" title="Permanent link">&para;</a></h2>
+<h3 id="71-lsj-definition">7.1 LSJ Definition<a class="headerlink" href="#71-lsj-definition" title="Permanent link">&para;</a></h3>
+<p>The LSJ is the primary judge for the contest.
+They set severity precedent and resolve conflicts.
+They are accountable for the final report quality.</p>
+<h3 id="72-lsj-responsibilities">7.2 LSJ Responsibilities<a class="headerlink" href="#72-lsj-responsibilities" title="Permanent link">&para;</a></h3>
+<p>Coordinate the judging team and timelines.
+Ensure consistent severity across findings.
+Resolve duplicates and edge-case disputes.
+Communicate with the sponsor for context.
+Approve the final report and payout breakdown.</p>
+<h3 id="73-why-the-lsj-matters-to-watsons">7.3 Why the LSJ Matters to Watsons<a class="headerlink" href="#73-why-the-lsj-matters-to-watsons" title="Permanent link">&para;</a></h3>
+<p>LSJ interpretations define acceptable severity claims.
+Clear LSJ guidance reduces uncertainty.
+LSJ decisions shape contest precedent.</p>
+<h3 id="74-required-skills-for-lsj">7.4 Required Skills for LSJ<a class="headerlink" href="#74-required-skills-for-lsj" title="Permanent link">&para;</a></h3>
+<p>Deep smart contract auditing experience.
+Strong judgment on economic and technical impact.
+Clear written communication and neutrality.
+Ability to manage many reports and deadlines.</p>
+<h3 id="75-lsj-compensation-and-incentives">7.5 LSJ Compensation and Incentives<a class="headerlink" href="#75-lsj-compensation-and-incentives" title="Permanent link">&para;</a></h3>
+<p>LSJs are paid fixed fees or retainers.
+Compensation is separate from Watson payouts.
+The role builds strong reputation for future work.
+LSJs often receive repeat engagements.</p>
+<h3 id="76-path-to-becoming-an-lsj">7.6 Path to Becoming an LSJ<a class="headerlink" href="#76-path-to-becoming-an-lsj" title="Permanent link">&para;</a></h3>
+<p>Build a strong public contest record.
+Submit consistent, high-quality findings.
+Engage in community discussions professionally.
+Demonstrate mentorship and reliability.</p>
+<h3 id="77-how-watsons-should-engage-with-the-lsj">7.7 How Watsons Should Engage with the LSJ<a class="headerlink" href="#77-how-watsons-should-engage-with-the-lsj" title="Permanent link">&para;</a></h3>
+<p>Read contest rules and LSJ clarifications.
+Ask concise questions during Q&amp;A.
+Use professional tone during escalations.
+Provide clean evidence with minimal speculation.</p>
+<h3 id="78-lsj-expectations-in-reports">7.8 LSJ Expectations in Reports<a class="headerlink" href="#78-lsj-expectations-in-reports" title="Permanent link">&para;</a></h3>
+<p>Clearly stated impact and threat model.
+Minimal reproduction steps with realistic attacker.
+Precise line references and code excerpts.
+Practical mitigations that align with protocol intent.</p>
+<h3 id="79-lsj-red-flags">7.9 LSJ Red Flags<a class="headerlink" href="#79-lsj-red-flags" title="Permanent link">&para;</a></h3>
+<p>Overstated severity or vague impact.
+Missing PoC or speculative exploitation.
+Out-of-scope assumptions.
+Confusing writeups or inconsistent terminology.</p>
+<hr />
+<h2 id="8-success-strategies-for-watsons">8. Success Strategies for Watsons<a class="headerlink" href="#8-success-strategies-for-watsons" title="Permanent link">&para;</a></h2>
+<h3 id="81-preparation-before-the-contest">8.1 Preparation Before the Contest<a class="headerlink" href="#81-preparation-before-the-contest" title="Permanent link">&para;</a></h3>
+<p>Read rules, scope, and exclusions.
+Review past Sherlock reports for similar patterns.
+Set up local environment and dependencies.
+Map critical assets and trust boundaries.</p>
+<h3 id="82-threat-modeling-first">8.2 Threat Modeling First<a class="headerlink" href="#82-threat-modeling-first" title="Permanent link">&para;</a></h3>
+<p>Identify who can call each function.
+Define attacker capabilities and permissions.
+List assets that can be stolen or frozen.
+Define protocol invariants and safety properties.</p>
+<h3 id="83-layered-review-strategy">8.3 Layered Review Strategy<a class="headerlink" href="#83-layered-review-strategy" title="Permanent link">&para;</a></h3>
+<p>Start with architecture and token flow.
+Review external calls and upgradeability.
+Check access control and role management.
+Inspect accounting and precision math.
+Finish with edge cases and state transitions.</p>
+<h3 id="84-invariant-driven-thinking">8.4 Invariant-Driven Thinking<a class="headerlink" href="#84-invariant-driven-thinking" title="Permanent link">&para;</a></h3>
+<p>List balances that must always reconcile.
+Track minted and burned token totals.
+Verify share pricing in vault systems.
+Ensure collateralization ratios remain consistent.</p>
+<h3 id="85-common-high-value-areas">8.5 Common High-Value Areas<a class="headerlink" href="#85-common-high-value-areas" title="Permanent link">&para;</a></h3>
+<p>Initialization and upgrade flows.
+Cross-contract callbacks and hooks.
+Oracle dependencies and price timing.
+Fee accounting and reward distribution.
+Emergency controls and pausing logic.</p>
+<h3 id="86-poc-first-mindset">8.6 PoC-First Mindset<a class="headerlink" href="#86-poc-first-mindset" title="Permanent link">&para;</a></h3>
+<p>Draft PoCs as soon as a hypothesis forms.
+Validate the exploit with minimal assumptions.
+Keep tests short and deterministic.
+Save failing tests as evidence.</p>
+<h3 id="87-report-writing-excellence">8.7 Report Writing Excellence<a class="headerlink" href="#87-report-writing-excellence" title="Permanent link">&para;</a></h3>
+<p>Use a crisp impact-first title.
+Explain root cause and why the code is wrong.
+Show exact exploit steps with realistic actors.
+Provide a minimal PoC or transaction trace.
+Recommend a concrete mitigation.</p>
+<h3 id="88-preventing-duplicates">8.8 Preventing Duplicates<a class="headerlink" href="#88-preventing-duplicates" title="Permanent link">&para;</a></h3>
+<p>Read Q&amp;A for known clarifications.
+Track your findings in a personal log.
+Prioritize unusual edge cases and novel logic.
+Validate unique impacts, not just unique functions.</p>
+<h3 id="89-managing-time-and-focus">8.9 Managing Time and Focus<a class="headerlink" href="#89-managing-time-and-focus" title="Permanent link">&para;</a></h3>
+<p>Choose fewer contests with higher preparation.
+Front-load analysis in the first half.
+Reserve final days for PoCs and report polish.
+Avoid context switching across too many codebases.</p>
+<h3 id="810-team-strategies">8.10 Team Strategies<a class="headerlink" href="#810-team-strategies" title="Permanent link">&para;</a></h3>
+<p>Divide modules across team members.
+Share notes and threat models daily.
+Use a single report writer for consistent voice.
+Avoid internal duplicates with clear responsibilities.</p>
+<h3 id="811-escalation-strategy">8.11 Escalation Strategy<a class="headerlink" href="#811-escalation-strategy" title="Permanent link">&para;</a></h3>
+<p>Escalate only when impact is clear.
+Reference the rubric and scope explicitly.
+Provide a deterministic reproduction path.
+Keep the appeal short and technical.</p>
+<h3 id="812-reputation-building">8.12 Reputation Building<a class="headerlink" href="#812-reputation-building" title="Permanent link">&para;</a></h3>
+<p>Publish high-quality reports.
+Contribute to community discussions.
+Maintain a clean and professional profile.
+Help others with clarifications and tooling tips.</p>
+<h3 id="813-mental-health-and-sustainability">8.13 Mental Health and Sustainability<a class="headerlink" href="#813-mental-health-and-sustainability" title="Permanent link">&para;</a></h3>
+<p>Schedule breaks during long contests.
+Avoid all-night marathons for multiple days.
+Track productivity without burnout.
+Use post-contest time for rest and learning.</p>
+<h3 id="814-economic-attack-modeling">8.14 Economic Attack Modeling<a class="headerlink" href="#814-economic-attack-modeling" title="Permanent link">&para;</a></h3>
+<p>Map how value moves between pools and vaults.
+Simulate extreme price movements.
+Check for oracle manipulation paths.
+Look for incentive misalignment between roles.</p>
+<h3 id="815-competition-strategy">8.15 Competition Strategy<a class="headerlink" href="#815-competition-strategy" title="Permanent link">&para;</a></h3>
+<p>Select contests with less overlapping researcher focus.
+Prioritize novel protocols rather than forks.
+Review the sponsor's previous audits to avoid duplicates.
+Balance speed with depth to capture unique findings.</p>
+<hr />
+<h2 id="9-watson-workflow-and-tooling">9. Watson Workflow and Tooling<a class="headerlink" href="#9-watson-workflow-and-tooling" title="Permanent link">&para;</a></h2>
+<h3 id="91-environment-setup">9.1 Environment Setup<a class="headerlink" href="#91-environment-setup" title="Permanent link">&para;</a></h3>
+<p>Clone the repo and verify commit hashes.
+Install dependencies with locked versions.
+Run the baseline test suite.
+Document any failing tests or required configs.</p>
+<h3 id="92-workspace-organization">9.2 Workspace Organization<a class="headerlink" href="#92-workspace-organization" title="Permanent link">&para;</a></h3>
+<p>Create a notes folder with dated files.
+Track findings with severity hypotheses.
+Store PoC scripts in a dedicated folder.
+Use consistent naming for tests and scripts.</p>
+<h3 id="93-review-passes">9.3 Review Passes<a class="headerlink" href="#93-review-passes" title="Permanent link">&para;</a></h3>
+<p>Pass 1: architecture and module mapping.
+Pass 2: access control and roles.
+Pass 3: asset flow and accounting.
+Pass 4: edge cases and state transitions.
+Pass 5: external calls and oracle dependencies.</p>
+<h3 id="94-static-analysis-workflow">9.4 Static Analysis Workflow<a class="headerlink" href="#94-static-analysis-workflow" title="Permanent link">&para;</a></h3>
+<p>Run Slither for obvious issues.
+Scan for uninitialized variables and reentrancy.
+Review warnings and map to actual flows.
+Document false positives for future speed.</p>
+<h3 id="95-dynamic-analysis-workflow">9.5 Dynamic Analysis Workflow<a class="headerlink" href="#95-dynamic-analysis-workflow" title="Permanent link">&para;</a></h3>
+<p>Write Foundry tests for invariants.
+Use fuzzing to explore boundary inputs.
+Simulate attacker flows with <code>vm.prank</code>.
+Use forked chains when external integrations matter.</p>
+<h3 id="96-manual-review-techniques">9.6 Manual Review Techniques<a class="headerlink" href="#96-manual-review-techniques" title="Permanent link">&para;</a></h3>
+<p>Trace storage mutations across functions.
+Verify role checks for all privileged calls.
+Audit custom math for rounding risk.
+Map dependency graphs for cross-contract calls.</p>
+<h3 id="97-tooling-cheat-sheet">9.7 Tooling Cheat Sheet<a class="headerlink" href="#97-tooling-cheat-sheet" title="Permanent link">&para;</a></h3>
+<p>Foundry: tests, fuzzing, and quick PoCs.
+Hardhat: scripting and deployment emulation.
+Slither: fast static analysis.
+Aderyn: additional static checks.
+Mythril: symbolic execution for complex paths.
+Echidna: property-based fuzzing.
+Tenderly: trace debugging and transaction inspection.</p>
+<h3 id="98-evidence-collection">9.8 Evidence Collection<a class="headerlink" href="#98-evidence-collection" title="Permanent link">&para;</a></h3>
+<p>Keep screenshots of failing tests.
+Log transaction traces with clear inputs.
+Capture call graphs for complex sequences.
+Save reproduction steps in a simple markdown file.</p>
+<h3 id="99-report-drafting-workflow">9.9 Report Drafting Workflow<a class="headerlink" href="#99-report-drafting-workflow" title="Permanent link">&para;</a></h3>
+<p>Draft summary first, then root cause.
+Write PoC steps before mitigation.
+Add line references after final edits.
+Run a final clarity pass for length and precision.</p>
+<h3 id="910-quality-assurance-for-reports">9.10 Quality Assurance for Reports<a class="headerlink" href="#910-quality-assurance-for-reports" title="Permanent link">&para;</a></h3>
+<p>Check for scope alignment.
+Confirm attacker assumptions are valid.
+Remove speculative language.
+Ensure mitigation matches the root cause.</p>
+<hr />
+<h2 id="10-communication-and-qa-playbook">10. Communication and Q&amp;A Playbook<a class="headerlink" href="#10-communication-and-qa-playbook" title="Permanent link">&para;</a></h2>
+<h3 id="101-why-qa-matters">10.1 Why Q&amp;A Matters<a class="headerlink" href="#101-why-qa-matters" title="Permanent link">&para;</a></h3>
+<p>Sponsor clarifications reduce invalid submissions.
+Q&amp;A can reveal intended invariants and constraints.
+Questions can shape severity interpretation.</p>
+<h3 id="102-when-to-ask-questions">10.2 When to Ask Questions<a class="headerlink" href="#102-when-to-ask-questions" title="Permanent link">&para;</a></h3>
+<p>When intent is unclear or contradictory.
+When privileged roles are ambiguous.
+When external dependencies are undefined.
+When documentation conflicts with code.</p>
+<h3 id="103-how-to-ask-effective-questions">10.3 How to Ask Effective Questions<a class="headerlink" href="#103-how-to-ask-effective-questions" title="Permanent link">&para;</a></h3>
+<p>Be concise and reference specific functions.
+State the assumption you need validated.
+Avoid leading questions that imply a bug.
+Ask one question per message.</p>
+<h3 id="104-qa-do-and-do-not">10.4 Q&amp;A Do and Do Not<a class="headerlink" href="#104-qa-do-and-do-not" title="Permanent link">&para;</a></h3>
+<p>Do ask about role permissions and invariants.
+Do ask about upgradeable deployment assumptions.
+Do not ask for hints about vulnerabilities.
+Do not flood the channel with multiple posts.</p>
+<h3 id="105-logging-qa-answers">10.5 Logging Q&amp;A Answers<a class="headerlink" href="#105-logging-qa-answers" title="Permanent link">&para;</a></h3>
+<p>Record answers in your notes.
+Update your threat model with clarifications.
+Cite responses in your reports if needed.</p>
+<hr />
+<h2 id="11-comparison-sherlock-vs-code4rena-vs-spearbit">11. Comparison: Sherlock vs Code4rena vs Spearbit<a class="headerlink" href="#11-comparison-sherlock-vs-code4rena-vs-spearbit" title="Permanent link">&para;</a></h2>
+<h3 id="111-quick-comparison-table">11.1 Quick Comparison Table<a class="headerlink" href="#111-quick-comparison-table" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Sherlock</th>
+<th>Code4rena</th>
+<th>Spearbit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Model</td>
+<td>Contest-based audits</td>
+<td>Contest-based audits</td>
+<td>Curated audit collective</td>
+</tr>
+<tr>
+<td>Primary Audience</td>
+<td>Watson researchers</td>
+<td>Wardens</td>
+<td>Senior auditors</td>
+</tr>
+<tr>
+<td>Access</td>
+<td>Public contests</td>
+<td>Public contests</td>
+<td>Invite or referral</td>
+</tr>
+<tr>
+<td>Judging</td>
+<td>Lead Senior Judge and panel</td>
+<td>Lead judge and lookouts</td>
+<td>Internal QA and peer review</td>
+</tr>
+<tr>
+<td>Payout Basis</td>
+<td>Prize pool shares</td>
+<td>Prize pool shares</td>
+<td>Fixed fees or retainers</td>
+</tr>
+<tr>
+<td>Income Volatility</td>
+<td>High</td>
+<td>High</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>Typical Timeline</td>
+<td>Weeks</td>
+<td>Weeks</td>
+<td>Weeks to months</td>
+</tr>
+<tr>
+<td>Best For</td>
+<td>Structured contest learning</td>
+<td>High volume contesting</td>
+<td>Stable premium work</td>
+</tr>
+<tr>
+<td>Competition</td>
+<td>Medium to high</td>
+<td>High</td>
+<td>Low (curated)</td>
+</tr>
+<tr>
+<td>Output</td>
+<td>Public final report</td>
+<td>Public final report</td>
+<td>Private client report</td>
+</tr>
+<tr>
+<td>Repeatability</td>
+<td>Moderate</td>
+<td>High</td>
+<td>High with retainers</td>
+</tr>
+<tr>
+<td>Skill Growth</td>
+<td>High</td>
+<td>High</td>
+<td>High but specialized</td>
+</tr>
+<tr>
+<td>Reputation Signal</td>
+<td>Strong public track record</td>
+<td>Strong public track record</td>
+<td>Private references</td>
+</tr>
+</tbody>
+</table>
+<h3 id="112-sherlock-vs-code4rena">11.2 Sherlock vs Code4rena<a class="headerlink" href="#112-sherlock-vs-code4rena" title="Permanent link">&para;</a></h3>
+<p>Sherlock tends to run fewer contests with tighter scopes.
+Code4rena runs more frequent contests with larger crowds.
+Sherlock LSJ model can provide clearer severity alignment.
+Code4rena offers larger community scale and history.
+Both reward unique High and Medium findings.</p>
+<h3 id="113-sherlock-vs-spearbit">11.3 Sherlock vs Spearbit<a class="headerlink" href="#113-sherlock-vs-spearbit" title="Permanent link">&para;</a></h3>
+<p>Spearbit operates like a boutique audit firm.
+Compensation is fixed and negotiated, not prize-based.
+Spearbit emphasizes long-term relationships and code ownership.
+Sherlock is better for competitive skill growth and public reputation.
+Spearbit is better for stable, predictable income.</p>
+<h3 id="114-choosing-the-right-platform">11.4 Choosing the Right Platform<a class="headerlink" href="#114-choosing-the-right-platform" title="Permanent link">&para;</a></h3>
+<p>Choose Sherlock for structured contest learning.
+Choose Code4rena for high contest volume.
+Choose Spearbit for premium, stable audit work.
+A hybrid strategy can combine contests with private work.</p>
+<h3 id="115-hybrid-strategy-example">11.5 Hybrid Strategy Example<a class="headerlink" href="#115-hybrid-strategy-example" title="Permanent link">&para;</a></h3>
+<p>Use Sherlock for competitive learning and visibility.
+Use Code4rena for volume and diverse exposure.
+Use Spearbit or private audits for stability.
+Rotate focus to avoid burnout and maintain income.</p>
+<hr />
+<h2 id="12-payout-timelines-and-logistics">12. Payout Timelines and Logistics<a class="headerlink" href="#12-payout-timelines-and-logistics" title="Permanent link">&para;</a></h2>
+<h3 id="121-typical-timeline">12.1 Typical Timeline<a class="headerlink" href="#121-typical-timeline" title="Permanent link">&para;</a></h3>
+<p>Contest ends and submissions lock.
+Judging and deduping begin within days.
+Sponsor review follows initial judging.
+Escalations are processed after sponsor feedback.
+Final report is published once decisions are final.
+Payments are issued after report approval.</p>
+<h3 id="122-typical-payout-window">12.2 Typical Payout Window<a class="headerlink" href="#122-typical-payout-window" title="Permanent link">&para;</a></h3>
+<p>Fast contests can pay within 3 to 4 weeks.
+Complex contests can take 6 to 8 weeks.
+Escalations or disputes can extend timelines.</p>
+<h3 id="123-common-delay-drivers">12.3 Common Delay Drivers<a class="headerlink" href="#123-common-delay-drivers" title="Permanent link">&para;</a></h3>
+<p>Large volume of submissions.
+Complex or disputed findings.
+Slow sponsor feedback.
+Additional clarification requests.</p>
+<h3 id="124-payment-methods">12.4 Payment Methods<a class="headerlink" href="#124-payment-methods" title="Permanent link">&para;</a></h3>
+<p>Stablecoin transfers are common.
+Some sponsors pay in token or fiat.
+Ensure wallet addresses are correct and verified.</p>
+<h3 id="125-operational-best-practices">12.5 Operational Best Practices<a class="headerlink" href="#125-operational-best-practices" title="Permanent link">&para;</a></h3>
+<p>Track contest dates and payout status.
+Maintain a log of findings and report IDs.
+Store payout confirmations for accounting.
+Keep copies of final reports and credits.</p>
+<h3 id="126-tax-considerations">12.6 Tax Considerations<a class="headerlink" href="#126-tax-considerations" title="Permanent link">&para;</a></h3>
+<p>Treat payouts as income under local law.
+Track token values at time of receipt.
+Consult professionals for compliance guidance.</p>
+<hr />
+<h2 id="13-real-auditor-earnings-modeled-public-patterns">13. Real Auditor Earnings (Modeled + Public Patterns)<a class="headerlink" href="#13-real-auditor-earnings-modeled-public-patterns" title="Permanent link">&para;</a></h2>
+<h3 id="131-why-this-section-uses-ranges">13.1 Why This Section Uses Ranges<a class="headerlink" href="#131-why-this-section-uses-ranges" title="Permanent link">&para;</a></h3>
+<p>Payouts vary by contest size and competition.
+Sherlock final reports show pool sizes and payouts.
+Exact earnings are public only when auditors share them.
+Ranges below are based on pool math and typical splits.</p>
+<h3 id="132-contest-pot-ranges-common-observations">13.2 Contest Pot Ranges (Common Observations)<a class="headerlink" href="#132-contest-pot-ranges-common-observations" title="Permanent link">&para;</a></h3>
+<p>Small contests: $20k to $40k pools.
+Medium contests: $40k to $80k pools.
+Large contests: $80k to $150k+ pools.
+Special audits can exceed these ranges.</p>
+<h3 id="133-modeled-payout-scenarios">13.3 Modeled Payout Scenarios<a class="headerlink" href="#133-modeled-payout-scenarios" title="Permanent link">&para;</a></h3>
+<p>Scenario 1: Medium in a $40k pool with four duplicates.
+Estimated payout range: $1k to $3k.
+Scenario 2: Unique Medium in a $60k pool.
+Estimated payout range: $4k to $8k.
+Scenario 3: Two Mediums in a $60k pool, two duplicates each.
+Estimated payout range: $3k to $6k.
+Scenario 4: Unique High in a $100k pool.
+Estimated payout range: $15k to $30k.
+Scenario 5: High in a $120k pool with two duplicates.
+Estimated payout range: $10k to $20k.
+Scenario 6: Multiple low-impact or QA items.
+Estimated payout range: $0 to $1k.
+Scenario 7: Unique High plus Medium in a $120k pool.
+Estimated payout range: $20k to $40k.</p>
+<h3 id="134-monthly-earnings-patterns">13.4 Monthly Earnings Patterns<a class="headerlink" href="#134-monthly-earnings-patterns" title="Permanent link">&para;</a></h3>
+<p>One strong find can cover an entire month.
+Two to three Mediums per month can yield $5k to $15k.
+A single unique High can exceed $20k in a month.
+Top Watsons often mix contests and private audits.</p>
+<h3 id="135-the-senior-1k-10kweek-reality">13.5 The Senior $1K-$10K/Week Reality<a class="headerlink" href="#135-the-senior-1k-10kweek-reality" title="Permanent link">&para;</a></h3>
+<p>At $1K/week, a Watson needs occasional Mediums.
+At $5K/week, a Watson needs consistent unique Mediums.
+At $10K/week, a Watson needs a mix of Highs and Mediums.
+The biggest lever is unique impact, not submission volume.</p>
+<h3 id="136-factors-that-increase-earnings">13.6 Factors That Increase Earnings<a class="headerlink" href="#136-factors-that-increase-earnings" title="Permanent link">&para;</a></h3>
+<p>Targeting codebases with novel logic.
+Submitting clean PoCs that avoid invalidation.
+Choosing contests with manageable competition.
+Building speed with reusable tooling.</p>
+<h3 id="137-factors-that-suppress-earnings">13.7 Factors That Suppress Earnings<a class="headerlink" href="#137-factors-that-suppress-earnings" title="Permanent link">&para;</a></h3>
+<p>Crowded contests with duplicate findings.
+Overreliance on automated tools.
+Weak impact statements that lead to downgrades.
+Failure to align with sponsor assumptions.</p>
+<h3 id="138-where-to-validate-earnings-yourself">13.8 Where to Validate Earnings Yourself<a class="headerlink" href="#138-where-to-validate-earnings-yourself" title="Permanent link">&para;</a></h3>
+<p>Read Sherlock final reports for payout math.
+Track contest pools and duplicates to model shares.
+Follow public Watson profiles and disclosure threads.
+Maintain a spreadsheet to estimate ROI per contest.</p>
+<hr />
+<h2 id="14-common-pitfalls">14. Common Pitfalls<a class="headerlink" href="#14-common-pitfalls" title="Permanent link">&para;</a></h2>
+<h3 id="141-technical-pitfalls">14.1 Technical Pitfalls<a class="headerlink" href="#141-technical-pitfalls" title="Permanent link">&para;</a></h3>
+<p>Missing protocol invariants.
+Ignoring upgradeable proxy initialization.
+Assuming price feeds are trustworthy without checks.
+Overlooking cross-chain or bridge assumptions.</p>
+<h3 id="142-process-pitfalls">14.2 Process Pitfalls<a class="headerlink" href="#142-process-pitfalls" title="Permanent link">&para;</a></h3>
+<p>Starting too late in the contest window.
+Skipping documentation and threat model review.
+Submitting rushed reports without PoCs.
+Failing to dedupe internally on teams.</p>
+<h3 id="143-reporting-pitfalls">14.3 Reporting Pitfalls<a class="headerlink" href="#143-reporting-pitfalls" title="Permanent link">&para;</a></h3>
+<p>Using vague titles like bug in function.
+Omitting clear impact or attacker assumptions.
+Not linking to relevant lines of code.
+Providing mitigation that changes protocol intent.</p>
+<h3 id="144-communication-pitfalls">14.4 Communication Pitfalls<a class="headerlink" href="#144-communication-pitfalls" title="Permanent link">&para;</a></h3>
+<p>Combative escalation language.
+Unclear questions in Q&amp;A.
+Overconfidence in severity without evidence.</p>
+<hr />
+<h2 id="15-sample-weekly-operating-system">15. Sample Weekly Operating System<a class="headerlink" href="#15-sample-weekly-operating-system" title="Permanent link">&para;</a></h2>
+<h3 id="151-monday-contest-kickoff">15.1 Monday (Contest Kickoff)<a class="headerlink" href="#151-monday-contest-kickoff" title="Permanent link">&para;</a></h3>
+<p>Read docs and architecture.
+List critical assets and trust boundaries.
+Set up repository and run baseline tests.
+Create initial threat model notes.</p>
+<h3 id="152-tuesday-deep-dive">15.2 Tuesday (Deep Dive)<a class="headerlink" href="#152-tuesday-deep-dive" title="Permanent link">&para;</a></h3>
+<p>Map state transitions and invariants.
+Review access control and privileged operations.
+Start tests for critical paths.
+Document any suspicious logic.</p>
+<h3 id="153-wednesday-exploit-exploration">15.3 Wednesday (Exploit Exploration)<a class="headerlink" href="#153-wednesday-exploit-exploration" title="Permanent link">&para;</a></h3>
+<p>Focus on edge cases and error handling.
+Add fuzzing for value ranges.
+Draft initial findings.
+Prioritize unique impact opportunities.</p>
+<h3 id="154-thursday-poc-and-reporting">15.4 Thursday (PoC and Reporting)<a class="headerlink" href="#154-thursday-poc-and-reporting" title="Permanent link">&para;</a></h3>
+<p>Finalize PoCs with reproducible steps.
+Write reports with clear impact analysis.
+Cross-check severity with rubric.
+Peer review within a team if possible.</p>
+<h3 id="155-friday-finalization">15.5 Friday (Finalization)<a class="headerlink" href="#155-friday-finalization" title="Permanent link">&para;</a></h3>
+<p>Re-review reports for clarity.
+Check scope and out-of-scope exclusions.
+Submit before the deadline.
+Archive notes for post-contest review.</p>
+<h3 id="156-off-contest-week">15.6 Off-Contest Week<a class="headerlink" href="#156-off-contest-week" title="Permanent link">&para;</a></h3>
+<p>Review final reports from previous contests.
+Document lessons and new patterns.
+Improve tooling and templates.
+Network with other Watsons.</p>
+<hr />
+<h2 id="16-report-template-sherlock-optimized">16. Report Template (Sherlock-Optimized)<a class="headerlink" href="#16-report-template-sherlock-optimized" title="Permanent link">&para;</a></h2>
+<h3 id="161-title">16.1 Title<a class="headerlink" href="#161-title" title="Permanent link">&para;</a></h3>
+<p>Short, impact-first title.
+Example: Unauthorized withdraw drains escrowed funds.</p>
+<h3 id="162-summary">16.2 Summary<a class="headerlink" href="#162-summary" title="Permanent link">&para;</a></h3>
+<p>Two to three sentences explaining the issue.
+Include attacker requirements and high-level impact.</p>
+<h3 id="163-root-cause">16.3 Root Cause<a class="headerlink" href="#163-root-cause" title="Permanent link">&para;</a></h3>
+<p>Explain the exact logic error.
+Point to specific conditions or missing checks.
+Reference the relevant code lines.</p>
+<h3 id="164-proof-of-concept">16.4 Proof of Concept<a class="headerlink" href="#164-proof-of-concept" title="Permanent link">&para;</a></h3>
+<p>Minimal steps to reproduce.
+Include test code or transaction sequence.
+Show expected versus actual behavior.</p>
+<h3 id="165-exploit-steps">16.5 Exploit Steps<a class="headerlink" href="#165-exploit-steps" title="Permanent link">&para;</a></h3>
+<p>Step 1: attacker preconditions.
+Step 2: triggering transaction sequence.
+Step 3: resulting fund loss or state corruption.</p>
+<h3 id="166-impact-analysis">16.6 Impact Analysis<a class="headerlink" href="#166-impact-analysis" title="Permanent link">&para;</a></h3>
+<p>Describe loss, freeze, or protocol failure.
+Quantify if possible.
+Explain why the impact is credible.</p>
+<h3 id="167-mitigation">16.7 Mitigation<a class="headerlink" href="#167-mitigation" title="Permanent link">&para;</a></h3>
+<p>Provide a minimal code change.
+Avoid redesign unless necessary.
+Explain how the fix addresses the root cause.</p>
+<h3 id="168-severity-justification">16.8 Severity Justification<a class="headerlink" href="#168-severity-justification" title="Permanent link">&para;</a></h3>
+<p>Map to contest rubric.
+Explain why the impact is High or Medium.
+Avoid severity inflation.</p>
+<h3 id="169-assumptions">16.9 Assumptions<a class="headerlink" href="#169-assumptions" title="Permanent link">&para;</a></h3>
+<p>List attacker permissions and required state.
+Call out any external dependency requirements.
+Ensure assumptions align with scope.</p>
+<h3 id="1610-references">16.10 References<a class="headerlink" href="#1610-references" title="Permanent link">&para;</a></h3>
+<p>Link to related functions and documentation.
+Include relevant tests or traces.
+Cite any sponsor clarifications if used.</p>
+<hr />
+<h2 id="17-checklists">17. Checklists<a class="headerlink" href="#17-checklists" title="Permanent link">&para;</a></h2>
+<h3 id="171-pre-contest-checklist">17.1 Pre-Contest Checklist<a class="headerlink" href="#171-pre-contest-checklist" title="Permanent link">&para;</a></h3>
+<p>Read rules and scope list.
+Clone repo and install dependencies.
+Run baseline test suite.
+Identify critical assets and roles.
+List external integrations and oracles.
+Create a threat model document.
+Set a personal schedule for the contest.
+Review previous audits or reports.</p>
+<h3 id="172-day-1-audit-checklist">17.2 Day 1 Audit Checklist<a class="headerlink" href="#172-day-1-audit-checklist" title="Permanent link">&para;</a></h3>
+<p>Map contract architecture.
+Identify entry points and access modifiers.
+Trace token flows for mint and burn.
+Mark privileged admin functions.
+List upgradeable components.
+Document contract ownership chains.</p>
+<h3 id="173-day-2-audit-checklist">17.3 Day 2 Audit Checklist<a class="headerlink" href="#173-day-2-audit-checklist" title="Permanent link">&para;</a></h3>
+<p>Validate state transitions.
+Review initialization and upgrade flows.
+Check for reentrancy and external calls.
+Scan for rounding and precision loss.
+Start writing tests for invariants.
+Review event emissions for logging gaps.</p>
+<h3 id="174-day-3-audit-checklist">17.4 Day 3 Audit Checklist<a class="headerlink" href="#174-day-3-audit-checklist" title="Permanent link">&para;</a></h3>
+<p>Assess oracle usage and time dependencies.
+Review permissions and role changes.
+Inspect cross-contract interactions.
+Test boundary values and overflows.
+Draft preliminary report outlines.
+Validate error handling and revert reasons.</p>
+<h3 id="175-day-4-audit-checklist">17.5 Day 4 Audit Checklist<a class="headerlink" href="#175-day-4-audit-checklist" title="Permanent link">&para;</a></h3>
+<p>Review economic incentives and rewards.
+Inspect fee calculations.
+Check for griefing and denial-of-service paths.
+Test emergency pause and recovery flows.
+Validate input sanitization and restrictions.</p>
+<h3 id="176-pre-submission-checklist">17.6 Pre-Submission Checklist<a class="headerlink" href="#176-pre-submission-checklist" title="Permanent link">&para;</a></h3>
+<p>Validate exploit steps are reproducible.
+Confirm issue is in-scope.
+Double-check severity and impact.
+Ensure no internal duplicates.
+Proofread report for clarity and brevity.
+Verify line references and function names.</p>
+<h3 id="177-escalation-checklist">17.7 Escalation Checklist<a class="headerlink" href="#177-escalation-checklist" title="Permanent link">&para;</a></h3>
+<p>Reference the specific rule or rubric clause.
+Provide minimal reproduction steps.
+Clarify why original judgment is incorrect.
+Avoid emotional language.
+Submit within the escalation window.
+Include any new evidence succinctly.</p>
+<h3 id="178-post-contest-checklist">17.8 Post-Contest Checklist<a class="headerlink" href="#178-post-contest-checklist" title="Permanent link">&para;</a></h3>
+<p>Read final report and compare to your findings.
+Document what worked and what did not.
+Update your personal playbook.
+Reach out to peers for feedback.
+Record payouts and time spent for ROI.</p>
+<hr />
+<h2 id="18-glossary">18. Glossary<a class="headerlink" href="#18-glossary" title="Permanent link">&para;</a></h2>
+<p>Access Control: who can call privileged functions.
+Accounting Bug: math error that misallocates assets.
+Attack Surface: all external entry points.
+Deduplication: grouping similar findings.
+Escalation: appeal of a judgment decision.
+Impact: the consequence of the exploit.
+Invariant: property that should always hold.
+LSJ: Lead Senior Judge.
+Medium: severity class for substantial risk.
+High: severity class for critical risk.
+Watson: Sherlock auditor.
+Sponsor: protocol team funding the contest.
+PoC: proof of concept demonstrating exploit.
+Scope: list of in-scope and out-of-scope targets.
+Severity: classification of issue impact.
+Triage: initial sorting and filtering.
+Threat Model: attacker capabilities and assumptions.
+Upgradeable Proxy: contract pattern allowing logic changes.
+Reentrancy: external call that re-enters a function.
+Oracle: external data source used by the protocol.
+Slippage: price movement affecting trades.
+Front-running: transaction ordering attack.
+MEV: miner or validator extractable value.
+Gas Optimization: change that reduces execution cost.
+QA: quality assurance issues.
+Sandbox: isolated testing environment.
+Forked Chain: local copy of chain state for tests.
+Time Lock: delay before privileged actions execute.
+Timelock Bypass: exploit that skips delays.</p>
+<hr />
+<h2 id="19-resource-map">19. Resource Map<a class="headerlink" href="#19-resource-map" title="Permanent link">&para;</a></h2>
+<p>Sherlock contest pages and rules.
+Past Sherlock final reports.
+Foundry and Hardhat documentation.
+Slither and Aderyn static analysis tools.
+Solidity security best practices.
+OpenZeppelin contract standards.
+Protocol docs and whitepapers.
+Community writeups and postmortems.</p>
+<hr />
+<h2 id="20-final-action-plan-for-new-watsons">20. Final Action Plan for New Watsons<a class="headerlink" href="#20-final-action-plan-for-new-watsons" title="Permanent link">&para;</a></h2>
+<p>Step 1: Choose a single upcoming contest.
+Step 2: Read the rules, scope, and docs on day one.
+Step 3: Build a threat model with assets and roles.
+Step 4: Run static analysis and map the contract graph.
+Step 5: Review critical asset flows and invariants.
+Step 6: Draft PoCs for suspicious logic.
+Step 7: Write concise reports with evidence and mitigations.
+Step 8: Submit early enough to review for errors.
+Step 9: Track judging outcomes and learn from the final report.
+Step 10: Iterate on your playbook for the next contest.</p>
+<hr />
+<h2 id="21-advanced-growth-path-to-10kweek">21. Advanced Growth Path to $10K/Week<a class="headerlink" href="#21-advanced-growth-path-to-10kweek" title="Permanent link">&para;</a></h2>
+<h3 id="211-skill-deepening">21.1 Skill Deepening<a class="headerlink" href="#211-skill-deepening" title="Permanent link">&para;</a></h3>
+<p>Specialize in a niche protocol domain.
+Practice formal verification concepts.
+Learn L2 and bridge security patterns.
+Master economic attack modeling.</p>
+<h3 id="212-process-optimization">21.2 Process Optimization<a class="headerlink" href="#212-process-optimization" title="Permanent link">&para;</a></h3>
+<p>Create reusable test harnesses.
+Maintain a library of invariant tests.
+Build checklists for common vulnerabilities.
+Track contest stats and ROI per hour.</p>
+<h3 id="213-reputation-compounding">21.3 Reputation Compounding<a class="headerlink" href="#213-reputation-compounding" title="Permanent link">&para;</a></h3>
+<p>Contribute thoughtful escalations.
+Share writeups and learning notes.
+Collaborate with high-quality teams.
+Offer mentorship to newer Watsons.</p>
+<h3 id="214-income-stack-strategy">21.4 Income Stack Strategy<a class="headerlink" href="#214-income-stack-strategy" title="Permanent link">&para;</a></h3>
+<p>Combine Sherlock contests with private audits.
+Offer pre-contest review to protocol teams.
+Maintain a recurring advisory client.
+Use contest wins as marketing leverage.</p>
+<h3 id="215-specialization-examples">21.5 Specialization Examples<a class="headerlink" href="#215-specialization-examples" title="Permanent link">&para;</a></h3>
+<p>Restaking and slashing mechanics.
+Automated market makers and LP accounting.
+Bridges and cross-chain message verification.
+Governance and tokenomics.</p>
+<hr />
+<h2 id="22-reality-check-and-ethics">22. Reality Check and Ethics<a class="headerlink" href="#22-reality-check-and-ethics" title="Permanent link">&para;</a></h2>
+<p>Contest hacking is competitive and demanding.
+Always disclose responsibly and follow the rules.
+Do not exploit vulnerabilities beyond PoC.
+Protect your reputation and the ecosystem.
+Ethical conduct increases long-term opportunity.</p>
+<hr />
+<h2 id="23-quick-reference-summary">23. Quick Reference Summary<a class="headerlink" href="#23-quick-reference-summary" title="Permanent link">&para;</a></h2>
+<p>Sherlock is a judge-led Web3 audit contest platform.
+Watsons submit vulnerabilities for prize pool shares.
+Unique, high-impact findings drive earnings.
+Senior Watsons can target $1K-$10K per week.
+Judging quality and report clarity determine outcomes.
+Use structured methodology and repeatable tooling.
+Read final reports to accelerate your learning.</p>
+<hr />
+<h2 id="24-appendix-vulnerability-pattern-library">24. Appendix: Vulnerability Pattern Library<a class="headerlink" href="#24-appendix-vulnerability-pattern-library" title="Permanent link">&para;</a></h2>
+<h3 id="241-access-control-patterns">24.1 Access Control Patterns<a class="headerlink" href="#241-access-control-patterns" title="Permanent link">&para;</a></h3>
+<p>Missing role checks on admin functions.
+Upgradeable proxy initialized twice.
+Privilege escalation via role transfer.
+Admin-controlled oracle manipulation.
+Owner-only function missing in upgrade path.
+Role renounce leads to permanent lock.</p>
+<h3 id="242-token-accounting-patterns">24.2 Token Accounting Patterns<a class="headerlink" href="#242-token-accounting-patterns" title="Permanent link">&para;</a></h3>
+<p>Incorrect share calculations in vaults.
+Rounding errors on deposits and withdrawals.
+Inflation of reward tokens via timing attack.
+Fee miscalculation due to precision loss.
+Balance updates after external call.
+Incorrect fee-on-transfer token handling.</p>
+<h3 id="243-state-machine-patterns">24.3 State Machine Patterns<a class="headerlink" href="#243-state-machine-patterns" title="Permanent link">&para;</a></h3>
+<p>State transition skipping in lockup systems.
+Premature withdrawal before cooldown expiry.
+Re-entrancy during state transitions.
+Incorrect cancellation logic in auctions.
+Double-claiming in reward states.
+State reset without cleanup.</p>
+<h3 id="244-external-call-patterns">24.4 External Call Patterns<a class="headerlink" href="#244-external-call-patterns" title="Permanent link">&para;</a></h3>
+<p>Unchecked return values from token transfers.
+Reentrancy via ERC777 hooks.
+Callback functions that can be abused.
+Delegatecall to untrusted targets.
+Call to zero address tokens.
+Unsafe <code>call</code> with uncontrolled gas.</p>
+<h3 id="245-oracle-patterns">24.5 Oracle Patterns<a class="headerlink" href="#245-oracle-patterns" title="Permanent link">&para;</a></h3>
+<p>Stale price usage.
+Missing heartbeat checks.
+Manipulable DEX spot prices.
+Single-source oracle dependency.
+Price scaling errors across decimals.
+TWAP window too short for manipulation resistance.</p>
+<h3 id="246-governance-patterns">24.6 Governance Patterns<a class="headerlink" href="#246-governance-patterns" title="Permanent link">&para;</a></h3>
+<p>Flash-loan voting manipulation.
+Timelock bypass via delegatecall.
+Emergency pause abuse.
+Proposal execution order bugs.
+Vote snapshot block mismatch.
+Governance parameter change without delay.</p>
+<h3 id="247-upgradeability-patterns">24.7 Upgradeability Patterns<a class="headerlink" href="#247-upgradeability-patterns" title="Permanent link">&para;</a></h3>
+<p>Unprotected upgrade functions.
+Storage collision between implementations.
+Initialization function callable post-deployment.
+Beacon proxies pointing to malicious implementation.
+Admin role stored in proxy storage incorrectly.</p>
+<h3 id="248-economic-design-patterns">24.8 Economic Design Patterns<a class="headerlink" href="#248-economic-design-patterns" title="Permanent link">&para;</a></h3>
+<p>Incentives allow risk-free yield extraction.
+Reward emission miscalculations.
+Liquidity withdrawal breaks invariant ratios.
+Slippage checks absent in swaps.
+Fee distribution favors attacker accounts.</p>
+<h3 id="249-cross-chain-patterns">24.9 Cross-Chain Patterns<a class="headerlink" href="#249-cross-chain-patterns" title="Permanent link">&para;</a></h3>
+<p>Message replay across chains.
+Improper domain separation.
+Bridge relayer trust assumptions.
+Mismatch between token decimals on chains.
+Nonce or sequence mismanagement.</p>
+<hr />
+<h2 id="25-appendix-example-finding-outline">25. Appendix: Example Finding Outline<a class="headerlink" href="#25-appendix-example-finding-outline" title="Permanent link">&para;</a></h2>
+<p>Title: Oracle price can be manipulated to drain vault.
+Impact: attacker can withdraw more assets than deposited.
+Root Cause: price feed lacks TWAP or heartbeat check.
+Exploit Steps:
+1. Manipulate the DEX pool with a flash loan.
+2. Call vault deposit or withdraw in the same block.
+3. Capture inflated share calculation.
+Mitigation: add a TWAP oracle and minimum delay.</p>
+<hr />
+<h2 id="26-appendix-escalation-template">26. Appendix: Escalation Template<a class="headerlink" href="#26-appendix-escalation-template" title="Permanent link">&para;</a></h2>
+<p>Subject: Escalation for Report ID and Severity Review.
+Summary: brief statement of why the severity is incorrect.
+Evidence: line references and proof steps.
+Impact: quantified loss or protocol disruption.
+Rule Reference: quote the contest rubric.
+Conclusion: request reconsideration.</p>
+<hr />
+<h2 id="27-appendix-qa-question-bank">27. Appendix: Q&amp;A Question Bank<a class="headerlink" href="#27-appendix-qa-question-bank" title="Permanent link">&para;</a></h2>
+<p>Is the admin allowed to pause withdrawals at any time?
+Are privileged roles expected to be multisig-controlled?
+Is the oracle assumed to be trusted or adversarial?
+Can the owner change fee parameters without delay?
+Are flash loans within the threat model?
+Is the protocol expected to handle fee-on-transfer tokens?
+Are there any off-chain keepers with special permissions?
+Is the upgrade path expected to be immutable after launch?
+Are tokens with non-standard decimals in scope?
+Does the protocol rely on chain reorg assumptions?
+Is the vault expected to support rebase tokens?
+Are emergency withdrawals allowed to bypass cooldowns?
+Is the protocol expected to run on a forked chain?
+Are there planned integrations not in the repo?
+Are any contracts intentionally immutable or locked?
+Is the staking reward schedule subject to governance changes?
+Are there constraints on block timestamp manipulation?
+Is the sponsor assuming validators are honest?</p>
+<hr />
+<h2 id="28-appendix-metrics-tracker">28. Appendix: Metrics Tracker<a class="headerlink" href="#28-appendix-metrics-tracker" title="Permanent link">&para;</a></h2>
+<p>Contests joined per quarter.
+Hours spent per contest.
+Findings submitted per contest.
+Accepted findings per contest.
+Duplicate rate percentage.
+Invalid rate percentage.
+Average payout per contest.
+Median payout per contest.
+Average payout per hour.
+Severity mix across findings.
+Escalation success rate.
+Time from contest end to payout.
+Skill gaps identified.
+Tooling improvements shipped.</p>
+<hr />
+<h2 id="29-appendix-90-day-ramp-plan">29. Appendix: 90-Day Ramp Plan<a class="headerlink" href="#29-appendix-90-day-ramp-plan" title="Permanent link">&para;</a></h2>
+<h3 id="weeks-1-2-fundamentals">Weeks 1-2: Fundamentals<a class="headerlink" href="#weeks-1-2-fundamentals" title="Permanent link">&para;</a></h3>
+<p>Read Sherlock rules and past final reports.
+Set up Foundry and a sample audit repo.
+Learn standard vulnerability categories.
+Practice writing two mock reports.</p>
+<h3 id="weeks-3-4-first-contest-exposure">Weeks 3-4: First Contest Exposure<a class="headerlink" href="#weeks-3-4-first-contest-exposure" title="Permanent link">&para;</a></h3>
+<p>Join a small contest with low pressure.
+Focus on one module or contract set.
+Submit at least one QA or low finding.
+Review the final report and compare.</p>
+<h3 id="weeks-5-6-medium-depth">Weeks 5-6: Medium Depth<a class="headerlink" href="#weeks-5-6-medium-depth" title="Permanent link">&para;</a></h3>
+<p>Join a medium contest.
+Build a full threat model before reading code.
+Write at least two invariant tests.
+Aim for one Medium-quality finding.</p>
+<h3 id="weeks-7-8-process-refinement">Weeks 7-8: Process Refinement<a class="headerlink" href="#weeks-7-8-process-refinement" title="Permanent link">&para;</a></h3>
+<p>Create a personal checklist.
+Automate static analysis workflows.
+Improve report templates for clarity.
+Join a second contest with similar patterns.</p>
+<h3 id="weeks-9-10-specialized-focus">Weeks 9-10: Specialized Focus<a class="headerlink" href="#weeks-9-10-specialized-focus" title="Permanent link">&para;</a></h3>
+<p>Pick a niche such as AMMs or staking.
+Study prior exploits in the niche.
+Develop reusable PoC templates.
+Target unique logic in the next contest.</p>
+<h3 id="weeks-11-12-senior-readiness">Weeks 11-12: Senior Readiness<a class="headerlink" href="#weeks-11-12-senior-readiness" title="Permanent link">&para;</a></h3>
+<p>Join a larger contest with stronger competition.
+Allocate time for deep PoCs and mitigations.
+Attempt at least one High-impact path.
+Review outcomes and plan next quarter.</p>
+<hr />
+<h2 id="30-faq">30. FAQ<a class="headerlink" href="#30-faq" title="Permanent link">&para;</a></h2>
+<p>Q: Do I need to be a Solidity expert to start?
+A: You need core proficiency, but contests accelerate learning.</p>
+<p>Q: Can I join contests as a beginner?
+A: Yes, but start with smaller scopes and focus on QA findings.</p>
+<p>Q: How many contests should I do per month?
+A: One to two is common; more requires high stamina.</p>
+<p>Q: Are teams allowed?
+A: Yes, teams submit under a single Watson handle.</p>
+<p>Q: Do I have to submit a PoC?
+A: A PoC is strongly recommended and often required for acceptance.</p>
+<p>Q: How do duplicates affect payout?
+A: Duplicates split the reward equally within the group.</p>
+<p>Q: Can I escalate a severity decision?
+A: Yes, within the escalation window and with evidence.</p>
+<p>Q: Are payouts always in stablecoins?
+A: Usually, but check contest rules for specifics.</p>
+<p>Q: What if I find something out of scope?
+A: It will be invalid, so confirm scope before reporting.</p>
+<p>Q: How do I track my performance?
+A: Keep a spreadsheet of time spent, payouts, and outcomes.</p>
+<hr />
+<h2 id="31-closing-note">31. Closing Note<a class="headerlink" href="#31-closing-note" title="Permanent link">&para;</a></h2>
+<p>Sherlock rewards depth, clarity, and disciplined execution.
+Build a repeatable audit system and iterate every contest.
+Focus on unique bugs, clean PoCs, and professional reports.
+Consistency and learning compound toward $10K/week outcomes.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Security Consulting Income Guide
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Ahmed-AdelB" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/in/ahmed-adel-security" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/AhmedAdel_Bakr" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.copy", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

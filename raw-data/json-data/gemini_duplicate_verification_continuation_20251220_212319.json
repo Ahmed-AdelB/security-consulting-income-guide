@@ -1,0 +1,36 @@
+[
+  {
+    "domain": "holisticai.com",
+    "platform_count": 2,
+    "platforms": [
+      {
+        "id": 196,
+        "name": "holisticai",
+        "domain": "holisticai.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 258,
+        "name": "Holistic AI",
+        "domain": "holisticai.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": null,
+    "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nError when talking to Gemini API Full report available at: /tmp/gemini-client-error-Turn.run-sendMessageStream-2025-12-20T21-23-19-260Z.json\n[API Error: You have exhausted your capacity on this model. Your quota will reset after 23h11m1s.]\nAn unexpected critical error occurred:[object Object]\n",
+    "timestamp": "2025-12-20T21:23:19.400615",
+    "status": "ERROR"
+  }
+]

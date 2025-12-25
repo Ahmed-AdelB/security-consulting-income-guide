@@ -1,0 +1,497 @@
+[
+  {
+    "domain": "candour.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 59,
+        "name": "Candour Energy",
+        "domain": "candour.com",
+        "category": "Expert Network",
+        "priority": 1,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 170,
+        "name": "candourenergy",
+        "domain": "candour.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 242,
+        "name": "Candour",
+        "domain": "candour.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "INACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"candour.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"All three records represent the same expert network, Candour (formerly Candour Energy). ID 59 uses the traditional name, ID 170 uses a slug/username format, and ID 242 uses the modern rebranded name. They are the same company.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"Duplicate records for the same active domain. Splitting tracking across three IDs (one of which is 'QUALIFIED' while others are 'AWAITING_RESPONSE') leads to fragmented data and incorrect status reporting.\",\n  \"primary_id\": 59,\n  \"delete_ids\": [\n    170,\n    242\n  ],\n  \"data_migration_notes\": \"CRITICAL: The Workflow Stage 'QUALIFIED' from ID 170 must be migrated to the primary ID 59 (which is currently 'AWAITING_RESPONSE'). Update the name of ID 59 to 'Candour' to reflect the current legal name, or retain 'Candour Energy' if industry recognition is higher.\",\n  \"risks\": \"The primary risk is losing the advanced 'QUALIFIED' status from ID 170 if ID 59's lower status overwrites it or if the merge logic doesn't prioritize the most advanced workflow stage.\",\n  \"action_plan\": \"1. Update ID 59's Workflow Stage to 'QUALIFIED'. 2. Update ID 59's Name to 'Candour' (reflecting the rebrand from Candour Energy). 3. Mark ID 59 as valid/verified if not already. 4. Delete/Archive IDs 170 and 242.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:01:58.910488",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "cninsights.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 61,
+        "name": "CIC Expert Network",
+        "domain": "cninsights.com",
+        "category": "Expert Network",
+        "priority": 1,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 182,
+        "name": "cicexpertnetwork",
+        "domain": "cninsights.com",
+        "category": "Consulting",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 240,
+        "name": "CN Insights",
+        "domain": "cninsights.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"cninsights.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"All three platforms represent China Insights Consultancy (CIC). 'CIC Expert Network' (ID 61) is the specific service name. 'CN Insights' (ID 240) is a variation based on the domain. 'cicexpertnetwork' (ID 182) appears to be a slug or handle for the same service.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"They are the same entity. ID 61 has the most professional and accurate name ('CIC Expert Network') and is marked as Priority 1. However, ID 182 is in a 'QUALIFIED' stage, which indicates more progress than 'AWAITING_RESPONSE'. Merging allows us to keep the best name (ID 61) while adopting the advanced status from ID 182.\",\n  \"primary_id\": 61,\n  \"delete_ids\": [\n    182,\n    240\n  ],\n  \"data_migration_notes\": \"CRITICAL: Update ID 61's Workflow Stage from 'AWAITING_RESPONSE' to 'QUALIFIED' (from ID 182). Ensure Category 'Expert Network' is retained as it is more specific than 'Consulting' for this list.\",\n  \"risks\": \"Risk of losing the 'QUALIFIED' status if the merge logic does not prioritize the most advanced workflow stage. Data loss is otherwise minimal as fields are likely similar or less complete in the duplicates.\",\n  \"action_plan\": \"1. Update Platform ID 61: Set Workflow Stage = 'QUALIFIED'.\\n2. (Optional) Update ID 61 Description or Notes to reference 'China Insights Consultancy' parent company if not already present.\\n3. Delete Platform ID 182 and ID 240.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:02:58.869944",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "forensisgroup.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 190,
+        "name": "forensisgroup",
+        "domain": "forensisgroup.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 191,
+        "name": "ForensisGroup",
+        "domain": "forensisgroup.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 252,
+        "name": "Forensic Group",
+        "domain": "forensisgroup.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"forensisgroup.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"ID 252 (Forensic Group) appears to be a typo/misspelling of the actual company name 'ForensisGroup' (ID 191). ID 190 is a lowercase duplicate.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"The domain 'forensisgroup.com' belongs to 'ForensisGroup', an expert witness referral firm. 'Forensic Group' is a generic term and, in this context (sharing the same domain), is almost certainly a data entry error. ID 191 has the correct capitalization and a 'QUALIFIED' workflow stage.\",\n  \"primary_id\": 191,\n  \"delete_ids\": [\n    190,\n    252\n  ],\n  \"data_migration_notes\": \"Preserve 'QUALIFIED' status from ID 191. If ID 252's 'AWAITING_RESPONSE' indicates a recent specific outreach not tracked in 191, append that context to 191's notes. Otherwise, the 'QUALIFIED' status takes precedence.\",\n  \"risks\": \"Minimal risk. The only potential issue is if 'AWAITING_RESPONSE' on ID 252 represented a distinct, active conversation that might be overlooked if only the status is considered, but 'QUALIFIED' generally implies a verified state.\",\n  \"action_plan\": \"1. Verify if ID 252 has unique contact logs. 2. If yes, move logs to ID 191. 3. Delete IDs 190 and 252. 4. Ensure ID 191 is the sole record for forensisgroup.com.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:03:56.700611",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "glgroup.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 69,
+        "name": "chenpr",
+        "domain": "glgroup.com",
+        "category": "Expert Network",
+        "priority": 4,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 290,
+        "name": "GLG",
+        "domain": "glgroup.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "COMPLETE",
+        "workflow_stage": "ACTIVE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 306,
+        "name": "Glgroup",
+        "domain": "glgroup.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "COMPLETE",
+        "workflow_stage": "ACTIVE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"glgroup.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"ID 290 (GLG) and ID 306 (Glgroup) are the exact same entity, representing Gerson Lehrman Group. ID 69 (chenpr) shares the domain but appears to be a low-quality or mis-scraped record containing a mix of valid GLG contacts and unrelated/competitor email addresses.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"ID 290 uses the recognized industry name 'GLG' and has complete registration status. ID 306 is redundant. ID 69 is a lower-quality record with noise but contains at least one valid contact email.\",\n  \"primary_id\": 290,\n  \"delete_ids\": [\n    69,\n    306\n  ],\n  \"data_migration_notes\": \"Migrate 'NetworkMemberSupport@glgroup.com' from ID 69 to ID 290. CRITICAL: Do NOT migrate other emails from ID 69 (e.g., @alphasights.com, @thirdbridge.com) as they appear to be scraping artifacts/pollution.\",\n  \"risks\": \"Main risk is polluting the clean record (ID 290) with the 'junk' email data from ID 69. Migration must be selective.\",\n  \"action_plan\": \"1. Promote 'NetworkMemberSupport@glgroup.com' from ID 69 to ID 290. 2. Verify if ID 306 has any unique data (currently appears empty of emails); if so, merge. 3. Delete IDs 69 and 306. 4. Ensure ID 290 remains the sole active record for glgroup.com.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:05:24.780128",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "ibm.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 198,
+        "name": "IBM",
+        "domain": "ibm.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 199,
+        "name": "ibm",
+        "domain": "ibm.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 359,
+        "name": "IBM Security",
+        "domain": "ibm.com",
+        "category": "Cybersecurity",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "DISCOVERED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"ibm.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"ID 198 and 199 are the same corporate entity (IBM) with different casing. ID 359 (IBM Security) is a business unit/division of the parent company IBM.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"All three records share the same domain (ibm.com). 'ibm' (199) is a duplicate of 'IBM' (198) with improper casing. 'IBM Security' (359) represents a specific division but for vendor management purposes, consolidating under the parent entity 'IBM' is recommended to avoid duplicates and fragmentation. ID 198 is chosen as primary due to correct naming convention and 'AWAITING_RESPONSE' status indicating active engagement.\",\n  \"primary_id\": 198,\n  \"delete_ids\": [\n    199,\n    359\n  ],\n  \"data_migration_notes\": \"Preserve 'Cybersecurity' category from ID 359 as a tag or capability if possible. Update 'Workflow Stage' to the most advanced stage if applicable (though AWAITING_RESPONSE on primary seems most advanced).\",\n  \"risks\": \"Low risk. Potential loss of specific 'IBM Security' entry if distinct contact points are required, but this can usually be managed under one vendor record.\",\n  \"action_plan\": \"1. Update ID 198 with any relevant contact info or tags from 199/359. 2. Re-map any projects linked to 199/359 (currently 0) to 198. 3. Delete IDs 199 and 359.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:06:29.055298",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "industrialdefender.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 200,
+        "name": "industrialdefender",
+        "domain": "industrialdefender.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 260,
+        "name": "Industrial Defender",
+        "domain": "industrialdefender.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 348,
+        "name": "Industrialdefender",
+        "domain": "industrialdefender.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "DISCOVERED",
+        "status": "INACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"industrialdefender.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"Same company. Variations in capitalization (industrialdefender vs Industrial Defender) and workflow states indicate duplicate entries for the single entity 'Industrial Defender', an OT security company.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"All three records belong to the same domain and entity. ID 200 is the obvious candidate for the primary record as it holds the highest priority (2 vs 3) and is in the most advanced workflow stage (QUALIFIED). ID 260 is AWAITING_RESPONSE, and ID 348 is INACTIVE/DISCOVERED.\",\n  \"primary_id\": 200,\n  \"delete_ids\": [\n    260,\n    348\n  ],\n  \"data_migration_notes\": \"Consider updating the Name of ID 200 to 'Industrial Defender' (from ID 260) for better presentation. Check ID 260 for any specific outreach history or contacts that need to be appended to ID 200.\",\n  \"risks\": \"Low risk. Primary record (ID 200) already captures the most progressed state. Main risk is losing potential recent outreach context from ID 260 if not checked before deletion.\",\n  \"action_plan\": \"1. Verify if ID 260 has unique contact data or logs; if so, append to ID 200. 2. Update ID 200 display name to 'Industrial Defender'. 3. Delete platforms 260 and 348.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:07:08.188538",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "mavensworld.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 205,
+        "name": "mavensworld",
+        "domain": "mavensworld.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 264,
+        "name": "Mavens World",
+        "domain": "mavensworld.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "DISCOVERED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 350,
+        "name": "Mavensworld",
+        "domain": "mavensworld.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "DISCOVERED",
+        "status": "INACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"mavensworld.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"Identical company. 'Mavensworld' and 'Mavens World' are variations of the same expert network entity based in India. Recent search indicates a rebrand to 'MavX' may be in progress, but all share the mavensworld.com legacy.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"All three records represent the exact same business entity. ID 205 is the most valuable record as it has reached the 'QUALIFIED' stage and has a higher priority (2) compared to the others (3). Keeping duplicates splits history and confuses the workflow.\",\n  \"primary_id\": 205,\n  \"delete_ids\": [\n    264,\n    350\n  ],\n  \"data_migration_notes\": \"Update the name of ID 205 to 'Mavens World' (Proper Case) to match the better formatting of ID 264. Add 'MavX' as an alias or note in the description if possible.\",\n  \"risks\": \"Minimal. Secondary records have no associated projects and are in earlier or inactive stages.\",\n  \"action_plan\": \"1. Update Platform ID 205 name to 'Mavens World'.\\n2. Consolidate any unique contact info or notes from ID 264 and 350 into ID 205.\\n3. Delete Platform ID 264 and ID 350.\\n4. Verify ID 205 remains Active and Qualified.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:07:56.921180",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "realciso.io",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 215,
+        "name": "realciso",
+        "domain": "realciso.io",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 272,
+        "name": "Real CISO",
+        "domain": "realciso.io",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 304,
+        "name": "RealCISO",
+        "domain": "realciso.io",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "DISCOVERED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"realciso.io\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"Identical platform listed three times with slight name variations.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"All three records share the exact same domain (realciso.io). ID 215 is the most advanced in the workflow (QUALIFIED) and has the highest priority (2), making it the clear choice for the primary record. IDs 272 and 304 are less mature records (AWAITING_RESPONSE, DISCOVERED) with lower priority.\",\n  \"primary_id\": 215,\n  \"delete_ids\": [\n    272,\n    304\n  ],\n  \"data_migration_notes\": \"Update the name of ID 215 to 'RealCISO' (CamelCase) to match the official branding seen in the other records and on the website. No other significant data conflicts noted as all have 0 projects.\",\n  \"risks\": \"Minimal risk. Losing the record of 'Real CISO' (space) or 'RealCISO' (CamelCase) as separate entries is negligible if the primary name is corrected.\",\n  \"action_plan\": \"1. Update ID 215 name to 'RealCISO'. 2. Consolidate any hidden contact info from 272/304 to 215 if it exists. 3. Delete IDs 272 and 304.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:08:39.555097",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "riskigy.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 92,
+        "name": "michaelmarrano",
+        "domain": "riskigy.com",
+        "category": "Expert Network",
+        "priority": 4,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 216,
+        "name": "riskigy",
+        "domain": "riskigy.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 273,
+        "name": "Riskigy",
+        "domain": "riskigy.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"riskigy.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"Michael Marrano is the founder and principal of Riskigy. The platforms represent the same consulting business entity, with 'michaelmarrano' being the personal brand of the founder and 'Riskigy' being the company name.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"All three records share the same domain and represent the same business entity. Michael Marrano is the founder of Riskigy. ID 216 is the most advanced record ('QUALIFIED' workflow stage) and has the highest priority (2), making it the definitive primary record. IDs 92 and 273 are duplicate or less mature records.\",\n  \"primary_id\": 216,\n  \"delete_ids\": [\n    92,\n    273\n  ],\n  \"data_migration_notes\": \"Preserve any specific contact information from ID 92 (Michael Marrano's personal entry) if different from ID 216. Ensure the primary name is capitalized correctly as 'Riskigy' if desired (currently lowercase 'riskigy' in ID 216, but 'Riskigy' in 273 - might want to update name label during merge).\",\n  \"risks\": \"Low risk. Merging consolidates tracking under the active, qualified record.\",\n  \"action_plan\": \"1. Verify contact details in ID 92 and 273. 2. Update ID 216 name to 'Riskigy' (Title Case) if preferred. 3. Migrate any unique notes or history from 92/273 to 216. 4. Delete IDs 92 and 273.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:09:26.140842",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "rivialsecurity.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 217,
+        "name": "rivialdata",
+        "domain": "rivialsecurity.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 218,
+        "name": "Rivial Data Security",
+        "domain": "rivialsecurity.com",
+        "category": "Cybersecurity",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 275,
+        "name": "Rivial Security",
+        "domain": "rivialsecurity.com",
+        "category": "Cybersecurity",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"rivialsecurity.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"All records refer to the same company. 'Rivial Data Security' is the full company name. 'Rivial Security' is a common alias, and 'rivialdata' appears to be a truncated or informal reference.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"Web search confirms that Rivial Data Security and Rivial Security are the same entity, with 'rivialsecurity.com' being their official domain. ID 218 has the most accurate full name and correct category (Cybersecurity). ID 217 is miscategorized as an 'Expert Network' and has a truncated name. ID 275 is a valid alias but has a lower priority and is in a less advanced workflow stage (AWAITING_RESPONSE) compared to ID 218 (QUALIFIED).\",\n  \"primary_id\": 218,\n  \"delete_ids\": [\n    217,\n    275\n  ],\n  \"data_migration_notes\": \"Ensure the primary record (ID 218) retains the 'Cybersecurity' category. The 'QUALIFIED' workflow stage from ID 218 should be preserved as it indicates further progress than 'AWAITING_RESPONSE'. No unique contact data or project history appears to be lost from the other records.\",\n  \"risks\": \"Minimal risk. Merging corrects the misclassification of ID 217 as an Expert Network and consolidates workflow tracking.\",\n  \"action_plan\": \"1. Verify ID 218 has all necessary contact info from 275 if any exists. 2. Update ID 218's alias list to include 'Rivial Security' if the system supports aliases. 3. Delete IDs 217 and 275.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:10:13.630981",
+    "status": "SUCCESS"
+  },
+  {
+    "domain": "sherlocktalent.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 106,
+        "name": "sherlock",
+        "domain": "sherlocktalent.com",
+        "category": "Expert Network",
+        "priority": 4,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 107,
+        "name": "SherlockTalent",
+        "domain": "sherlocktalent.com",
+        "category": "Consulting",
+        "priority": 4,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 277,
+        "name": "Sherlock Talent",
+        "domain": "sherlocktalent.com",
+        "category": "Consulting",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"sherlocktalent.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"All three records represent the same recruiting and staffing firm, SherlockTalent. ID 106 is a shorthand alias, ID 277 is a spaced variation, and ID 107 matches the official brand name.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"All platforms share the verified domain 'sherlocktalent.com'. SherlockTalent is a known IT and marketing staffing agency. ID 106's categorization as 'Expert Network' appears to be a misclassification of the same entity (likely due to their provision of 'consultants'). Merging under the official brand name is the correct action to eliminate duplicates.\",\n  \"primary_id\": 107,\n  \"delete_ids\": [\n    106,\n    277\n  ],\n  \"data_migration_notes\": \"Preserve any potential project data (currently 0 for all). Update the category of the final record to 'Recruiting' or 'Staffing' if such a schema exists, otherwise 'Consulting' (from ID 107) is more accurate than 'Expert Network' (from ID 106).\",\n  \"risks\": \"Minimal risk. The domain match is definitive. The only potential issue is if 'sherlock' (ID 106) was intended to track a specific sub-service, but without distinct URL or contact info, it should be consolidated.\",\n  \"action_plan\": \"1. Set ID 107 (SherlockTalent) as the primary record.\\n2. Verify if any specific contact data exists on ID 106 or 277 that is missing from 107 and copy it over.\\n3. Mark IDs 106 and 277 for deletion/archival.\\n4. Update ID 107's workflow stage if 106 or 277 had further progress (currently all AWAITING_RESPONSE).\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:11:03.843309",
+    "status": "SUCCESS"
+  }
+]

@@ -1,0 +1,962 @@
+{
+  "timestamp": "2025-12-20T16:39:10.626983",
+  "total_verified": 50,
+  "passed": 49,
+  "warned": 1,
+  "failed": 0,
+  "incomplete_count": 48,
+  "results": [
+    {
+      "id": 1,
+      "name": "Topcoder",
+      "domain": "topcoder.com",
+      "registration_status": "COMPLETE",
+      "priority": 1,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 4,
+        "sent_campaigns": 4,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 4
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "name": "Toptal",
+      "domain": "toptal.com",
+      "registration_status": "COMPLETE",
+      "priority": 1,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "name": "Torre",
+      "domain": "torre.ai",
+      "registration_status": "PENDING",
+      "priority": 1,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 4,
+        "sent_campaigns": 4,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 4
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Trustwave",
+      "domain": "trustwave.com",
+      "registration_status": "PENDING",
+      "priority": 1,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 10,
+        "sent_campaigns": 10,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 10
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Turing",
+      "domain": "turing.com",
+      "registration_status": "PENDING",
+      "priority": 1,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 1,
+        "sent_campaigns": 1,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 1
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 6,
+      "name": "Umbrex",
+      "domain": "umbrex.com",
+      "registration_status": "PENDING",
+      "priority": 1,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "VirtualNonExecs",
+      "domain": "virtualnonexecs.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 5,
+        "sent_campaigns": 5,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 5
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "10X",
+      "domain": "cardoneventures.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 9,
+        "sent_campaigns": 8,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 9
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 9,
+      "name": "Anomali",
+      "domain": "anomali.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 10,
+      "name": "Bishop Fox",
+      "domain": "bishopfox.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 11,
+      "name": "CertiK",
+      "domain": "certik.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 11,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 11
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 12,
+      "name": "Cyberr",
+      "domain": "cyberaigroup.io",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 4,
+        "sent_campaigns": 4,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 4
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 13,
+      "name": "Cynomi",
+      "domain": "cynomi.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 14,
+      "name": "Darktrace",
+      "domain": "darktrace.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 15,
+      "name": "Dragos",
+      "domain": "dragos.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 16,
+      "name": "EC-Council",
+      "domain": "eccouncil.org",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 17,
+      "name": "Group-IB",
+      "domain": "group-ib.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 18,
+      "name": "Kaspersky",
+      "domain": "kaspersky.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 19,
+      "name": "NCC Group",
+      "domain": "nccgroup.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 4,
+        "sent_campaigns": 4,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 4
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 20,
+      "name": "Netrise",
+      "domain": "netrise.io",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 21,
+      "name": "Phylum",
+      "domain": "veracode.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 8,
+        "sent_campaigns": 8,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 8
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 22,
+      "name": "Spearbit",
+      "domain": "spearbit.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 23,
+      "name": "Trail of Bits",
+      "domain": "trailofbits.com",
+      "registration_status": "PENDING",
+      "priority": 1,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 2,
+        "sent_campaigns": 2,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 2
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 24,
+      "name": "ZeroFox",
+      "domain": "zerofox.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 25,
+      "name": "Coalfire",
+      "domain": "coalfire.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 5,
+        "sent_campaigns": 5,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 5
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 26,
+      "name": "Deepwatch",
+      "domain": "deepwatch.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 27,
+      "name": "Fortra",
+      "domain": "fortra.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 5,
+        "sent_campaigns": 5,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 5
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 28,
+      "name": "FortifyData",
+      "domain": "fortifydata.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 5,
+        "sent_campaigns": 5,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 5
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 29,
+      "name": "Gotham Digital",
+      "domain": "aon.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 9,
+        "sent_campaigns": 9,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 9
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 30,
+      "name": "Guardicore",
+      "domain": "akamai.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 7,
+        "sent_campaigns": 7,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 7
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 31,
+      "name": "Hack The Box",
+      "domain": "hackthebox.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 7,
+        "sent_campaigns": 7,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 7
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 32,
+      "name": "Huntress",
+      "domain": "huntress.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 8,
+        "sent_campaigns": 6,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 8
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 33,
+      "name": "IronNet",
+      "domain": "ironnet.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 9,
+        "sent_campaigns": 9,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 9
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 34,
+      "name": "Kudelski Security",
+      "domain": "nagra.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 2,
+        "sent_campaigns": 2,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 2
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 35,
+      "name": "Luta Security",
+      "domain": "lutasecurity.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 5,
+        "sent_campaigns": 5,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 5
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 36,
+      "name": "Netenrich",
+      "domain": "netenrich.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 6,
+        "sent_campaigns": 6,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 6
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 37,
+      "name": "PingSafe",
+      "domain": "sentinelone.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 8,
+        "sent_campaigns": 8,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 8
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 38,
+      "name": "Redscan",
+      "domain": "kroll.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 5,
+        "sent_campaigns": 5,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 5
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 39,
+      "name": "Secureworks",
+      "domain": "secureworks.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 10,
+        "sent_campaigns": 4,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 10
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 40,
+      "name": "SOCRadar",
+      "domain": "socradar.io",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 6,
+        "sent_campaigns": 6,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 6
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 41,
+      "name": "Tenable",
+      "domain": "tenable.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 42,
+      "name": "Thales",
+      "domain": "us.thalesgroup.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 6,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 6
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 43,
+      "name": "Trava Security",
+      "domain": "travasecurity.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 6,
+        "sent_campaigns": 6,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 6
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 44,
+      "name": "trustedsec",
+      "domain": "trustedsec.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 45,
+      "name": "Vanta",
+      "domain": "vanta.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 46,
+      "name": "vcisocatalyst",
+      "domain": "vcisocatalyst.org",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 2,
+        "sent_campaigns": 2,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 2
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 47,
+      "name": "vCISO Catalyst",
+      "domain": "dgc-security.ca",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "WARN",
+      "reason": "1 bounced emails",
+      "stats": {
+        "total_campaigns": 5,
+        "sent_campaigns": 4,
+        "bounced_campaigns": 1,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 5
+      },
+      "issues": [],
+      "warnings": [
+        "1 bounced emails"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "vikingcloud",
+      "domain": "vikingcloud.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 2,
+        "sent_campaigns": 2,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 2
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 49,
+      "name": "Viking Cloud",
+      "domain": "vikingcloud.com",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 4,
+        "sent_campaigns": 4,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 4
+      },
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": 50,
+      "name": "wuzzuf",
+      "domain": "wuzzuf.net",
+      "registration_status": "PENDING",
+      "priority": 2,
+      "status": "PASS",
+      "reason": "All checks passed",
+      "stats": {
+        "total_campaigns": 3,
+        "sent_campaigns": 3,
+        "bounced_campaigns": 0,
+        "replied_campaigns": 0,
+        "total_projects": 0,
+        "total_emails": 3
+      },
+      "issues": [],
+      "warnings": []
+    }
+  ]
+}

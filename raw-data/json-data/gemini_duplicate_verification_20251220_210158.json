@@ -1,0 +1,47 @@
+[
+  {
+    "domain": "candour.com",
+    "platform_count": 3,
+    "platforms": [
+      {
+        "id": 59,
+        "name": "Candour Energy",
+        "domain": "candour.com",
+        "category": "Expert Network",
+        "priority": 1,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 170,
+        "name": "candourenergy",
+        "domain": "candour.com",
+        "category": "Expert Network",
+        "priority": 2,
+        "registration_status": "PENDING",
+        "workflow_stage": "QUALIFIED",
+        "status": "ACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      },
+      {
+        "id": 242,
+        "name": "Candour",
+        "domain": "candour.com",
+        "category": "Expert Network",
+        "priority": 3,
+        "registration_status": "PENDING",
+        "workflow_stage": "AWAITING_RESPONSE",
+        "status": "INACTIVE",
+        "projects_received": 0,
+        "parent_company": null
+      }
+    ],
+    "gemini_analysis": "```json\n{\n  \"domain\": \"candour.com\",\n  \"same_entity\": true,\n  \"confidence\": \"HIGH\",\n  \"entity_relationship\": \"All three records represent the same expert network, Candour (formerly Candour Energy). ID 59 uses the traditional name, ID 170 uses a slug/username format, and ID 242 uses the modern rebranded name. They are the same company.\",\n  \"merge_recommendation\": \"MERGE\",\n  \"reasoning\": \"Duplicate records for the same active domain. Splitting tracking across three IDs (one of which is 'QUALIFIED' while others are 'AWAITING_RESPONSE') leads to fragmented data and incorrect status reporting.\",\n  \"primary_id\": 59,\n  \"delete_ids\": [\n    170,\n    242\n  ],\n  \"data_migration_notes\": \"CRITICAL: The Workflow Stage 'QUALIFIED' from ID 170 must be migrated to the primary ID 59 (which is currently 'AWAITING_RESPONSE'). Update the name of ID 59 to 'Candour' to reflect the current legal name, or retain 'Candour Energy' if industry recognition is higher.\",\n  \"risks\": \"The primary risk is losing the advanced 'QUALIFIED' status from ID 170 if ID 59's lower status overwrites it or if the merge logic doesn't prioritize the most advanced workflow stage.\",\n  \"action_plan\": \"1. Update ID 59's Workflow Stage to 'QUALIFIED'. 2. Update ID 59's Name to 'Candour' (reflecting the rebrand from Candour Energy). 3. Mark ID 59 as valid/verified if not already. 4. Delete/Archive IDs 170 and 242.\"\n}\n```\n",
+    "timestamp": "2025-12-20T21:01:58.910488",
+    "status": "SUCCESS"
+  }
+]

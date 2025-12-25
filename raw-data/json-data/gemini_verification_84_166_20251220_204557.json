@@ -1,0 +1,759 @@
+{
+  "timestamp": "20251220_204557",
+  "total_platforms": 83,
+  "summary": {
+    "pass": 6,
+    "fail": 7,
+    "error": 58,
+    "unclear": 12
+  },
+  "results": [
+    {
+      "platform_id": 84,
+      "name": "hirefraction",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 85,
+      "name": "infomineo",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 86,
+      "name": "jurispro",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 87,
+      "name": "kesscomm",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 88,
+      "name": "kingfishgroup",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 89,
+      "name": "laimoon",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 90,
+      "name": "lakera",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 91,
+      "name": "mavensglobal",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 92,
+      "name": "michaelmarrano",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 93,
+      "name": "mindgard",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 94,
+      "name": "mosaicrm",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 95,
+      "name": "nozominetworks",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 96,
+      "name": "otorio",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 97,
+      "name": "pentera",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 98,
+      "name": "rapid7",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 99,
+      "name": "redhuntlabs",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 100,
+      "name": "redironpr",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 101,
+      "name": "robustintelligence",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 102,
+      "name": "scadafence",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 103,
+      "name": "scytale",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 104,
+      "name": "secgen",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 105,
+      "name": "securitygen",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 106,
+      "name": "sherlock",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 107,
+      "name": "SherlockTalent",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 108,
+      "name": "silentsector",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 109,
+      "name": "spreckley",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 110,
+      "name": "summers-pr",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 111,
+      "name": "thoropass",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 112,
+      "name": "trustnetinc",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 113,
+      "name": "vcisoservices",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 114,
+      "name": "verveindustrial",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 115,
+      "name": "X-Team",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 116,
+      "name": "Yogosha",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 117,
+      "name": "YunoJuno",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 118,
+      "name": "Zerocopter",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 119,
+      "name": "Zintro",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 120,
+      "name": "AWS Partner Network",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 121,
+      "name": "At-Bay",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "PASS",
+      "gemini_response": "PASS. PENDING status + AWAITING_RESPONSE stage is consistent. PENDING + QUALIFIED is inconsistent.\nPASS. PENDING status + AWAITING_RESPONSE stage is consistent. PENDING + QUALIFIED is inconsistent.",
+      "success": true
+    },
+    {
+      "platform_id": 122,
+      "name": "Bugcrowd",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "PASS",
+      "gemini_response": "PASS. Both PENDING + AWAITING_RESPONSE and PENDING + QUALIFIED combinations are logically consistent for a platform workflow.",
+      "success": true
+    },
+    {
+      "platform_id": 123,
+      "name": "Cobalt",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 124,
+      "name": "Code4rena",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "PASS",
+      "gemini_response": "PASS. Values are valid and their combination is logically consistent within defined states.",
+      "success": true
+    },
+    {
+      "platform_id": 125,
+      "name": "Contra",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 126,
+      "name": "Cowbell",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "PASS",
+      "gemini_response": "In order to verify data quality for platform 'Cowbell', I need to understand the existing data models and validation logic for `registration_status` and `workflow_stage`. I will start by examining `ap",
+      "success": true
+    },
+    {
+      "platform_id": 127,
+      "name": "CryptoJobsList",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 128,
+      "name": "CyberCube",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 129,
+      "name": "Cynerio",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 130,
+      "name": "Cyrebro",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 131,
+      "name": "DefenseStorm",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 132,
+      "name": "Eclypsium",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 133,
+      "name": "Elevate Security",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 134,
+      "name": "Ericom",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 135,
+      "name": "FireEye",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "PASS",
+      "gemini_response": "PASS: All values are valid and combinations (PENDING + AWAITING_RESPONSE; PENDING + QUALIFIED) make logical sense per existing data.",
+      "success": true
+    },
+    {
+      "platform_id": 136,
+      "name": "Flashpoint",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "FAIL",
+      "gemini_response": "FAIL: Registration status PENDING contradicts workflow stage QUALIFIED. Qualification usually follows, not precedes, a completed registration.",
+      "success": true
+    },
+    {
+      "platform_id": 137,
+      "name": "Fortinet",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 138,
+      "name": "Gigamon",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "UNCLEAR",
+      "gemini_response": "",
+      "success": true
+    },
+    {
+      "platform_id": 139,
+      "name": "HackEDU",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "FAIL",
+      "gemini_response": "FAIL: PENDING registration status is inconsistent with QUALIFIED workflow stage.",
+      "success": true
+    },
+    {
+      "platform_id": 140,
+      "name": "Juniper Networks",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 141,
+      "name": "KnowBe4",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 142,
+      "name": "Lacework",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 143,
+      "name": "Lookout",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 144,
+      "name": "Malwarebytes",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 145,
+      "name": "Mimecast",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 146,
+      "name": "NetWitness",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 147,
+      "name": "Okta",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 148,
+      "name": "OneLogin",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 149,
+      "name": "Perimeter 81",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 150,
+      "name": "Phosphorus",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 151,
+      "name": "Ping Identity",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 152,
+      "name": "Proofpoint",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 153,
+      "name": "Qualys",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "FAIL",
+      "gemini_response": "FAIL. PENDING registration_status is inconsistent with QUALIFIED workflow_stage.",
+      "success": true
+    },
+    {
+      "platform_id": 154,
+      "name": "Recorded Future",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 155,
+      "name": "RiskIQ",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 156,
+      "name": "SailPoint",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 157,
+      "name": "Securonix",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 158,
+      "name": "Sift",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "FAIL",
+      "gemini_response": "FAIL. `registration_status=PENDING` and `workflow_stage=QUALIFIED` are logically inconsistent. PENDING + AWAITING_RESPONSE makes sense.",
+      "success": true
+    },
+    {
+      "platform_id": 159,
+      "name": "SonicWall",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "FAIL",
+      "gemini_response": "FAIL: Registration PENDING and workflow QUALIFIED are contradictory states; a qualified platform should not be pending registration.",
+      "success": true
+    },
+    {
+      "platform_id": 160,
+      "name": "Splunk",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "FAIL",
+      "gemini_response": "FAIL. PENDING registration usually precedes QUALIFIED workflow; these states appear inconsistent.",
+      "success": true
+    },
+    {
+      "platform_id": 161,
+      "name": "Sumo Logic",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 162,
+      "name": "Symantec",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 163,
+      "name": "Trend Micro",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    },
+    {
+      "platform_id": 164,
+      "name": "Varonis",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "PASS",
+      "gemini_response": "I need to understand the data model and business logic related to `registration_status` and `workflow_stage` for platform entries. I'll start by examining `app/models.py` to see how these fields are d",
+      "success": true
+    },
+    {
+      "platform_id": 165,
+      "name": "Veracode",
+      "status": "PENDING",
+      "stage": "QUALIFIED",
+      "verdict": "FAIL",
+      "gemini_response": "FAIL: PENDING registration contradicts QUALIFIED workflow. These states are logically inconsistent, suggesting a data quality issue.",
+      "success": true
+    },
+    {
+      "platform_id": 166,
+      "name": "VMware",
+      "status": "PENDING",
+      "stage": "AWAITING_RESPONSE",
+      "verdict": "ERROR",
+      "gemini_response": "Gemini CLI timeout",
+      "success": false
+    }
+  ]
+}

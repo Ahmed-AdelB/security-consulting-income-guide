@@ -1,0 +1,14 @@
+{
+  "platform": "businessconnectchina",
+  "platform_id": 181,
+  "status": "PASS",
+  "domain": "bcc.global",
+  "fit_score": 60,
+  "workflow_stage": "QUALIFIED",
+  "registration_status": "PENDING",
+  "platform_emails_count": 3,
+  "email_campaigns_count": 3,
+  "errors": [],
+  "warnings": [],
+  "verified_at": "2025-12-20T17:08:04.757694"
+}

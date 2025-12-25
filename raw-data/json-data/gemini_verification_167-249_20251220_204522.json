@@ -1,0 +1,756 @@
+{
+  "timestamp": "2025-12-20T20:45:22.067761",
+  "total_platforms": 83,
+  "pass_count": 17,
+  "fail_count": 9,
+  "error_count": 57,
+  "results": [
+    {
+      "platform_id": 167,
+      "name": "WatchGuard",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 168,
+      "name": "WhiteHat Security",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 169,
+      "name": "avalonred",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 170,
+      "name": "candourenergy",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 171,
+      "name": "Duco Experts",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 172,
+      "name": "Expert Answers",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 173,
+      "name": "forum",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 174,
+      "name": "grapedata",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 175,
+      "name": "Dynata (formerly Research Now SSI)",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 176,
+      "name": "Acuity Knowledge Partners",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 177,
+      "name": "alacritagroup",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 178,
+      "name": "asiaceonetwork",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 179,
+      "name": "axiom",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 180,
+      "name": "bainability",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 181,
+      "name": "businessconnectchina",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 182,
+      "name": "cicexpertnetwork",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 183,
+      "name": "Cognolink",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 184,
+      "name": "Duco",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 185,
+      "name": "expertanswers",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 186,
+      "name": "highbeamglobal",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 187,
+      "name": "SSI Strategy",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 188,
+      "name": "focalfact",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 189,
+      "name": "forasna",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 190,
+      "name": "forensisgroup",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 191,
+      "name": "ForensisGroup",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 192,
+      "name": "fractionalciso",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 193,
+      "name": "gigx",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 194,
+      "name": "hiddenlayer",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 195,
+      "name": "hirefy",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 196,
+      "name": "holisticai",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 197,
+      "name": "iansresearch",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 198,
+      "name": "IBM",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 199,
+      "name": "ibm",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 200,
+      "name": "industrialdefender",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 201,
+      "name": "iqnetwork",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 202,
+      "name": "itbutler",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": ". PENDING registration and QUALIFIED workflow stage are logically consistent; qualification can precede formal registration completion.",
+      "raw_output": "I need to verify the data quality for \"itbutler\" based on its `registration` status (\"PENDING\") and `stage` (\"QUALIFIED\"). I'll examine the codebase to understand how these statuses are defined and validated.\n\nFirst, I'll search for files that likely define platform models and their statuses. I'll start with `app/models.py` and then broaden my search if needed.\nPASS. PENDING registration and QUALIFIED workflow stage are logically consistent; qualification can precede formal registration completi"
+    },
+    {
+      "platform_id": 203,
+      "name": "jumpsec",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": ": A platform can be 'QUALIFIED' while its registration is 'PENDING', implying eligibility or initial approval before full administrative completion.",
+      "raw_output": "PASS: A platform can be 'QUALIFIED' while its registration is 'PENDING', implying eligibility or initial approval before full administrative completion."
+    },
+    {
+      "platform_id": 204,
+      "name": "Mandiant",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "FAIL",
+      "gemini_reason": ": Registration status 'PENDING' is inconsistent with workflow stage 'AWAITING_RESPONSE'. 'AWAITING_RESPONSE' implies an action (like an application) has been completed, which contradicts a 'PENDING' registration status.",
+      "raw_output": "Okay, I need to verify data quality for \"platform Mandiant\" with `registration=PENDING` and `stage=AWAITING_RESPONSE`. I'll first examine the data model in `app/models.py` to understand these fields and then search for related logic in `app/` and `scripts/` to determine consistency and logical sense.\nFAIL: Registration status 'PENDING' is inconsistent with workflow stage 'AWAITING_RESPONSE'. 'AWAITING_RESPONSE' implies an action (like an application) has been completed, which contradicts a 'PEND"
+    },
+    {
+      "platform_id": 205,
+      "name": "mavensworld",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "FAIL",
+      "gemini_reason": ": Registration PENDING while stage is QUALIFIED indicates an inconsistency in the workflow.",
+      "raw_output": "FAIL: Registration PENDING while stage is QUALIFIED indicates an inconsistency in the workflow."
+    },
+    {
+      "platform_id": 206,
+      "name": "Mend.io",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": "- PENDING registration for a QUALIFIED platform is logically consistent.",
+      "raw_output": "PASS - PENDING registration for a QUALIFIED platform is logically consistent."
+    },
+    {
+      "platform_id": 207,
+      "name": "missionsecure",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": ": Registration status 'PENDING' is consistent with workflow stage 'QUALIFIED' as 'QUALIFIED' is an early stage.",
+      "raw_output": "PASS: Registration status 'PENDING' is consistent with workflow stage 'QUALIFIED' as 'QUALIFIED' is an early stage."
+    },
+    {
+      "platform_id": 208,
+      "name": "MX Technologies, Inc.",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": ": PENDING registration is consistent with the QUALIFIED stage as per the rule.",
+      "raw_output": "PASS: PENDING registration is consistent with the QUALIFIED stage as per the rule."
+    },
+    {
+      "platform_id": 209,
+      "name": "nccgroup",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": "",
+      "raw_output": "PASS"
+    },
+    {
+      "platform_id": 210,
+      "name": "newtonx",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "UNKNOWN",
+      "gemini_reason": "",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 211,
+      "name": "northwave-security",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 212,
+      "name": "oliv",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 213,
+      "name": "onfrontiers",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 214,
+      "name": "purplesec",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": ": PENDING registration with QUALIFIED stage is logically consistent, as a platform can be qualified while its registration process is ongoing.",
+      "raw_output": "PASS: PENDING registration with QUALIFIED stage is logically consistent, as a platform can be qualified while its registration process is ongoing."
+    },
+    {
+      "platform_id": 215,
+      "name": "realciso",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "UNKNOWN",
+      "gemini_reason": "",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 216,
+      "name": "riskigy",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": ": Registration PENDING is consistent with a QUALIFIED stage.",
+      "raw_output": "PASS: Registration PENDING is consistent with a QUALIFIED stage."
+    },
+    {
+      "platform_id": 217,
+      "name": "rivialdata",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 218,
+      "name": "Rivial Data Security",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "UNKNOWN",
+      "gemini_reason": "",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 219,
+      "name": "SCYTHE",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "FAIL",
+      "gemini_reason": ": PENDING registration is inconsistent with a QUALIFIED stage; a platform should ideally be registered before being qualified.",
+      "raw_output": "FAIL: PENDING registration is inconsistent with a QUALIFIED stage; a platform should ideally be registered before being qualified."
+    },
+    {
+      "platform_id": 220,
+      "name": "sikich",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 221,
+      "name": "sirar by stc",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 222,
+      "name": "strategyconnect",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 223,
+      "name": "strikegraph",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 224,
+      "name": "techcxo",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 225,
+      "name": "Techspert",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 226,
+      "name": "tegus",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 227,
+      "name": "tenable",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 228,
+      "name": "thevcisocollective",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 229,
+      "name": "vCISO Collective",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 230,
+      "name": "travasecurity",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 231,
+      "name": "LevelBlue",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 232,
+      "name": "SecurityGen",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 233,
+      "name": "Red Iron PR",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": ". PENDING registration at QUALIFIED stage is consistent with a typical workflow where qualification precedes final registration.",
+      "raw_output": "PASS. PENDING registration at QUALIFIED stage is consistent with a typical workflow where qualification precedes final registration."
+    },
+    {
+      "platform_id": 234,
+      "name": "Scytale.ai",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "FAIL",
+      "gemini_reason": ": A PENDING registration status is inconsistent with a QUALIFIED workflow stage. Registration should typically be complete before qualification.",
+      "raw_output": "FAIL: A PENDING registration status is inconsistent with a QUALIFIED workflow stage. Registration should typically be complete before qualification."
+    },
+    {
+      "platform_id": 235,
+      "name": "Help AG",
+      "registration_status": "PENDING",
+      "workflow_stage": "QUALIFIED",
+      "gemini_status": "PASS",
+      "gemini_reason": ": PENDING registration with QUALIFIED workflow stage is a logically consistent state where a platform has been assessed but not yet fully onboarded.",
+      "raw_output": "PASS: PENDING registration with QUALIFIED workflow stage is a logically consistent state where a platform has been assessed but not yet fully onboarded."
+    },
+    {
+      "platform_id": 236,
+      "name": "Akamai",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "PASS",
+      "gemini_reason": ": Registration status PENDING and stage AWAITING_RESPONSE are consistent and logically sensible, indicating an ongoing registration process awaiting external input.",
+      "raw_output": "PASS: Registration status PENDING and stage AWAITING_RESPONSE are consistent and logically sensible, indicating an ongoing registration process awaiting external input."
+    },
+    {
+      "platform_id": 237,
+      "name": "Bainability",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "PASS",
+      "gemini_reason": ": Registration PENDING and stage AWAITING_RESPONSE are consistent and logically sensible.",
+      "raw_output": "PASS: Registration PENDING and stage AWAITING_RESPONSE are consistent and logically sensible."
+    },
+    {
+      "platform_id": 238,
+      "name": "Broadcom",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "FAIL",
+      "gemini_reason": ": PENDING registration with AWAITING_RESPONSE stage is not consistent with QUALIFIED or earlier stages.",
+      "raw_output": "FAIL: PENDING registration with AWAITING_RESPONSE stage is not consistent with QUALIFIED or earlier stages."
+    },
+    {
+      "platform_id": 239,
+      "name": "By Forum",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "PASS",
+      "gemini_reason": ": PENDING registration and AWAITING_RESPONSE stage are consistent; AWAITING_RESPONSE is an early stage in the workflow.",
+      "raw_output": "PASS: PENDING registration and AWAITING_RESPONSE stage are consistent; AWAITING_RESPONSE is an early stage in the workflow."
+    },
+    {
+      "platform_id": 240,
+      "name": "CN Insights",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "PASS",
+      "gemini_reason": ": Registration status PENDING and workflow stage AWAITING_RESPONSE are consistent, indicating an initial outreach for a pending registration.",
+      "raw_output": "PASS: Registration status PENDING and workflow stage AWAITING_RESPONSE are consistent, indicating an initial outreach for a pending registration."
+    },
+    {
+      "platform_id": 241,
+      "name": "CXO Solutions",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 242,
+      "name": "Candour",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "FAIL",
+      "gemini_reason": ": PENDING registration status is inconsistent with AWAITING_RESPONSE stage, which typically occurs after initial qualification.",
+      "raw_output": "FAIL: PENDING registration status is inconsistent with AWAITING_RESPONSE stage, which typically occurs after initial qualification."
+    },
+    {
+      "platform_id": 243,
+      "name": "Catalant",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "FAIL",
+      "gemini_reason": ": PENDING registration should typically be at QUALIFIED or earlier stages, but AWAITING_RESPONSE is a later stage in the workflow.",
+      "raw_output": "FAIL: PENDING registration should typically be at QUALIFIED or earlier stages, but AWAITING_RESPONSE is a later stage in the workflow."
+    },
+    {
+      "platform_id": 244,
+      "name": "Certik",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "FAIL",
+      "gemini_reason": ": PENDING registration with AWAITING_RESPONSE stage is inconsistent with the rule that PENDING registration should typically be at QUALIFIED or earlier stages.",
+      "raw_output": "FAIL: PENDING registration with AWAITING_RESPONSE stage is inconsistent with the rule that PENDING registration should typically be at QUALIFIED or earlier stages."
+    },
+    {
+      "platform_id": 245,
+      "name": "Check Point",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "ERROR",
+      "gemini_reason": "Gemini CLI timeout",
+      "raw_output": ""
+    },
+    {
+      "platform_id": 246,
+      "name": "Comatch",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "FAIL",
+      "gemini_reason": ": PENDING registration is inconsistent with AWAITING_RESPONSE; PENDING should be at QUALIFIED or earlier.",
+      "raw_output": "FAIL: PENDING registration is inconsistent with AWAITING_RESPONSE; PENDING should be at QUALIFIED or earlier."
+    },
+    {
+      "platform_id": 247,
+      "name": "CyberKnight",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "PASS",
+      "gemini_reason": "- PENDING registration status is consistent with an AWAITING_RESPONSE workflow stage, implying an early stage in the registration process.",
+      "raw_output": "PASS - PENDING registration status is consistent with an AWAITING_RESPONSE workflow stage, implying an early stage in the registration process."
+    },
+    {
+      "platform_id": 248,
+      "name": "Expert Lead",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "PASS",
+      "gemini_reason": ": PENDING registration can logically be in an AWAITING_RESPONSE stage if it's an early step in the workflow process awaiting input.",
+      "raw_output": "PASS: PENDING registration can logically be in an AWAITING_RESPONSE stage if it's an early step in the workflow process awaiting input."
+    },
+    {
+      "platform_id": 249,
+      "name": "FRSecure",
+      "registration_status": "PENDING",
+      "workflow_stage": "AWAITING_RESPONSE",
+      "gemini_status": "PASS",
+      "gemini_reason": ": Registration PENDING and stage AWAITING_RESPONSE are consistent and logically sensible.",
+      "raw_output": "PASS: Registration PENDING and stage AWAITING_RESPONSE are consistent and logically sensible."
+    }
+  ]
+}

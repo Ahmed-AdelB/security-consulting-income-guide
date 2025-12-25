@@ -1,0 +1,14 @@
+{
+  "platform": "forasna",
+  "platform_id": 189,
+  "status": "PASS",
+  "domain": "forasna.com",
+  "fit_score": 60,
+  "workflow_stage": "QUALIFIED",
+  "registration_status": "PENDING",
+  "platform_emails_count": 5,
+  "email_campaigns_count": 5,
+  "errors": [],
+  "warnings": [],
+  "verified_at": "2025-12-20T17:12:46.704906"
+}

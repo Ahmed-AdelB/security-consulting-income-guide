@@ -1,0 +1,16 @@
+{
+  "domain": "ibm.com",
+  "same_entity": true,
+  "confidence": "HIGH",
+  "entity_relationship": "ID 198 and 199 are the same corporate entity (IBM) with different casing. ID 359 (IBM Security) is a business unit/division of the parent company IBM.",
+  "merge_recommendation": "MERGE",
+  "reasoning": "All three records share the same domain (ibm.com). 'ibm' (199) is a duplicate of 'IBM' (198) with improper casing. 'IBM Security' (359) represents a specific division but for vendor management purposes, consolidating under the parent entity 'IBM' is recommended to avoid duplicates and fragmentation. ID 198 is chosen as primary due to correct naming convention and 'AWAITING_RESPONSE' status indicating active engagement.",
+  "primary_id": 198,
+  "delete_ids": [
+    199,
+    359
+  ],
+  "data_migration_notes": "Preserve 'Cybersecurity' category from ID 359 as a tag or capability if possible. Update 'Workflow Stage' to the most advanced stage if applicable (though AWAITING_RESPONSE on primary seems most advanced).",
+  "risks": "Low risk. Potential loss of specific 'IBM Security' entry if distinct contact points are required, but this can usually be managed under one vendor record.",
+  "action_plan": "1. Update ID 198 with any relevant contact info or tags from 199/359. 2. Re-map any projects linked to 199/359 (currently 0) to 198. 3. Delete IDs 199 and 359."
+}
