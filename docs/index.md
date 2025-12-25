@@ -181,6 +181,45 @@ Salary data, platform reviews, rate guides, and community insights.
 
 ---
 
+## Stay Updated
+
+!!! info "Get Weekly Security Consulting Insights"
+
+    Join 1,000+ security professionals getting actionable tips on platforms, rates, and strategies.
+
+    <div style="text-align: center; padding: 20px;">
+    <!-- ConvertKit Form - Replace YOUR_FORM_ID with actual form ID -->
+    <a href="#newsletter" class="md-button md-button--primary">Subscribe to Newsletter</a>
+    </div>
+
+    **What you'll get:**
+
+    - Weekly market updates and new opportunities
+    - Platform rate benchmarks and reviews
+    - Case studies from successful consultants
+    - Exclusive content not in the public repo
+
+---
+
+## Premium Resources
+
+!!! premium "Accelerate Your Consulting Journey"
+
+    **Security Consulting Playbook** - The complete action guide with:
+
+    - Step-by-step onboarding scripts for every platform
+    - Email templates that get responses
+    - Rate negotiation word-for-word scripts
+    - Client proposal templates
+    - Contract templates and legal checklists
+
+    <div style="text-align: center; padding: 20px;">
+    <!-- Gumroad Button - Replace with actual product link -->
+    <a href="https://gumroad.com" class="md-button md-button--primary">Get the Playbook - $29</a>
+    </div>
+
+---
+
 ## About This Guide
 
 This guide synthesizes research from:

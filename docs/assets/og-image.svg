@@ -1,0 +1,41 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Shield Icon -->
+  <g transform="translate(540, 80)">
+    <path d="M60 0 L120 30 L120 90 C120 130 90 160 60 180 C30 160 0 130 0 90 L0 30 Z"
+          fill="none" stroke="white" stroke-width="4"/>
+    <path d="M40 85 L55 100 L85 65"
+          fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="56" font-weight="bold"
+        fill="white" text-anchor="middle">Security Consulting</text>
+  <text x="600" y="390" font-family="Arial, sans-serif" font-size="56" font-weight="bold"
+        fill="white" text-anchor="middle">Income Guide</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="470" font-family="Arial, sans-serif" font-size="28"
+        fill="rgba(255,255,255,0.9)" text-anchor="middle">Build a $50K-$100K/month consulting practice</text>
+
+  <!-- Stats Bar -->
+  <rect x="100" y="520" width="1000" height="80" rx="10" fill="rgba(255,255,255,0.15)"/>
+
+  <text x="250" y="570" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+        fill="white" text-anchor="middle">470+ Guides</text>
+  <text x="500" y="570" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+        fill="white" text-anchor="middle">30+ Platforms</text>
+  <text x="750" y="570" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+        fill="white" text-anchor="middle">$2M+ Opportunities</text>
+  <text x="1000" y="570" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+        fill="white" text-anchor="middle">100% Free</text>
+</svg>

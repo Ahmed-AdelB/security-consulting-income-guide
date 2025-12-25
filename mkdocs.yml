@@ -48,7 +48,27 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Ahmed-AdelB
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/yourprofile
+      link: https://linkedin.com/in/ahmed-adel-security
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourhandle
+  analytics:
+    provider: google
+    property: G-PLACEHOLDER
+  meta:
+    - name: keywords
+      content: cybersecurity consulting, security income, vciso, bug bounty, expert networks, penetration testing, expert witness, security consulting rates
+    - name: author
+      content: Ahmed Adel
+    - property: og:type
+      content: website
+    - property: og:image
+      content: https://ahmed-adelb.github.io/security-consulting-income-guide/assets/og-image.svg
+    - property: og:title
+      content: Security Consulting Income Guide
+    - property: og:description
+      content: The most comprehensive guide to building a $50K-$100K/month cybersecurity consulting practice
+    - name: twitter:card
+      content: summary_large_image
 
 nav:
   - Home: index.md
